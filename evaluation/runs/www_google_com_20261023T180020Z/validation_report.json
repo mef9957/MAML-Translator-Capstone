@@ -1,0 +1,136 @@
+{
+  "valid": false,
+  "errors": [
+    {
+      "code": "missing_property",
+      "message": "button requires text.",
+      "line_number": 4,
+      "element_id": "button_google_apps",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    }
+  ],
+  "warnings": [
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 2,
+      "element_id": "link_gmail",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 3,
+      "element_id": "link_images_arabic",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['fontStyle', 'textAlign']",
+      "line_number": 4,
+      "element_id": "button_google_apps",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['fontStyle', 'textAlign']",
+      "line_number": 5,
+      "element_id": "button_login",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 6,
+      "element_id": "link_lang_farsi",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 7,
+      "element_id": "link_lang_english",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 8,
+      "element_id": "link_lang_hindi",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 9,
+      "element_id": "link_lang_urdu",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 10,
+      "element_id": "link_footer_about",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 11,
+      "element_id": "link_footer_advertising",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 12,
+      "element_id": "link_footer_business",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 13,
+      "element_id": "link_footer_how_search_works",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 15,
+      "element_id": "link_climate_text",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 16,
+      "element_id": "link_footer_privacy",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 17,
+      "element_id": "link_footer_terms",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    }
+  ],
+  "deterministic_repairs": []
+}

@@ -1,0 +1,31 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 5,
+      "element_id": "image_nasa_hubble_mission_team_headshot",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 9,
+      "element_id": "image_nasa_webb_mission_team_headshot",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 22,
+      "element_id": "image_footer_nasa_logo",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    }
+  ],
+  "deterministic_repairs": []
+}

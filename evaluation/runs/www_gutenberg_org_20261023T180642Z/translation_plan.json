@@ -1,0 +1,3160 @@
+{
+  "elements": [
+    {
+      "type": "image",
+      "id": "image_logo_link",
+      "source_ids": [
+        "src_00006",
+        "src_00005"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1,
+      "w": 160.0,
+      "h": 100.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00006",
+        "link_source_id": "src_00005",
+        "alt": "Project Gutenberg",
+        "fit": "fill"
+      }
+    },
+    {
+      "type": "text-field",
+      "id": "text_field_quick_search",
+      "source_ids": [
+        "src_00012"
+      ],
+      "x": 350.0,
+      "y": 11.0,
+      "z": 1,
+      "w": 424.45,
+      "h": 38.0,
+      "display": "block",
+      "properties": {
+        "placeholder_source_id": "src_00012",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "border": "2px solid rgb(255, 255, 255)",
+        "borderRadius": "20px 0px 0px 20px",
+        "padding": "9px 16px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_go",
+      "source_ids": [
+        "src_00013"
+      ],
+      "x": 774.45,
+      "y": 11.0,
+      "z": 1,
+      "w": 75.55,
+      "h": 38.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00013",
+        "backgroundColor": "rgb(66, 126, 148)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Arial",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "center",
+        "borderRadius": "0px 20px 20px 0px",
+        "padding": "0px 24px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_donate_via_paypal",
+      "source_ids": [
+        "src_00016"
+      ],
+      "x": 998.84,
+      "y": 20.81,
+      "z": 1,
+      "w": 70.47,
+      "h": 20.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00016",
+        "alt": "Donate via PayPal",
+        "fit": "fill"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_donate",
+      "source_ids": [
+        "src_00017"
+      ],
+      "x": 1084.31,
+      "y": 11.0,
+      "z": 1,
+      "w": 95.69,
+      "h": 38.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00017",
+        "link_source_id": "src_00017",
+        "backgroundColor": "rgb(66, 126, 148)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "700",
+        "textAlign": "start",
+        "border": "2px solid rgb(66, 126, 148)",
+        "borderRadius": "4px",
+        "padding": "5px 22px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_about",
+      "source_ids": [
+        "src_00018"
+      ],
+      "x": 221.59,
+      "y": 78.0,
+      "z": 1,
+      "w": 66.33,
+      "h": 24.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00018",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_dropdown_arrow",
+      "source_ids": [
+        "src_00019"
+      ],
+      "x": 276.0,
+      "y": 78.0,
+      "z": 1,
+      "w": 11.92,
+      "h": 24.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00019",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_frequently_downloaded",
+      "source_ids": [
+        "src_00027"
+      ],
+      "x": 327.92,
+      "y": 78.0,
+      "z": 1,
+      "w": 182.14,
+      "h": 24.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00027",
+        "link_source_id": "src_00027",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_main_categories",
+      "source_ids": [
+        "src_00028"
+      ],
+      "x": 550.06,
+      "y": 78.0,
+      "z": 1,
+      "w": 124.16,
+      "h": 24.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00028",
+        "link_source_id": "src_00028",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_reading_lists",
+      "source_ids": [
+        "src_00029"
+      ],
+      "x": 714.22,
+      "y": 78.0,
+      "z": 1,
+      "w": 105.41,
+      "h": 24.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00029",
+        "link_source_id": "src_00029",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_search_options",
+      "source_ids": [
+        "src_00030"
+      ],
+      "x": 859.63,
+      "y": 78.0,
+      "z": 1,
+      "w": 118.78,
+      "h": 24.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00030",
+        "link_source_id": "src_00030",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_headline_project_gutenberg",
+      "source_ids": [
+        "src_00034"
+      ],
+      "x": 60.0,
+      "y": 160.0,
+      "z": 1,
+      "w": 1080.0,
+      "h": 38.72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00034",
+        "color": "rgb(154, 119, 43)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "35.2px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_description",
+      "source_ids": [
+        "src_00035"
+      ],
+      "x": 60.0,
+      "y": 216.72,
+      "z": 1,
+      "w": 1080.0,
+      "h": 112.02,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00035",
+        "color": "rgb(44, 51, 56)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "19.8px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "10px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_new_releases",
+      "source_ids": [
+        "src_00036"
+      ],
+      "x": 84.0,
+      "y": 398.73,
+      "z": 1,
+      "w": 138.92,
+      "h": 22.67,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00036",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_find_more_new_releases",
+      "source_ids": [
+        "src_00037"
+      ],
+      "x": 1024.95,
+      "y": 394.73,
+      "z": 1,
+      "w": 91.05,
+      "h": 35.59,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00037",
+        "link_source_id": "src_00037",
+        "backgroundColor": "rgb(199, 221, 227)",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "borderRadius": "3px",
+        "padding": "5px 12px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_79846",
+      "source_ids": [
+        "src_00039",
+        "src_00038"
+      ],
+      "x": 94.0,
+      "y": 491.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00039",
+        "link_source_id": "src_00038",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_79846_title",
+      "source_ids": [
+        "src_00040",
+        "src_00038"
+      ],
+      "x": 94.0,
+      "y": 631.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00040",
+        "link_source_id": "src_00038",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_79845",
+      "source_ids": [
+        "src_00042",
+        "src_00041"
+      ],
+      "x": 222.0,
+      "y": 491.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00042",
+        "link_source_id": "src_00041",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_79845_title",
+      "source_ids": [
+        "src_00043",
+        "src_00041"
+      ],
+      "x": 222.0,
+      "y": 631.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00043",
+        "link_source_id": "src_00041",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_79844",
+      "source_ids": [
+        "src_00045",
+        "src_00044"
+      ],
+      "x": 350.0,
+      "y": 491.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00045",
+        "link_source_id": "src_00044",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_79844_title",
+      "source_ids": [
+        "src_00046",
+        "src_00044"
+      ],
+      "x": 350.0,
+      "y": 631.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00046",
+        "link_source_id": "src_00044",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_79843",
+      "source_ids": [
+        "src_00048",
+        "src_00047"
+      ],
+      "x": 478.0,
+      "y": 491.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00048",
+        "link_source_id": "src_00047",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_79843_title",
+      "source_ids": [
+        "src_00049",
+        "src_00047"
+      ],
+      "x": 478.0,
+      "y": 631.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00049",
+        "link_source_id": "src_00047",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_79842",
+      "source_ids": [
+        "src_00051",
+        "src_00050"
+      ],
+      "x": 606.0,
+      "y": 491.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00051",
+        "link_source_id": "src_00050",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_79842_title",
+      "source_ids": [
+        "src_00052",
+        "src_00050"
+      ],
+      "x": 606.0,
+      "y": 631.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00052",
+        "link_source_id": "src_00050",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_79841",
+      "source_ids": [
+        "src_00054",
+        "src_00053"
+      ],
+      "x": 734.0,
+      "y": 491.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00054",
+        "link_source_id": "src_00053",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_79841_title",
+      "source_ids": [
+        "src_00055",
+        "src_00053"
+      ],
+      "x": 734.0,
+      "y": 631.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00055",
+        "link_source_id": "src_00053",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_79840",
+      "source_ids": [
+        "src_00057",
+        "src_00056"
+      ],
+      "x": 862.0,
+      "y": 491.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00057",
+        "link_source_id": "src_00056",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_79840_title",
+      "source_ids": [
+        "src_00058",
+        "src_00056"
+      ],
+      "x": 862.0,
+      "y": 631.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00058",
+        "link_source_id": "src_00056",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_79839",
+      "source_ids": [
+        "src_00060",
+        "src_00059"
+      ],
+      "x": 990.0,
+      "y": 491.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00060",
+        "link_source_id": "src_00059",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_79839_title",
+      "source_ids": [
+        "src_00061",
+        "src_00059"
+      ],
+      "x": 990.0,
+      "y": 631.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00061",
+        "link_source_id": "src_00059",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_79838",
+      "source_ids": [
+        "src_00063",
+        "src_00062"
+      ],
+      "x": 1118.0,
+      "y": 491.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00063",
+        "link_source_id": "src_00062",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_79838_title",
+      "source_ids": [
+        "src_00064",
+        "src_00062"
+      ],
+      "x": 1118.0,
+      "y": 631.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00064",
+        "link_source_id": "src_00062",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_79837",
+      "source_ids": [
+        "src_00066",
+        "src_00065"
+      ],
+      "x": 1246.0,
+      "y": 491.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00066",
+        "link_source_id": "src_00065",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_79837_title",
+      "source_ids": [
+        "src_00067",
+        "src_00065"
+      ],
+      "x": 1246.0,
+      "y": 631.33,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00067",
+        "link_source_id": "src_00065",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_category_history",
+      "source_ids": [
+        "src_00068"
+      ],
+      "x": 75.0,
+      "y": 806.38,
+      "z": 1,
+      "w": 330.0,
+      "h": 70.72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00068",
+        "link_source_id": "src_00068",
+        "backgroundColor": "rgb(250, 251, 252)",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "19.2px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "border": "1px solid rgb(227, 231, 234)",
+        "borderRadius": "12px",
+        "padding": "19px 24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_category_literature",
+      "source_ids": [
+        "src_00069"
+      ],
+      "x": 435.0,
+      "y": 806.38,
+      "z": 1,
+      "w": 330.0,
+      "h": 70.72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00069",
+        "link_source_id": "src_00069",
+        "backgroundColor": "rgb(250, 251, 252)",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "19.2px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "border": "1px solid rgb(227, 231, 234)",
+        "borderRadius": "12px",
+        "padding": "19px 24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_category_science_technology",
+      "source_ids": [
+        "src_00070"
+      ],
+      "x": 795.0,
+      "y": 806.38,
+      "z": 1,
+      "w": 330.0,
+      "h": 70.72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00070",
+        "link_source_id": "src_00070",
+        "backgroundColor": "rgb(250, 251, 252)",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "19.2px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "border": "1px solid rgb(227, 231, 234)",
+        "borderRadius": "12px",
+        "padding": "19px 24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_category_social_sciences",
+      "source_ids": [
+        "src_00071"
+      ],
+      "x": 75.0,
+      "y": 907.09,
+      "z": 1,
+      "w": 330.0,
+      "h": 70.72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00071",
+        "link_source_id": "src_00071",
+        "backgroundColor": "rgb(250, 251, 252)",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "19.2px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "border": "1px solid rgb(227, 231, 234)",
+        "borderRadius": "12px",
+        "padding": "19px 24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_category_arts_culture",
+      "source_ids": [
+        "src_00072"
+      ],
+      "x": 435.0,
+      "y": 907.09,
+      "z": 1,
+      "w": 330.0,
+      "h": 70.72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00072",
+        "link_source_id": "src_00072",
+        "backgroundColor": "rgb(250, 251, 252)",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "19.2px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "border": "1px solid rgb(227, 231, 234)",
+        "borderRadius": "12px",
+        "padding": "19px 24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_category_religion_philosophy",
+      "source_ids": [
+        "src_00073"
+      ],
+      "x": 795.0,
+      "y": 907.09,
+      "z": 1,
+      "w": 330.0,
+      "h": 70.72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00073",
+        "link_source_id": "src_00073",
+        "backgroundColor": "rgb(250, 251, 252)",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "19.2px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "border": "1px solid rgb(227, 231, 234)",
+        "borderRadius": "12px",
+        "padding": "19px 24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_category_lifestyle_hobbies",
+      "source_ids": [
+        "src_00074"
+      ],
+      "x": 75.0,
+      "y": 1007.81,
+      "z": 1,
+      "w": 330.0,
+      "h": 70.72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00074",
+        "link_source_id": "src_00074",
+        "backgroundColor": "rgb(250, 251, 252)",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "19.2px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "border": "1px solid rgb(227, 231, 234)",
+        "borderRadius": "12px",
+        "padding": "19px 24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_category_health_medicine",
+      "source_ids": [
+        "src_00075"
+      ],
+      "x": 435.0,
+      "y": 1007.81,
+      "z": 1,
+      "w": 330.0,
+      "h": 70.72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00075",
+        "link_source_id": "src_00075",
+        "backgroundColor": "rgb(250, 251, 252)",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "19.2px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "border": "1px solid rgb(227, 231, 234)",
+        "borderRadius": "12px",
+        "padding": "19px 24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_category_education_reference",
+      "source_ids": [
+        "src_00076"
+      ],
+      "x": 795.0,
+      "y": 1007.81,
+      "z": 1,
+      "w": 330.0,
+      "h": 70.72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00076",
+        "link_source_id": "src_00076",
+        "backgroundColor": "rgb(250, 251, 252)",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "19.2px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "border": "1px solid rgb(227, 231, 234)",
+        "borderRadius": "12px",
+        "padding": "19px 24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_project_gutenberg",
+      "source_ids": [
+        "src_00077"
+      ],
+      "x": 80.0,
+      "y": 1162.53,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.55,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00077",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "500",
+        "textAlign": "left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_no_fees",
+      "source_ids": [
+        "src_00078"
+      ],
+      "x": 80.0,
+      "y": 1212.08,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00078",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_browsers_needed",
+      "source_ids": [
+        "src_00079"
+      ],
+      "x": 80.0,
+      "y": 1260.08,
+      "z": 1,
+      "w": 485.0,
+      "h": 58.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00079",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_pioneering",
+      "source_ids": [
+        "src_00080"
+      ],
+      "x": 80.0,
+      "y": 1332.08,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00080",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_since_1971",
+      "source_ids": [
+        "src_00081"
+      ],
+      "x": 362.11,
+      "y": 1340.08,
+      "z": 1,
+      "w": 77.78,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00081",
+        "link_source_id": "src_00081",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_volunteers",
+      "source_ids": [
+        "src_00082"
+      ],
+      "x": 80.0,
+      "y": 1380.08,
+      "z": 1,
+      "w": 485.0,
+      "h": 58.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00082",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_ceo_prefix",
+      "source_ids": [
+        "src_00083"
+      ],
+      "x": 80.0,
+      "y": 1452.08,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00083",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_read_about_ceo",
+      "source_ids": [
+        "src_00084"
+      ],
+      "x": 101.75,
+      "y": 1460.08,
+      "z": 1,
+      "w": 180.55,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00084",
+        "link_source_id": "src_00084",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_donations_keep_us_going",
+      "source_ids": [
+        "src_00086"
+      ],
+      "x": 85.0,
+      "y": 1526.67,
+      "z": 1,
+      "w": 281.94,
+      "h": 24.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00086",
+        "color": "rgb(73, 80, 87)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_donate_button_2",
+      "source_ids": [
+        "src_00087"
+      ],
+      "x": 384.94,
+      "y": 1515.08,
+      "z": 1,
+      "w": 142.94,
+      "h": 47.19,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00087",
+        "link_source_id": "src_00087",
+        "backgroundColor": "rgb(220, 236, 242)",
+        "color": "rgb(35, 87, 107)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16.8px",
+        "fontWeight": "700",
+        "textAlign": "start",
+        "border": "2px solid rgb(156, 196, 210)",
+        "borderRadius": "4px",
+        "padding": "9px 28px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_get_help",
+      "source_ids": [
+        "src_00088"
+      ],
+      "x": 635.0,
+      "y": 1162.53,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.55,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00088",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "500",
+        "textAlign": "left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_how_to_read",
+      "source_ids": [
+        "src_00089"
+      ],
+      "x": 635.0,
+      "y": 1212.08,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00089",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_reading_options",
+      "source_ids": [
+        "src_00090"
+      ],
+      "x": 640.0,
+      "y": 1220.08,
+      "z": 1,
+      "w": 184.14,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00090",
+        "link_source_id": "src_00090",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_about_pg",
+      "source_ids": [
+        "src_00091"
+      ],
+      "x": 635.0,
+      "y": 1260.08,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00091",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_faq",
+      "source_ids": [
+        "src_00092"
+      ],
+      "x": 640.0,
+      "y": 1268.08,
+      "z": 1,
+      "w": 201.11,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00092",
+        "link_source_id": "src_00092",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_in_depth_info",
+      "source_ids": [
+        "src_00093"
+      ],
+      "x": 635.0,
+      "y": 1308.08,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00093",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_help_howto",
+      "source_ids": [
+        "src_00094"
+      ],
+      "x": 640.0,
+      "y": 1316.08,
+      "z": 1,
+      "w": 172.44,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00094",
+        "link_source_id": "src_00094",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_how_to_help",
+      "source_ids": [
+        "src_00095"
+      ],
+      "x": 635.0,
+      "y": 1356.08,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.55,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00095",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "500",
+        "textAlign": "left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_proofreaders_welcome",
+      "source_ids": [
+        "src_00096"
+      ],
+      "x": 635.0,
+      "y": 1405.63,
+      "z": 1,
+      "w": 485.0,
+      "h": 82.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00096",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_distributed_proofreaders",
+      "source_ids": [
+        "src_00097"
+      ],
+      "x": 640.0,
+      "y": 1413.63,
+      "z": 1,
+      "w": 174.33,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00097",
+        "link_source_id": "src_00097",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_fix_and_improve",
+      "source_ids": [
+        "src_00098"
+      ],
+      "x": 635.0,
+      "y": 1501.63,
+      "z": 1,
+      "w": 485.0,
+      "h": 58.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00098",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_fix_and_improve",
+      "source_ids": [
+        "src_00099"
+      ],
+      "x": 640.0,
+      "y": 1509.63,
+      "z": 1,
+      "w": 114.39,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00099",
+        "link_source_id": "src_00099",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_record_audiobooks",
+      "source_ids": [
+        "src_00100"
+      ],
+      "x": 635.0,
+      "y": 1573.63,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00100",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_librivox",
+      "source_ids": [
+        "src_00101"
+      ],
+      "x": 914.48,
+      "y": 1581.63,
+      "z": 1,
+      "w": 57.23,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00101",
+        "link_source_id": "src_00101",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_most_popular",
+      "source_ids": [
+        "src_00102"
+      ],
+      "x": 84.0,
+      "y": 1731.63,
+      "z": 1,
+      "w": 131.63,
+      "h": 22.67,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00102",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_find_more_most_popular",
+      "source_ids": [
+        "src_00103"
+      ],
+      "x": 1024.95,
+      "y": 1727.63,
+      "z": 1,
+      "w": 91.05,
+      "h": 35.59,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00103",
+        "link_source_id": "src_00103",
+        "backgroundColor": "rgb(199, 221, 227)",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "borderRadius": "3px",
+        "padding": "5px 12px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_1342",
+      "source_ids": [
+        "src_00105",
+        "src_00104"
+      ],
+      "x": 94.0,
+      "y": 1824.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00105",
+        "link_source_id": "src_00104",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_1342_title",
+      "source_ids": [
+        "src_00106",
+        "src_00104"
+      ],
+      "x": 94.0,
+      "y": 1964.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00106",
+        "link_source_id": "src_00104",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_84",
+      "source_ids": [
+        "src_00108",
+        "src_00107"
+      ],
+      "x": 222.0,
+      "y": 1824.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00108",
+        "link_source_id": "src_00107",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_84_title",
+      "source_ids": [
+        "src_00109",
+        "src_00107"
+      ],
+      "x": 222.0,
+      "y": 1964.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00109",
+        "link_source_id": "src_00107",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_2701",
+      "source_ids": [
+        "src_00111",
+        "src_00110"
+      ],
+      "x": 350.0,
+      "y": 1824.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00111",
+        "link_source_id": "src_00110",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_2701_title",
+      "source_ids": [
+        "src_00112",
+        "src_00110"
+      ],
+      "x": 350.0,
+      "y": 1964.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00112",
+        "link_source_id": "src_00110",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_11",
+      "source_ids": [
+        "src_00114",
+        "src_00113"
+      ],
+      "x": 478.0,
+      "y": 1824.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00114",
+        "link_source_id": "src_00113",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_11_title",
+      "source_ids": [
+        "src_00115",
+        "src_00113"
+      ],
+      "x": 478.0,
+      "y": 1964.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00115",
+        "link_source_id": "src_00113",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_1661",
+      "source_ids": [
+        "src_00117",
+        "src_00116"
+      ],
+      "x": 606.0,
+      "y": 1824.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00117",
+        "link_source_id": "src_00116",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_1661_title",
+      "source_ids": [
+        "src_00118",
+        "src_00116"
+      ],
+      "x": 606.0,
+      "y": 1964.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00118",
+        "link_source_id": "src_00116",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_37683",
+      "source_ids": [
+        "src_00120",
+        "src_00119"
+      ],
+      "x": 734.0,
+      "y": 1824.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00120",
+        "link_source_id": "src_00119",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_37683_title",
+      "source_ids": [
+        "src_00121",
+        "src_00119"
+      ],
+      "x": 734.0,
+      "y": 1964.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00121",
+        "link_source_id": "src_00119",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_345",
+      "source_ids": [
+        "src_00123",
+        "src_00122"
+      ],
+      "x": 862.0,
+      "y": 1824.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00123",
+        "link_source_id": "src_00122",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_345_title",
+      "source_ids": [
+        "src_00124",
+        "src_00122"
+      ],
+      "x": 862.0,
+      "y": 1964.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 38.03,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00124",
+        "link_source_id": "src_00122",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_100",
+      "source_ids": [
+        "src_00126",
+        "src_00125"
+      ],
+      "x": 990.0,
+      "y": 1824.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00126",
+        "link_source_id": "src_00125",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_100_title",
+      "source_ids": [
+        "src_00127",
+        "src_00125"
+      ],
+      "x": 990.0,
+      "y": 1964.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00127",
+        "link_source_id": "src_00125",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_1513",
+      "source_ids": [
+        "src_00129",
+        "src_00128"
+      ],
+      "x": 1118.0,
+      "y": 1824.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00129",
+        "link_source_id": "src_00128",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_1513_title",
+      "source_ids": [
+        "src_00130",
+        "src_00128"
+      ],
+      "x": 1118.0,
+      "y": 1964.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00130",
+        "link_source_id": "src_00128",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_book_145",
+      "source_ids": [
+        "src_00132",
+        "src_00131"
+      ],
+      "x": 1246.0,
+      "y": 1824.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 129.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00132",
+        "link_source_id": "src_00131",
+        "fit": "cover",
+        "borderRadius": "3px 4px 4px 3px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_book_145_title",
+      "source_ids": [
+        "src_00133",
+        "src_00131"
+      ],
+      "x": 1246.0,
+      "y": 1964.22,
+      "z": 1,
+      "w": 86.0,
+      "h": 57.05,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00133",
+        "link_source_id": "src_00131",
+        "color": "rgb(20, 24, 27)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "600",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_useful_links",
+      "source_ids": [
+        "src_00134"
+      ],
+      "x": 80.0,
+      "y": 2159.27,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.55,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00134",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "500",
+        "textAlign": "left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_dot_1",
+      "source_ids": [
+        "src_00135"
+      ],
+      "x": 80.0,
+      "y": 2208.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00135",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_donate_to_pg",
+      "source_ids": [
+        "src_00136"
+      ],
+      "x": 85.0,
+      "y": 2216.81,
+      "z": 1,
+      "w": 204.7,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00136",
+        "link_source_id": "src_00136",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_new_ebooks",
+      "source_ids": [
+        "src_00137"
+      ],
+      "x": 80.0,
+      "y": 2256.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00137",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_feeds",
+      "source_ids": [
+        "src_00138"
+      ],
+      "x": 85.0,
+      "y": 2264.81,
+      "z": 1,
+      "w": 44.67,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00138",
+        "link_source_id": "src_00138",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_and_the_site",
+      "source_ids": [
+        "src_00139"
+      ],
+      "x": 80.0,
+      "y": 2304.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00139",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_linking_to_pg",
+      "source_ids": [
+        "src_00140"
+      ],
+      "x": 85.0,
+      "y": 2312.81,
+      "z": 1,
+      "w": 203.86,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00140",
+        "link_source_id": "src_00140",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_roboting",
+      "source_ids": [
+        "src_00141"
+      ],
+      "x": 324.64,
+      "y": 2312.81,
+      "z": 1,
+      "w": 140.39,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00141",
+        "link_source_id": "src_00141",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_dot_2",
+      "source_ids": [
+        "src_00142"
+      ],
+      "x": 80.0,
+      "y": 2352.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00142",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_partners_affiliates",
+      "source_ids": [
+        "src_00143"
+      ],
+      "x": 85.0,
+      "y": 2360.81,
+      "z": 1,
+      "w": 155.34,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00143",
+        "link_source_id": "src_00143",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_dot_3",
+      "source_ids": [
+        "src_00144"
+      ],
+      "x": 80.0,
+      "y": 2400.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00144",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_permissions",
+      "source_ids": [
+        "src_00145"
+      ],
+      "x": 85.0,
+      "y": 2408.81,
+      "z": 1,
+      "w": 430.02,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00145",
+        "link_source_id": "src_00145",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_world_library",
+      "source_ids": [
+        "src_00146"
+      ],
+      "x": 80.0,
+      "y": 2448.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00146",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_self_published",
+      "source_ids": [
+        "src_00147"
+      ],
+      "x": 85.0,
+      "y": 2456.81,
+      "z": 1,
+      "w": 160.02,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00147",
+        "link_source_id": "src_00147",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_what_is_free",
+      "source_ids": [
+        "src_00148"
+      ],
+      "x": 80.0,
+      "y": 2496.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00148",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_free_ebook",
+      "source_ids": [
+        "src_00149"
+      ],
+      "x": 166.31,
+      "y": 2504.81,
+      "z": 1,
+      "w": 77.77,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00149",
+        "link_source_id": "src_00149",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_newsletter",
+      "source_ids": [
+        "src_00150"
+      ],
+      "x": 635.0,
+      "y": 2159.27,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.55,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00150",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "500",
+        "textAlign": "left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_view_newsletter",
+      "source_ids": [
+        "src_00151"
+      ],
+      "x": 635.0,
+      "y": 2208.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00151",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_this_months_newsletter",
+      "source_ids": [
+        "src_00152"
+      ],
+      "x": 679.05,
+      "y": 2216.81,
+      "z": 1,
+      "w": 162.67,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00152",
+        "link_source_id": "src_00152",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_one_email",
+      "source_ids": [
+        "src_00153"
+      ],
+      "x": 635.0,
+      "y": 2256.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00153",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_every_ebook",
+      "source_ids": [
+        "src_00154"
+      ],
+      "x": 635.0,
+      "y": 2304.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00154",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_subscribe",
+      "source_ids": [
+        "src_00155"
+      ],
+      "x": 635.0,
+      "y": 2352.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00155",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_subscribe",
+      "source_ids": [
+        "src_00156"
+      ],
+      "x": 640.0,
+      "y": 2360.81,
+      "z": 1,
+      "w": 193.95,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00156",
+        "link_source_id": "src_00156",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_audio_books",
+      "source_ids": [
+        "src_00157"
+      ],
+      "x": 635.0,
+      "y": 2400.81,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.55,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00157",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "500",
+        "textAlign": "left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_librivox",
+      "source_ids": [
+        "src_00158"
+      ],
+      "x": 635.0,
+      "y": 2450.36,
+      "z": 1,
+      "w": 485.0,
+      "h": 58.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00158",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_librivox_2",
+      "source_ids": [
+        "src_00159"
+      ],
+      "x": 640.0,
+      "y": 2458.36,
+      "z": 1,
+      "w": 57.23,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00159",
+        "link_source_id": "src_00159",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_human_read",
+      "source_ids": [
+        "src_00160"
+      ],
+      "x": 635.0,
+      "y": 2522.36,
+      "z": 1,
+      "w": 485.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00160",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_662_titles",
+      "source_ids": [
+        "src_00161"
+      ],
+      "x": 640.0,
+      "y": 2530.36,
+      "z": 1,
+      "w": 144.0,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00161",
+        "link_source_id": "src_00161",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_list_item_open_audiobook",
+      "source_ids": [
+        "src_00162"
+      ],
+      "x": 635.0,
+      "y": 2570.36,
+      "z": 1,
+      "w": 485.0,
+      "h": 58.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00162",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_open_audiobook_collection",
+      "source_ids": [
+        "src_00163"
+      ],
+      "x": 672.17,
+      "y": 2578.36,
+      "z": 1,
+      "w": 193.98,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00163",
+        "link_source_id": "src_00163",
+        "color": "rgb(0, 51, 102)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_social_media",
+      "source_ids": [
+        "src_00165"
+      ],
+      "x": 94.0,
+      "y": 2758.36,
+      "z": 1,
+      "w": 1012.0,
+      "h": 34.55,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00165",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "500",
+        "textAlign": "left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_facebook",
+      "source_ids": [
+        "src_00167"
+      ],
+      "x": 99.0,
+      "y": 2823.91,
+      "z": 1,
+      "w": 290.0,
+      "h": 60.88,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00167",
+        "link_source_id": "src_00167",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16.8px",
+        "fontWeight": "600",
+        "textAlign": "start",
+        "border": "1px solid rgb(213, 228, 234)",
+        "borderRadius": "999px",
+        "padding": "16px 20px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_facebook_icon",
+      "source_ids": [
+        "src_00168",
+        "src_00167"
+      ],
+      "x": 185.66,
+      "y": 2842.34,
+      "z": 1,
+      "w": 26.0,
+      "h": 24.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00168",
+        "link_source_id": "src_00167",
+        "fit": "contain"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_mastodon",
+      "source_ids": [
+        "src_00170"
+      ],
+      "x": 411.0,
+      "y": 2823.91,
+      "z": 1,
+      "w": 290.0,
+      "h": 60.88,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00170",
+        "link_source_id": "src_00170",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16.8px",
+        "fontWeight": "600",
+        "textAlign": "start",
+        "border": "1px solid rgb(213, 228, 234)",
+        "borderRadius": "999px",
+        "padding": "16px 20px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_mastodon_icon",
+      "source_ids": [
+        "src_00171",
+        "src_00170"
+      ],
+      "x": 497.2,
+      "y": 2842.34,
+      "z": 1,
+      "w": 26.0,
+      "h": 24.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00171",
+        "link_source_id": "src_00170",
+        "fit": "contain"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_bluesky",
+      "source_ids": [
+        "src_00173"
+      ],
+      "x": 723.0,
+      "y": 2823.91,
+      "z": 1,
+      "w": 290.0,
+      "h": 60.88,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00173",
+        "link_source_id": "src_00173",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16.8px",
+        "fontWeight": "600",
+        "textAlign": "start",
+        "border": "1px solid rgb(213, 228, 234)",
+        "borderRadius": "999px",
+        "padding": "16px 20px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_bluesky_icon",
+      "source_ids": [
+        "src_00174",
+        "src_00173"
+      ],
+      "x": 816.66,
+      "y": 2842.34,
+      "z": 1,
+      "w": 26.0,
+      "h": 24.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00174",
+        "link_source_id": "src_00173",
+        "fit": "contain"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_feeds",
+      "source_ids": [
+        "src_00175"
+      ],
+      "x": 94.0,
+      "y": 2987.78,
+      "z": 1,
+      "w": 1012.0,
+      "h": 34.55,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00175",
+        "color": "rgb(31, 36, 40)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "21.6px",
+        "fontWeight": "500",
+        "textAlign": "left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_facebook_feed",
+      "source_ids": [
+        "src_00177"
+      ],
+      "x": 99.0,
+      "y": 3053.33,
+      "z": 1,
+      "w": 290.0,
+      "h": 58.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00177",
+        "link_source_id": "src_00177",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16.8px",
+        "fontWeight": "600",
+        "textAlign": "start",
+        "border": "1px solid rgb(213, 228, 234)",
+        "borderRadius": "999px",
+        "padding": "11px 20px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_facebook_feed_icon",
+      "source_ids": [
+        "src_00178",
+        "src_00177"
+      ],
+      "x": 183.66,
+      "y": 3065.33,
+      "z": 1,
+      "w": 30.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00178",
+        "link_source_id": "src_00177",
+        "fit": "contain"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_mastodon_feed",
+      "source_ids": [
+        "src_00180"
+      ],
+      "x": 411.0,
+      "y": 3053.33,
+      "z": 1,
+      "w": 290.0,
+      "h": 58.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00180",
+        "link_source_id": "src_00180",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16.8px",
+        "fontWeight": "600",
+        "textAlign": "start",
+        "border": "1px solid rgb(213, 228, 234)",
+        "borderRadius": "999px",
+        "padding": "11px 20px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_mastodon_feed_icon",
+      "source_ids": [
+        "src_00181",
+        "src_00180"
+      ],
+      "x": 495.2,
+      "y": 3065.33,
+      "z": 1,
+      "w": 30.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00181",
+        "link_source_id": "src_00180",
+        "fit": "contain"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_bluesky_feed",
+      "source_ids": [
+        "src_00183"
+      ],
+      "x": 723.0,
+      "y": 3053.33,
+      "z": 1,
+      "w": 290.0,
+      "h": 58.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00183",
+        "link_source_id": "src_00183",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(33, 37, 41)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "16.8px",
+        "fontWeight": "600",
+        "textAlign": "start",
+        "border": "1px solid rgb(213, 228, 234)",
+        "borderRadius": "999px",
+        "padding": "11px 20px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_bluesky_feed_icon",
+      "source_ids": [
+        "src_00184",
+        "src_00183"
+      ],
+      "x": 814.66,
+      "y": 3065.33,
+      "z": 1,
+      "w": 30.0,
+      "h": 34.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00184",
+        "link_source_id": "src_00183",
+        "fit": "contain"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_footer_about",
+      "source_ids": [
+        "src_00186"
+      ],
+      "x": 236.67,
+      "y": 3246.33,
+      "z": 1,
+      "w": 159.38,
+      "h": 16.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00186",
+        "link_source_id": "src_00186",
+        "color": "rgb(0, 100, 121)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_footer_privacy",
+      "source_ids": [
+        "src_00188"
+      ],
+      "x": 420.09,
+      "y": 3246.33,
+      "z": 1,
+      "w": 88.56,
+      "h": 16.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00188",
+        "link_source_id": "src_00188",
+        "color": "rgb(0, 100, 121)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_footer_permissions",
+      "source_ids": [
+        "src_00190"
+      ],
+      "x": 532.7,
+      "y": 3246.33,
+      "z": 1,
+      "w": 78.84,
+      "h": 16.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00190",
+        "link_source_id": "src_00190",
+        "color": "rgb(0, 100, 121)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_footer_terms",
+      "source_ids": [
+        "src_00192"
+      ],
+      "x": 635.59,
+      "y": 3246.33,
+      "z": 1,
+      "w": 85.28,
+      "h": 16.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00192",
+        "link_source_id": "src_00192",
+        "color": "rgb(0, 100, 121)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_footer_accessibility",
+      "source_ids": [
+        "src_00194"
+      ],
+      "x": 744.92,
+      "y": 3246.33,
+      "z": 1,
+      "w": 78.92,
+      "h": 16.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00194",
+        "link_source_id": "src_00194",
+        "color": "rgb(0, 100, 121)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_footer_contact",
+      "source_ids": [
+        "src_00196"
+      ],
+      "x": 847.89,
+      "y": 3246.33,
+      "z": 1,
+      "w": 71.61,
+      "h": 16.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00196",
+        "link_source_id": "src_00196",
+        "color": "rgb(0, 100, 121)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_footer_help",
+      "source_ids": [
+        "src_00198"
+      ],
+      "x": 943.55,
+      "y": 3246.33,
+      "z": 1,
+      "w": 29.78,
+      "h": 16.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00198",
+        "link_source_id": "src_00198",
+        "color": "rgb(0, 100, 121)",
+        "fontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.4px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_ibiblio_logo",
+      "source_ids": [
+        "src_00200",
+        "src_00199"
+      ],
+      "x": 545.0,
+      "y": 3276.33,
+      "z": 1,
+      "w": 110.0,
+      "h": 32.0,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00200",
+        "link_source_id": "src_00199",
+        "alt": "ibiblio",
+        "fit": "fill"
+      }
+    }
+  ],
+  "unsupported_features": [
+    {
+      "source_id": "src_00018",
+      "feature_description": "The 'About' navigation item is likely a custom dropdown menu activated by hover or click, which is an interaction not supported by MAML."
+    },
+    {
+      "source_id": "src_00013",
+      "feature_description": "The 'Go!' button submits a search form. Form submission functionality is not supported by MAML."
+    },
+    {
+      "source_id": "src_00016",
+      "feature_description": "The PayPal donate image is an input of type 'image' which likely submits a form. This interaction is not supported by MAML."
+    }
+  ]
+}

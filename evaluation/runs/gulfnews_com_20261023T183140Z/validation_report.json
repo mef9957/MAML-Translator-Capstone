@@ -1,0 +1,2383 @@
+{
+  "valid": false,
+  "errors": [
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 3,
+      "element_id": "text_link_dubai_weather_00008",
+      "source_ids": [
+        "src_00008"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 4,
+      "element_id": "text_link_gold_forex_00011",
+      "source_ids": [
+        "src_00011"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 5,
+      "element_id": "text_link_prayer_times_00014",
+      "source_ids": [
+        "src_00014"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 6,
+      "element_id": "button_newsletters_00017",
+      "source_ids": [
+        "src_00017"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 7,
+      "element_id": "button_epaper_00021",
+      "source_ids": [
+        "src_00021"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 8,
+      "element_id": "image_logo_00033",
+      "source_ids": [
+        "src_00033"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 9,
+      "element_id": "text_link_latest_00118",
+      "source_ids": [
+        "src_00118"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 10,
+      "element_id": "text_link_business_00121",
+      "source_ids": [
+        "src_00121"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 11,
+      "element_id": "text_link_best_buys_00124",
+      "source_ids": [
+        "src_00124"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 12,
+      "element_id": "text_link_uae_00127",
+      "source_ids": [
+        "src_00127"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 13,
+      "element_id": "text_link_entertainment_00130",
+      "source_ids": [
+        "src_00130"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 14,
+      "element_id": "text_link_world_00133",
+      "source_ids": [
+        "src_00133"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 15,
+      "element_id": "text_link_sport_00136",
+      "source_ids": [
+        "src_00136"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 16,
+      "element_id": "text_link_living_in_uae_00139",
+      "source_ids": [
+        "src_00139"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 17,
+      "element_id": "text_link_lifestyle_00142",
+      "source_ids": [
+        "src_00142"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 18,
+      "element_id": "text_link_opinion_00145",
+      "source_ids": [
+        "src_00145"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 19,
+      "element_id": "text_link_travel_00148",
+      "source_ids": [
+        "src_00148"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 20,
+      "element_id": "text_link_podcasts_00151",
+      "source_ids": [
+        "src_00151"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 21,
+      "element_id": "text_link_special_reports_00154",
+      "source_ids": [
+        "src_00154"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 22,
+      "element_id": "text_link_things_to_do_00157",
+      "source_ids": [
+        "src_00157"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 23,
+      "element_id": "text_link_friday_00160",
+      "source_ids": [
+        "src_00160"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 24,
+      "element_id": "text_link_the_kurator_00163",
+      "source_ids": [
+        "src_00163"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 25,
+      "element_id": "text_link_uae_success_stories_00166",
+      "source_ids": [
+        "src_00166"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 26,
+      "element_id": "text_link_photos_00169",
+      "source_ids": [
+        "src_00169"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 27,
+      "element_id": "text_link_your_money_00172",
+      "source_ids": [
+        "src_00172"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 28,
+      "element_id": "text_link_abu_dhabi_news_00179",
+      "source_ids": [
+        "src_00179"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 29,
+      "element_id": "text_link_dubai_news_00183",
+      "source_ids": [
+        "src_00183"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 30,
+      "element_id": "text_link_uae_jobs_00187",
+      "source_ids": [
+        "src_00187"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 31,
+      "element_id": "text_link_gratuity_calculator_00191",
+      "source_ids": [
+        "src_00191"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 32,
+      "element_id": "text_link_discount_codes_00195",
+      "source_ids": [
+        "src_00195"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 33,
+      "element_id": "text_section_header_middle_east_crisis_00200",
+      "source_ids": [
+        "src_00200"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 34,
+      "element_id": "image_card_00202",
+      "source_ids": [
+        "src_00202"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 35,
+      "element_id": "text_live_tag_00204",
+      "source_ids": [
+        "src_00204"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 36,
+      "element_id": "text_card_headline_00205",
+      "source_ids": [
+        "src_00205"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 37,
+      "element_id": "text_card_timestamp_00206",
+      "source_ids": [
+        "src_00206"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 38,
+      "element_id": "text_card_read_time_00208",
+      "source_ids": [
+        "src_00208"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 39,
+      "element_id": "image_card_00210",
+      "source_ids": [
+        "src_00210"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 40,
+      "element_id": "text_card_headline_00211",
+      "source_ids": [
+        "src_00211"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 41,
+      "element_id": "text_card_read_time_00212",
+      "source_ids": [
+        "src_00212"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 42,
+      "element_id": "image_card_00214",
+      "source_ids": [
+        "src_00214"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 43,
+      "element_id": "text_card_headline_00215",
+      "source_ids": [
+        "src_00215"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 44,
+      "element_id": "text_card_timestamp_00216",
+      "source_ids": [
+        "src_00216"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 45,
+      "element_id": "text_card_read_time_00218",
+      "source_ids": [
+        "src_00218"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 46,
+      "element_id": "image_card_00220",
+      "source_ids": [
+        "src_00220"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 47,
+      "element_id": "text_card_headline_00221",
+      "source_ids": [
+        "src_00221"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 48,
+      "element_id": "text_card_read_time_00222",
+      "source_ids": [
+        "src_00222"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 49,
+      "element_id": "text_section_header_latest_news_00224",
+      "source_ids": [
+        "src_00224"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 50,
+      "element_id": "text_story_headline_00226",
+      "source_ids": [
+        "src_00226"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 51,
+      "element_id": "text_story_subheadline_00227",
+      "source_ids": [
+        "src_00227"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 52,
+      "element_id": "text_story_read_time_00228",
+      "source_ids": [
+        "src_00228"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 53,
+      "element_id": "text_update_tag_00230",
+      "source_ids": [
+        "src_00230"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 54,
+      "element_id": "text_story_headline_00231",
+      "source_ids": [
+        "src_00231"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 55,
+      "element_id": "text_story_subheadline_00232",
+      "source_ids": [
+        "src_00232"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 56,
+      "element_id": "text_story_read_time_00233",
+      "source_ids": [
+        "src_00233"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 57,
+      "element_id": "text_featured_story_headline_00235",
+      "source_ids": [
+        "src_00235"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 58,
+      "element_id": "text_featured_story_subheadline_00236",
+      "source_ids": [
+        "src_00236"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 59,
+      "element_id": "text_featured_story_read_time_00237",
+      "source_ids": [
+        "src_00237"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 60,
+      "element_id": "image_featured_story_00238",
+      "source_ids": [
+        "src_00238"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 61,
+      "element_id": "text_story_headline_00240",
+      "source_ids": [
+        "src_00240"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 62,
+      "element_id": "text_story_read_time_00241",
+      "source_ids": [
+        "src_00241"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 63,
+      "element_id": "image_story_00242",
+      "source_ids": [
+        "src_00242"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 64,
+      "element_id": "text_partner_content_tag_00244",
+      "source_ids": [
+        "src_00244"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 65,
+      "element_id": "text_story_headline_00245",
+      "source_ids": [
+        "src_00245"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 66,
+      "element_id": "text_story_read_time_00246",
+      "source_ids": [
+        "src_00246"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 67,
+      "element_id": "image_story_00247",
+      "source_ids": [
+        "src_00247"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 68,
+      "element_id": "text_story_headline_00249",
+      "source_ids": [
+        "src_00249"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 69,
+      "element_id": "text_story_read_time_00250",
+      "source_ids": [
+        "src_00250"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 70,
+      "element_id": "text_story_headline_00252",
+      "source_ids": [
+        "src_00252"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 71,
+      "element_id": "text_story_read_time_00253",
+      "source_ids": [
+        "src_00253"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 72,
+      "element_id": "text_story_headline_00255",
+      "source_ids": [
+        "src_00255"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 73,
+      "element_id": "text_story_timestamp_00256",
+      "source_ids": [
+        "src_00256"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 74,
+      "element_id": "text_story_read_time_00258",
+      "source_ids": [
+        "src_00258"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 75,
+      "element_id": "text_story_headline_00260",
+      "source_ids": [
+        "src_00260"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 76,
+      "element_id": "text_story_read_time_00261",
+      "source_ids": [
+        "src_00261"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 77,
+      "element_id": "image_story_00262",
+      "source_ids": [
+        "src_00262"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 78,
+      "element_id": "text_partner_content_tag_00264",
+      "source_ids": [
+        "src_00264"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 79,
+      "element_id": "text_story_headline_00265",
+      "source_ids": [
+        "src_00265"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 80,
+      "element_id": "text_story_read_time_00266",
+      "source_ids": [
+        "src_00266"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 81,
+      "element_id": "image_story_00267",
+      "source_ids": [
+        "src_00267"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 82,
+      "element_id": "text_story_headline_00269",
+      "source_ids": [
+        "src_00269"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 83,
+      "element_id": "text_story_read_time_00270",
+      "source_ids": [
+        "src_00270"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 84,
+      "element_id": "text_story_headline_00272",
+      "source_ids": [
+        "src_00272"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 85,
+      "element_id": "text_story_read_time_00273",
+      "source_ids": [
+        "src_00273"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 86,
+      "element_id": "text_story_headline_00275",
+      "source_ids": [
+        "src_00275"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 87,
+      "element_id": "text_story_read_time_00276",
+      "source_ids": [
+        "src_00276"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 88,
+      "element_id": "text_partner_content_tag_00278",
+      "source_ids": [
+        "src_00278"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 89,
+      "element_id": "text_story_headline_00279",
+      "source_ids": [
+        "src_00279"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 90,
+      "element_id": "text_story_read_time_00280",
+      "source_ids": [
+        "src_00280"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 91,
+      "element_id": "image_story_00281",
+      "source_ids": [
+        "src_00281"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 92,
+      "element_id": "text_story_headline_00283",
+      "source_ids": [
+        "src_00283"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 93,
+      "element_id": "text_story_read_time_00284",
+      "source_ids": [
+        "src_00284"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 94,
+      "element_id": "image_story_00285",
+      "source_ids": [
+        "src_00285"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 95,
+      "element_id": "text_story_headline_00287",
+      "source_ids": [
+        "src_00287"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 96,
+      "element_id": "text_story_read_time_00288",
+      "source_ids": [
+        "src_00288"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 97,
+      "element_id": "text_partner_content_tag_00290",
+      "source_ids": [
+        "src_00290"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 98,
+      "element_id": "text_story_headline_00291",
+      "source_ids": [
+        "src_00291"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 99,
+      "element_id": "text_story_read_time_00292",
+      "source_ids": [
+        "src_00292"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 100,
+      "element_id": "image_story_00293",
+      "source_ids": [
+        "src_00293"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 101,
+      "element_id": "text_story_headline_00295",
+      "source_ids": [
+        "src_00295"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 102,
+      "element_id": "text_story_read_time_00296",
+      "source_ids": [
+        "src_00296"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 103,
+      "element_id": "image_story_00297",
+      "source_ids": [
+        "src_00297"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 104,
+      "element_id": "text_story_headline_00299",
+      "source_ids": [
+        "src_00299"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 105,
+      "element_id": "text_story_read_time_00300",
+      "source_ids": [
+        "src_00300"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 106,
+      "element_id": "image_story_00301",
+      "source_ids": [
+        "src_00301"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 107,
+      "element_id": "text_section_header_business_00303",
+      "source_ids": [
+        "src_00303"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 108,
+      "element_id": "text_update_tag_00305",
+      "source_ids": [
+        "src_00305"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 109,
+      "element_id": "text_story_headline_00306",
+      "source_ids": [
+        "src_00306"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 110,
+      "element_id": "text_story_subheadline_00307",
+      "source_ids": [
+        "src_00307"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 111,
+      "element_id": "text_story_read_time_00308",
+      "source_ids": [
+        "src_00308"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 112,
+      "element_id": "image_story_00309",
+      "source_ids": [
+        "src_00309"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 113,
+      "element_id": "image_story_00311",
+      "source_ids": [
+        "src_00311"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 114,
+      "element_id": "text_story_headline_00312",
+      "source_ids": [
+        "src_00312"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 115,
+      "element_id": "text_story_read_time_00313",
+      "source_ids": [
+        "src_00313"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 116,
+      "element_id": "image_story_00315",
+      "source_ids": [
+        "src_00315"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 117,
+      "element_id": "text_story_headline_00316",
+      "source_ids": [
+        "src_00316"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 118,
+      "element_id": "text_story_read_time_00317",
+      "source_ids": [
+        "src_00317"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 119,
+      "element_id": "image_story_00319",
+      "source_ids": [
+        "src_00319"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 120,
+      "element_id": "text_story_headline_00320",
+      "source_ids": [
+        "src_00320"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 121,
+      "element_id": "text_story_read_time_00321",
+      "source_ids": [
+        "src_00321"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 122,
+      "element_id": "image_story_00323",
+      "source_ids": [
+        "src_00323"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 123,
+      "element_id": "text_story_headline_00324",
+      "source_ids": [
+        "src_00324"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 124,
+      "element_id": "text_story_read_time_00325",
+      "source_ids": [
+        "src_00325"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 125,
+      "element_id": "image_story_00327",
+      "source_ids": [
+        "src_00327"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 126,
+      "element_id": "text_story_headline_00328",
+      "source_ids": [
+        "src_00328"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 127,
+      "element_id": "text_story_read_time_00329",
+      "source_ids": [
+        "src_00329"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 128,
+      "element_id": "image_story_00331",
+      "source_ids": [
+        "src_00331"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 129,
+      "element_id": "text_story_headline_00332",
+      "source_ids": [
+        "src_00332"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 130,
+      "element_id": "text_story_read_time_00333",
+      "source_ids": [
+        "src_00333"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 131,
+      "element_id": "text_section_header_entertainment_00335",
+      "source_ids": [
+        "src_00335"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 132,
+      "element_id": "image_story_00337",
+      "source_ids": [
+        "src_00337"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 133,
+      "element_id": "text_story_headline_00338",
+      "source_ids": [
+        "src_00338"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 134,
+      "element_id": "text_story_subheadline_00339",
+      "source_ids": [
+        "src_00339"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 135,
+      "element_id": "text_story_read_time_00340",
+      "source_ids": [
+        "src_00340"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 136,
+      "element_id": "image_story_00342",
+      "source_ids": [
+        "src_00342"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 137,
+      "element_id": "text_story_headline_00343",
+      "source_ids": [
+        "src_00343"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 138,
+      "element_id": "text_story_read_time_00344",
+      "source_ids": [
+        "src_00344"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 139,
+      "element_id": "image_story_00346",
+      "source_ids": [
+        "src_00346"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 140,
+      "element_id": "text_story_headline_00347",
+      "source_ids": [
+        "src_00347"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 141,
+      "element_id": "text_story_read_time_00348",
+      "source_ids": [
+        "src_00348"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 142,
+      "element_id": "text_section_header_lifestyle_00350",
+      "source_ids": [
+        "src_00350"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 143,
+      "element_id": "image_story_00352",
+      "source_ids": [
+        "src_00352"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 144,
+      "element_id": "text_story_headline_00353",
+      "source_ids": [
+        "src_00353"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 145,
+      "element_id": "text_story_subheadline_00354",
+      "source_ids": [
+        "src_00354"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 146,
+      "element_id": "text_story_read_time_00355",
+      "source_ids": [
+        "src_00355"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 147,
+      "element_id": "text_section_header_sport_00357",
+      "source_ids": [
+        "src_00357"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 148,
+      "element_id": "image_story_00359",
+      "source_ids": [
+        "src_00359"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 149,
+      "element_id": "text_story_headline_00360",
+      "source_ids": [
+        "src_00360"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 150,
+      "element_id": "text_story_subheadline_00361",
+      "source_ids": [
+        "src_00361"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 151,
+      "element_id": "text_story_timestamp_00362",
+      "source_ids": [
+        "src_00362"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 152,
+      "element_id": "text_story_read_time_00364",
+      "source_ids": [
+        "src_00364"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 153,
+      "element_id": "image_story_00366",
+      "source_ids": [
+        "src_00366"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 154,
+      "element_id": "text_story_headline_00367",
+      "source_ids": [
+        "src_00367"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 155,
+      "element_id": "text_story_read_time_00368",
+      "source_ids": [
+        "src_00368"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 156,
+      "element_id": "image_story_00370",
+      "source_ids": [
+        "src_00370"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 157,
+      "element_id": "text_story_headline_00371",
+      "source_ids": [
+        "src_00371"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 158,
+      "element_id": "text_story_read_time_00372",
+      "source_ids": [
+        "src_00372"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 159,
+      "element_id": "image_story_00374",
+      "source_ids": [
+        "src_00374"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 160,
+      "element_id": "text_story_headline_00375",
+      "source_ids": [
+        "src_00375"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 161,
+      "element_id": "text_story_read_time_00376",
+      "source_ids": [
+        "src_00376"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 162,
+      "element_id": "image_story_00378",
+      "source_ids": [
+        "src_00378"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 163,
+      "element_id": "text_story_headline_00379",
+      "source_ids": [
+        "src_00379"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 164,
+      "element_id": "text_story_read_time_00380",
+      "source_ids": [
+        "src_00380"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 165,
+      "element_id": "text_section_header_living_in_uae_00382",
+      "source_ids": [
+        "src_00382"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 166,
+      "element_id": "text_story_headline_00384",
+      "source_ids": [
+        "src_00384"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 167,
+      "element_id": "text_story_read_time_00385",
+      "source_ids": [
+        "src_00385"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 168,
+      "element_id": "image_story_00386",
+      "source_ids": [
+        "src_00386"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 169,
+      "element_id": "text_story_headline_00388",
+      "source_ids": [
+        "src_00388"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 170,
+      "element_id": "text_story_read_time_00389",
+      "source_ids": [
+        "src_00389"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 171,
+      "element_id": "image_story_00390",
+      "source_ids": [
+        "src_00390"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 172,
+      "element_id": "text_story_headline_00392",
+      "source_ids": [
+        "src_00392"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 173,
+      "element_id": "text_story_read_time_00393",
+      "source_ids": [
+        "src_00393"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 174,
+      "element_id": "image_story_00394",
+      "source_ids": [
+        "src_00394"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 175,
+      "element_id": "text_story_headline_00396",
+      "source_ids": [
+        "src_00396"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 176,
+      "element_id": "text_story_read_time_00397",
+      "source_ids": [
+        "src_00397"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 177,
+      "element_id": "image_story_00398",
+      "source_ids": [
+        "src_00398"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 178,
+      "element_id": "text_story_headline_00400",
+      "source_ids": [
+        "src_00400"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 179,
+      "element_id": "text_story_read_time_00401",
+      "source_ids": [
+        "src_00401"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 180,
+      "element_id": "image_story_00402",
+      "source_ids": [
+        "src_00402"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 181,
+      "element_id": "text_story_headline_00404",
+      "source_ids": [
+        "src_00404"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 182,
+      "element_id": "text_story_read_time_00405",
+      "source_ids": [
+        "src_00405"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 183,
+      "element_id": "image_story_00406",
+      "source_ids": [
+        "src_00406"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 184,
+      "element_id": "text_section_header_world_00408",
+      "source_ids": [
+        "src_00408"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 185,
+      "element_id": "image_story_00410",
+      "source_ids": [
+        "src_00410"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 186,
+      "element_id": "text_story_headline_00411",
+      "source_ids": [
+        "src_00411"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 187,
+      "element_id": "text_story_subheadline_00412",
+      "source_ids": [
+        "src_00412"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 188,
+      "element_id": "text_story_timestamp_00413",
+      "source_ids": [
+        "src_00413"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 189,
+      "element_id": "text_story_read_time_00415",
+      "source_ids": [
+        "src_00415"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 190,
+      "element_id": "text_live_tag_00418",
+      "source_ids": [
+        "src_00418"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 191,
+      "element_id": "text_story_headline_00419",
+      "source_ids": [
+        "src_00419"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 192,
+      "element_id": "text_story_timestamp_00420",
+      "source_ids": [
+        "src_00420"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 193,
+      "element_id": "text_story_read_time_00422",
+      "source_ids": [
+        "src_00422"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 194,
+      "element_id": "text_story_headline_00424",
+      "source_ids": [
+        "src_00424"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 195,
+      "element_id": "text_story_timestamp_00425",
+      "source_ids": [
+        "src_00425"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 196,
+      "element_id": "text_story_read_time_00427",
+      "source_ids": [
+        "src_00427"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 197,
+      "element_id": "text_story_headline_00429",
+      "source_ids": [
+        "src_00429"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 198,
+      "element_id": "text_story_timestamp_00430",
+      "source_ids": [
+        "src_00430"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 199,
+      "element_id": "text_story_read_time_00432",
+      "source_ids": [
+        "src_00432"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 200,
+      "element_id": "text_story_headline_00434",
+      "source_ids": [
+        "src_00434"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 201,
+      "element_id": "text_story_timestamp_00435",
+      "source_ids": [
+        "src_00435"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 202,
+      "element_id": "text_story_read_time_00437",
+      "source_ids": [
+        "src_00437"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 203,
+      "element_id": "text_section_header_technology_00439",
+      "source_ids": [
+        "src_00439"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 204,
+      "element_id": "image_story_00441",
+      "source_ids": [
+        "src_00441"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 205,
+      "element_id": "text_story_headline_00442",
+      "source_ids": [
+        "src_00442"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 206,
+      "element_id": "text_story_read_time_00443",
+      "source_ids": [
+        "src_00443"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 207,
+      "element_id": "image_story_00445",
+      "source_ids": [
+        "src_00445"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 208,
+      "element_id": "text_partner_content_tag_00446",
+      "source_ids": [
+        "src_00446"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 209,
+      "element_id": "text_story_headline_00447",
+      "source_ids": [
+        "src_00447"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 210,
+      "element_id": "text_story_read_time_00448",
+      "source_ids": [
+        "src_00448"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 211,
+      "element_id": "image_story_00450",
+      "source_ids": [
+        "src_00450"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 212,
+      "element_id": "text_story_headline_00451",
+      "source_ids": [
+        "src_00451"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 213,
+      "element_id": "text_story_read_time_00452",
+      "source_ids": [
+        "src_00452"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 214,
+      "element_id": "image_story_00454",
+      "source_ids": [
+        "src_00454"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 215,
+      "element_id": "text_story_headline_00455",
+      "source_ids": [
+        "src_00455"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 216,
+      "element_id": "text_story_read_time_00456",
+      "source_ids": [
+        "src_00456"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 217,
+      "element_id": "text_section_header_best_buys_00458",
+      "source_ids": [
+        "src_00458"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 218,
+      "element_id": "image_story_00460",
+      "source_ids": [
+        "src_00460"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 219,
+      "element_id": "text_story_headline_00461",
+      "source_ids": [
+        "src_00461"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 220,
+      "element_id": "text_story_read_time_00462",
+      "source_ids": [
+        "src_00462"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 221,
+      "element_id": "image_story_00464",
+      "source_ids": [
+        "src_00464"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 222,
+      "element_id": "text_story_headline_00465",
+      "source_ids": [
+        "src_00465"
+      ],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "changed_or_invented_link",
+      "message": "Link does not exactly match a referenced source element.",
+      "line_number": 223,
+      "element_id": "text_story_read_time_00466",
+      "source_ids": [
+        "src_00466"
+      ],
+      "deterministic_fix_available": false
+    }
+  ],
+  "warnings": [
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['textAlign']",
+      "line_number": 6,
+      "element_id": "button_newsletters_00017",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['textAlign']",
+      "line_number": 7,
+      "element_id": "button_epaper_00021",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'padding']",
+      "line_number": 53,
+      "element_id": "text_update_tag_00230",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'padding']",
+      "line_number": 108,
+      "element_id": "text_update_tag_00305",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unrepresented_source_elements",
+      "message": "124 meaningful source elements are not represented in MAML.",
+      "line_number": null,
+      "element_id": null,
+      "source_ids": [
+        "src_00006",
+        "src_00007",
+        "src_00009",
+        "src_00010",
+        "src_00012",
+        "src_00013",
+        "src_00018",
+        "src_00022",
+        "src_00032",
+        "src_00116",
+        "src_00117",
+        "src_00119",
+        "src_00120",
+        "src_00122",
+        "src_00123",
+        "src_00125",
+        "src_00126",
+        "src_00128",
+        "src_00129",
+        "src_00131",
+        "src_00132",
+        "src_00134",
+        "src_00135",
+        "src_00137",
+        "src_00138",
+        "src_00140",
+        "src_00141",
+        "src_00143",
+        "src_00144",
+        "src_00146",
+        "src_00147",
+        "src_00149",
+        "src_00150",
+        "src_00152",
+        "src_00153",
+        "src_00155",
+        "src_00156",
+        "src_00158",
+        "src_00159",
+        "src_00161",
+        "src_00162",
+        "src_00164",
+        "src_00165",
+        "src_00167",
+        "src_00168",
+        "src_00170",
+        "src_00171",
+        "src_00177",
+        "src_00178",
+        "src_00181",
+        "src_00182",
+        "src_00185",
+        "src_00186",
+        "src_00189",
+        "src_00190",
+        "src_00193",
+        "src_00194",
+        "src_00199",
+        "src_00201",
+        "src_00209",
+        "src_00213",
+        "src_00219",
+        "src_00223",
+        "src_00225",
+        "src_00229",
+        "src_00234",
+        "src_00239",
+        "src_00243",
+        "src_00248",
+        "src_00251",
+        "src_00254",
+        "src_00259",
+        "src_00263",
+        "src_00268",
+        "src_00271",
+        "src_00274",
+        "src_00277",
+        "src_00282",
+        "src_00286",
+        "src_00289",
+        "src_00294",
+        "src_00298",
+        "src_00302",
+        "src_00304",
+        "src_00310",
+        "src_00314",
+        "src_00318",
+        "src_00322",
+        "src_00326",
+        "src_00330",
+        "src_00334",
+        "src_00336",
+        "src_00341",
+        "src_00345",
+        "src_00349",
+        "src_00351",
+        "src_00356",
+        "src_00358",
+        "src_00365",
+        "src_00369",
+        "src_00373",
+        "src_00377",
+        "src_00381",
+        "src_00383",
+        "src_00387",
+        "src_00391",
+        "src_00395",
+        "src_00399",
+        "src_00403",
+        "src_00407",
+        "src_00409",
+        "src_00416",
+        "src_00423",
+        "src_00428",
+        "src_00433",
+        "src_00438",
+        "src_00440",
+        "src_00444",
+        "src_00449",
+        "src_00453",
+        "src_00457",
+        "src_00459",
+        "src_00463",
+        "src_00467"
+      ],
+      "deterministic_fix_available": false
+    }
+  ],
+  "deterministic_repairs": []
+}

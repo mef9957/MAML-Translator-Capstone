@@ -1,0 +1,16 @@
+{
+  "ssim": 0.36661198325160704,
+  "original_dimensions": [
+    1200,
+    1241
+  ],
+  "rendered_dimensions": [
+    1200,
+    757
+  ],
+  "comparison_dimensions": [
+    1200,
+    1241
+  ],
+  "padding_color": "white"
+}

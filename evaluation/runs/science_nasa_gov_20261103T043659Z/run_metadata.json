@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "url": "https://science.nasa.gov/stories/",
+  "started_at_utc": "2026-11-03T04:36:59.523603+00:00",
+  "model": "openai/@vertexai/gemini-2.5-pro",
+  "model_calls": 1,
+  "prompt_version": "prompt_v001",
+  "prompt_file": "/Users/maryamemaanfiyaz/Desktop/NYU/Capstone_MAML/Fall26_Implementation/evaluation/prompts/prompt_v001.txt",
+  "viewport": {
+    "width": 1200,
+    "height": 900
+  },
+  "max_inventory_elements": 350,
+  "inventory_element_count": 70,
+  "maml_element_count": 60,
+  "missing_source_element_count": 0,
+  "missing_source_ids": [],
+  "unsupported_feature_count": 0,
+  "failure_stage": null,
+  "error": null,
+  "timings_seconds": {
+    "extraction": 20.869053,
+    "llm_generation": 142.834125,
+    "validation_and_repair": 0.002631,
+    "rendering": 0.008832,
+    "rendered_screenshot": 8.871252,
+    "visual_comparison": 1.694562,
+    "total": 174.284803
+  },
+  "ssim": 0.10132267661848741,
+  "inventory_warnings": [],
+  "validation_error_count": 0,
+  "validation_warning_count": 3,
+  "rendered_capture": {
+    "page_width": 1200,
+    "page_height": 757,
+    "captured_height": 900
+  },
+  "finished_at_utc": "2026-11-03T04:39:53.800062+00:00"
+}

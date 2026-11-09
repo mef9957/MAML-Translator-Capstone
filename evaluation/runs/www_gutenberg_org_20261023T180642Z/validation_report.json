@@ -1,0 +1,566 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['fontWeight']",
+      "line_number": 3,
+      "element_id": "text_field_quick_search",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['textAlign']",
+      "line_number": 4,
+      "element_id": "button_go",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 6,
+      "element_id": "text_link_donate",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 14,
+      "element_id": "text_description",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'borderRadius', 'padding']",
+      "line_number": 16,
+      "element_id": "text_link_find_more_new_releases",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 17,
+      "element_id": "image_book_79846",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 19,
+      "element_id": "image_book_79845",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 21,
+      "element_id": "image_book_79844",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 23,
+      "element_id": "image_book_79843",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 25,
+      "element_id": "image_book_79842",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 27,
+      "element_id": "image_book_79841",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 29,
+      "element_id": "image_book_79840",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 31,
+      "element_id": "image_book_79839",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 33,
+      "element_id": "image_book_79838",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 35,
+      "element_id": "image_book_79837",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 37,
+      "element_id": "text_link_category_history",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 38,
+      "element_id": "text_link_category_literature",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 39,
+      "element_id": "text_link_category_science_technology",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 40,
+      "element_id": "text_link_category_social_sciences",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 41,
+      "element_id": "text_link_category_arts_culture",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 42,
+      "element_id": "text_link_category_religion_philosophy",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 43,
+      "element_id": "text_link_category_lifestyle_hobbies",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 44,
+      "element_id": "text_link_category_health_medicine",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 45,
+      "element_id": "text_link_category_education_reference",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 47,
+      "element_id": "text_list_item_no_fees",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 48,
+      "element_id": "text_list_item_browsers_needed",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 49,
+      "element_id": "text_list_item_pioneering",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 51,
+      "element_id": "text_list_item_volunteers",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 52,
+      "element_id": "text_list_item_ceo_prefix",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 55,
+      "element_id": "text_link_donate_button_2",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 57,
+      "element_id": "text_list_item_how_to_read",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 59,
+      "element_id": "text_list_item_about_pg",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 61,
+      "element_id": "text_list_item_in_depth_info",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 64,
+      "element_id": "text_list_item_proofreaders_welcome",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 66,
+      "element_id": "text_list_item_fix_and_improve",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 68,
+      "element_id": "text_list_item_record_audiobooks",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'borderRadius', 'padding']",
+      "line_number": 71,
+      "element_id": "text_link_find_more_most_popular",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 72,
+      "element_id": "image_book_1342",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 74,
+      "element_id": "image_book_84",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 76,
+      "element_id": "image_book_2701",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 78,
+      "element_id": "image_book_11",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 80,
+      "element_id": "image_book_1661",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 82,
+      "element_id": "image_book_37683",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 84,
+      "element_id": "image_book_345",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 86,
+      "element_id": "image_book_100",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 88,
+      "element_id": "image_book_1513",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['borderRadius']",
+      "line_number": 90,
+      "element_id": "image_book_145",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 93,
+      "element_id": "text_list_item_dot_1",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 95,
+      "element_id": "text_list_item_new_ebooks",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 97,
+      "element_id": "text_list_item_and_the_site",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 100,
+      "element_id": "text_list_item_dot_2",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 102,
+      "element_id": "text_list_item_dot_3",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 104,
+      "element_id": "text_list_item_world_library",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 106,
+      "element_id": "text_list_item_what_is_free",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 109,
+      "element_id": "text_list_item_view_newsletter",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 111,
+      "element_id": "text_list_item_one_email",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 112,
+      "element_id": "text_list_item_every_ebook",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 113,
+      "element_id": "text_list_item_subscribe",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 116,
+      "element_id": "text_list_item_librivox",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 118,
+      "element_id": "text_list_item_human_read",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['padding']",
+      "line_number": 120,
+      "element_id": "text_list_item_open_audiobook",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 123,
+      "element_id": "text_link_facebook",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 125,
+      "element_id": "text_link_mastodon",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 127,
+      "element_id": "text_link_bluesky",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 130,
+      "element_id": "text_link_facebook_feed",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 132,
+      "element_id": "text_link_mastodon_feed",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 134,
+      "element_id": "text_link_bluesky_feed",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unrepresented_source_elements",
+      "message": "14 meaningful source elements are not represented in MAML.",
+      "line_number": null,
+      "element_id": null,
+      "source_ids": [
+        "src_00085",
+        "src_00166",
+        "src_00169",
+        "src_00172",
+        "src_00176",
+        "src_00179",
+        "src_00182",
+        "src_00185",
+        "src_00187",
+        "src_00189",
+        "src_00191",
+        "src_00193",
+        "src_00195",
+        "src_00197"
+      ],
+      "deterministic_fix_available": false
+    }
+  ],
+  "deterministic_repairs": []
+}

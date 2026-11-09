@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "url": "https://www.weather.gov/",
+  "started_at_utc": "2026-11-03T04:46:17.583873+00:00",
+  "model": "openai/@vertexai/gemini-2.5-pro",
+  "model_calls": 1,
+  "prompt_version": "prompt_v001",
+  "prompt_file": "/Users/maryamemaanfiyaz/Desktop/NYU/Capstone_MAML/Fall26_Implementation/evaluation/prompts/prompt_v001.txt",
+  "viewport": {
+    "width": 1200,
+    "height": 900
+  },
+  "max_inventory_elements": 350,
+  "inventory_element_count": 122,
+  "maml_element_count": 99,
+  "missing_source_element_count": 0,
+  "missing_source_ids": [],
+  "unsupported_feature_count": 1,
+  "failure_stage": null,
+  "error": null,
+  "timings_seconds": {
+    "extraction": 6.071594,
+    "llm_generation": 174.558463,
+    "validation_and_repair": 0.000789,
+    "rendering": 0.001808,
+    "rendered_screenshot": 4.156472,
+    "visual_comparison": 0.682759,
+    "total": 185.472215
+  },
+  "ssim": 0.36661198325160704,
+  "inventory_warnings": [],
+  "validation_error_count": 0,
+  "validation_warning_count": 0,
+  "rendered_capture": {
+    "page_width": 1200,
+    "page_height": 757,
+    "captured_height": 900
+  },
+  "finished_at_utc": "2026-11-03T04:49:23.048994+00:00"
+}

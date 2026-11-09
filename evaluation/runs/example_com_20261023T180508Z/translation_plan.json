@@ -1,0 +1,160 @@
+{
+  "elements": [
+    {
+      "type": "text",
+      "id": "text_english_description",
+      "source_ids": [
+        "src_00001"
+      ],
+      "x": 392.0,
+      "y": 205.25,
+      "z": 1,
+      "w": 416.0,
+      "h": 76.78,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00001",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_arabic_description",
+      "source_ids": [
+        "src_00002"
+      ],
+      "x": 392.0,
+      "y": 298.03,
+      "z": 2,
+      "w": 416.0,
+      "h": 44.78,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00002",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_chinese_description",
+      "source_ids": [
+        "src_00003"
+      ],
+      "x": 392.0,
+      "y": 356.81,
+      "z": 3,
+      "w": 416.0,
+      "h": 44.78,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00003",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_french_description",
+      "source_ids": [
+        "src_00004"
+      ],
+      "x": 392.0,
+      "y": 415.59,
+      "z": 4,
+      "w": 416.0,
+      "h": 89.56,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00004",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_russian_description",
+      "source_ids": [
+        "src_00005"
+      ],
+      "x": 392.0,
+      "y": 519.16,
+      "z": 5,
+      "w": 416.0,
+      "h": 111.95,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00005",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_spanish_description",
+      "source_ids": [
+        "src_00006"
+      ],
+      "x": 392.0,
+      "y": 645.11,
+      "z": 6,
+      "w": 416.0,
+      "h": 67.17,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00006",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_learn_more",
+      "source_ids": [
+        "src_00007"
+      ],
+      "x": 559.0,
+      "y": 729.28,
+      "z": 7,
+      "w": 82.0,
+      "h": 18.0,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00007",
+        "link_source_id": "src_00007",
+        "color": "rgb(158, 158, 255)",
+        "fontFamily": "system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "unsupported_features": []
+}

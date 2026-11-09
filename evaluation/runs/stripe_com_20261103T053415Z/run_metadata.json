@@ -1,0 +1,42 @@
+{
+  "status": "completed",
+  "url": "https://stripe.com/ae/pricing",
+  "started_at_utc": "2026-11-03T05:34:15.861011+00:00",
+  "model": "openai/@vertexai/gemini-2.5-pro",
+  "model_calls": 1,
+  "prompt_version": "prompt_v001",
+  "prompt_file": "/Users/maryamemaanfiyaz/Desktop/NYU/Capstone_MAML/Fall26_Implementation/evaluation/prompts/prompt_v001.txt",
+  "viewport": {
+    "width": 1200,
+    "height": 900
+  },
+  "max_inventory_elements": 350,
+  "inventory_element_count": 350,
+  "maml_element_count": 223,
+  "missing_source_element_count": 0,
+  "missing_source_ids": [],
+  "unsupported_feature_count": 0,
+  "failure_stage": null,
+  "error": null,
+  "timings_seconds": {
+    "extraction": 18.81161,
+    "llm_generation": 314.492975,
+    "validation_and_repair": 0.000798,
+    "rendering": 0.004637,
+    "rendered_screenshot": 7.98856,
+    "visual_comparison": 5.031424,
+    "total": 346.334125
+  },
+  "ssim": 0.8789531919810673,
+  "inventory_warnings": [
+    "Inventory was capped at 350 elements to control model input size."
+  ],
+  "validation_error_count": 0,
+  "validation_warning_count": 0,
+  "rendered_capture": {
+    "page_width": 1200,
+    "page_height": 757,
+    "captured_height": 900
+  },
+  "finished_at_utc": "2026-11-03T05:40:02.178593+00:00"
+}

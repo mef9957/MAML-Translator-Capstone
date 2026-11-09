@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "url": "https://www.loc.gov/",
+  "started_at_utc": "2026-11-03T05:11:14.054391+00:00",
+  "model": "openai/@vertexai/gemini-2.5-pro",
+  "model_calls": 1,
+  "prompt_version": "prompt_v001",
+  "prompt_file": "/Users/maryamemaanfiyaz/Desktop/NYU/Capstone_MAML/Fall26_Implementation/evaluation/prompts/prompt_v001.txt",
+  "viewport": {
+    "width": 1200,
+    "height": 900
+  },
+  "max_inventory_elements": 350,
+  "inventory_element_count": 208,
+  "maml_element_count": 157,
+  "missing_source_element_count": 0,
+  "missing_source_ids": [],
+  "unsupported_feature_count": 5,
+  "failure_stage": null,
+  "error": null,
+  "timings_seconds": {
+    "extraction": 13.711362,
+    "llm_generation": 243.125975,
+    "validation_and_repair": 0.000761,
+    "rendering": 0.004371,
+    "rendered_screenshot": 5.285694,
+    "visual_comparison": 1.331348,
+    "total": 263.463701
+  },
+  "ssim": 0.2666260526695619,
+  "inventory_warnings": [],
+  "validation_error_count": 0,
+  "validation_warning_count": 11,
+  "rendered_capture": {
+    "page_width": 1200,
+    "page_height": 757,
+    "captured_height": 900
+  },
+  "finished_at_utc": "2026-11-03T05:15:37.506351+00:00"
+}

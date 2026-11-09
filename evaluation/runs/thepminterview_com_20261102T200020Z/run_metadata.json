@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "url": "https://thepminterview.com/",
+  "started_at_utc": "2026-11-02T20:00:20.660145+00:00",
+  "model": "openai/@vertexai/gemini-2.5-pro",
+  "model_calls": 1,
+  "prompt_version": "prompt_v001",
+  "prompt_file": "/Users/maryamemaanfiyaz/Desktop/NYU/Capstone_MAML/Fall26_Implementation/evaluation/prompts/prompt_v001.txt",
+  "viewport": {
+    "width": 1200,
+    "height": 900
+  },
+  "max_inventory_elements": 350,
+  "inventory_element_count": 18,
+  "maml_element_count": 18,
+  "missing_source_element_count": 0,
+  "missing_source_ids": [],
+  "unsupported_feature_count": 0,
+  "failure_stage": null,
+  "error": null,
+  "timings_seconds": {
+    "extraction": 13.314901,
+    "llm_generation": 48.267021,
+    "validation_and_repair": 0.000232,
+    "rendering": 0.00067,
+    "rendered_screenshot": 3.368777,
+    "visual_comparison": 11.603876,
+    "total": 76.556547
+  },
+  "ssim": 0.8776492674658665,
+  "inventory_warnings": [],
+  "validation_error_count": 0,
+  "validation_warning_count": 0,
+  "rendered_capture": {
+    "page_width": 1200,
+    "page_height": 757,
+    "captured_height": 900
+  },
+  "finished_at_utc": "2026-11-02T20:01:37.215118+00:00"
+}

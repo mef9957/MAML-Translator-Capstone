@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "url": "https://medium.com/",
+  "started_at_utc": "2026-11-03T05:20:35.615053+00:00",
+  "model": "openai/@vertexai/gemini-2.5-pro",
+  "model_calls": 1,
+  "prompt_version": "prompt_v001",
+  "prompt_file": "/Users/maryamemaanfiyaz/Desktop/NYU/Capstone_MAML/Fall26_Implementation/evaluation/prompts/prompt_v001.txt",
+  "viewport": {
+    "width": 1200,
+    "height": 900
+  },
+  "max_inventory_elements": 350,
+  "inventory_element_count": 10,
+  "maml_element_count": 10,
+  "missing_source_element_count": 0,
+  "missing_source_ids": [],
+  "unsupported_feature_count": 0,
+  "failure_stage": null,
+  "error": null,
+  "timings_seconds": {
+    "extraction": 7.854789,
+    "llm_generation": 40.289553,
+    "validation_and_repair": 0.000227,
+    "rendering": 0.000575,
+    "rendered_screenshot": 4.587708,
+    "visual_comparison": 0.600682,
+    "total": 53.334484
+  },
+  "ssim": 0.015022738048214905,
+  "inventory_warnings": [],
+  "validation_error_count": 0,
+  "validation_warning_count": 0,
+  "rendered_capture": {
+    "page_width": 1200,
+    "page_height": 757,
+    "captured_height": 900
+  },
+  "finished_at_utc": "2026-11-03T05:21:28.947036+00:00"
+}

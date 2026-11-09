@@ -1,0 +1,31 @@
+{
+  "status": "failed",
+  "url": "https://news.ycombinator.com/",
+  "started_at_utc": "2026-10-25T14:04:22.903475+00:00",
+  "model": "openai/@vertexai/gemini-2.5-pro",
+  "model_calls": 1,
+  "prompt_version": "prompt_v001",
+  "prompt_file": "/Users/maryamemaanfiyaz/Desktop/NYU/Capstone_MAML/Fall26_Implementation/evaluation/prompts/prompt_v001.txt",
+  "viewport": {
+    "width": 1200,
+    "height": 900
+  },
+  "max_inventory_elements": 350,
+  "inventory_element_count": 350,
+  "maml_element_count": null,
+  "missing_source_element_count": null,
+  "missing_source_ids": [],
+  "unsupported_feature_count": null,
+  "failure_stage": "llm_generation",
+  "error": "APIError: litellm.APIError: APIError: OpenAIException - vertex-ai error: This API method requires billing to be enabled. Please enable billing on project #genai-portkey-nyu-ad-12d5 by visiting https://console.developers.google.com/billing/enable?project=genai-portkey-nyu-ad-12d5 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.",
+  "timings_seconds": {
+    "extraction": 12.010283,
+    "llm_generation": 6.43631,
+    "total": 18.449594
+  },
+  "ssim": null,
+  "inventory_warnings": [
+    "Inventory was capped at 350 elements to control model input size."
+  ],
+  "finished_at_utc": "2026-10-25T14:04:41.352479+00:00"
+}

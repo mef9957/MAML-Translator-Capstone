@@ -1,0 +1,5369 @@
+{
+  "elements": [
+    {
+      "type": "button",
+      "id": "button_products",
+      "source_ids": [
+        "src_00002"
+      ],
+      "x": 156.0,
+      "y": 18.0,
+      "w": 98.67,
+      "h": 40.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00002",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "center",
+        "padding": "12px 12px 14px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_solutions",
+      "source_ids": [
+        "src_00003"
+      ],
+      "x": 254.67,
+      "y": 18.0,
+      "w": 100.47,
+      "h": 40.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00003",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "center",
+        "padding": "12px 12px 14px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_developers",
+      "source_ids": [
+        "src_00004"
+      ],
+      "x": 355.14,
+      "y": 18.0,
+      "w": 113.02,
+      "h": 40.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00004",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "center",
+        "padding": "12px 12px 14px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_resources",
+      "source_ids": [
+        "src_00005"
+      ],
+      "x": 468.16,
+      "y": 18.0,
+      "w": 107.92,
+      "h": 40.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00005",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "center",
+        "padding": "12px 12px 14px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_pricing",
+      "source_ids": [
+        "src_00006"
+      ],
+      "x": 588.08,
+      "y": 27.02,
+      "w": 44.3,
+      "h": 18.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00006",
+        "link_source_id": "src_00006",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "12px 12px 14px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_sign_in",
+      "source_ids": [
+        "src_00007"
+      ],
+      "x": 908.33,
+      "y": 26.5,
+      "w": 45.13,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00007",
+        "link_source_id": "src_00007",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 5px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_contact_sales",
+      "source_ids": [
+        "src_00009"
+      ],
+      "x": 1003.56,
+      "y": 26.5,
+      "w": 90.33,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00009",
+        "link_source_id": "src_00009",
+        "backgroundColor": "rgb(99, 91, 255)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 12px 6px 16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_pricing_built_for_businesses",
+      "source_ids": [
+        "src_00152"
+      ],
+      "x": 76.0,
+      "y": 158.0,
+      "w": 527.8,
+      "h": 139.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00152",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "56px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "letterSpacing": "-1.12px",
+        "lineHeight": "68px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_standard",
+      "source_ids": [
+        "src_00154"
+      ],
+      "x": 92.0,
+      "y": 393.0,
+      "w": 107.78,
+      "h": 33.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00154",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "lineHeight": "36px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_access_complete_payments_platform",
+      "source_ids": [
+        "src_00155"
+      ],
+      "x": 92.0,
+      "y": 439.98,
+      "w": 200.25,
+      "h": 116.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00155",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_get_started",
+      "source_ids": [
+        "src_00157"
+      ],
+      "x": 108.0,
+      "y": 586.98,
+      "w": 75.41,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00157",
+        "link_source_id": "src_00157",
+        "backgroundColor": "rgb(99, 91, 255)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 12px 6px 16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_price_2.9_aed_1",
+      "source_ids": [
+        "src_00159"
+      ],
+      "x": 365.3,
+      "y": 460.5,
+      "w": 183.39,
+      "h": 33.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00159",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "500",
+        "textAlign": "center",
+        "lineHeight": "36px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_per_successful_transaction",
+      "source_ids": [
+        "src_00160"
+      ],
+      "x": 363.66,
+      "y": 500.48,
+      "w": 186.67,
+      "h": 45.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00160",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "textAlign": "center",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_custom",
+      "source_ids": [
+        "src_00162"
+      ],
+      "x": 640.0,
+      "y": 393.0,
+      "w": 91.47,
+      "h": 33.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00162",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "lineHeight": "36px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_design_custom_package",
+      "source_ids": [
+        "src_00163"
+      ],
+      "x": 640.0,
+      "y": 439.98,
+      "w": 195.3,
+      "h": 92.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00163",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(173, 189, 204)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_contact_sales_custom",
+      "source_ids": [
+        "src_00165"
+      ],
+      "x": 656.0,
+      "y": 586.98,
+      "w": 90.33,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00165",
+        "link_source_id": "src_00165",
+        "backgroundColor": "rgb(0, 212, 255)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 12px 6px 16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_ic_plus_pricing",
+      "source_ids": [
+        "src_00167"
+      ],
+      "x": 966.13,
+      "y": 386.86,
+      "w": 77.73,
+      "h": 21.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00167",
+        "backgroundColor": "rgb(31, 68, 104)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "textAlign": "center",
+        "borderRadius": "0px 4px 0px 0px",
+        "padding": "0px 8px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_volume_discounts",
+      "source_ids": [
+        "src_00169"
+      ],
+      "x": 941.33,
+      "y": 457.61,
+      "w": 127.33,
+      "h": 21.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00169",
+        "backgroundColor": "rgb(31, 68, 104)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "textAlign": "center",
+        "padding": "0px 8px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_multi_product_discounts",
+      "source_ids": [
+        "src_00171"
+      ],
+      "x": 919.33,
+      "y": 528.36,
+      "w": 171.33,
+      "h": 21.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00171",
+        "backgroundColor": "rgb(31, 68, 104)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "textAlign": "center",
+        "padding": "0px 8px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_country_specific_rates",
+      "source_ids": [
+        "src_00173"
+      ],
+      "x": 926.36,
+      "y": 599.11,
+      "w": 157.28,
+      "h": 21.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00173",
+        "backgroundColor": "rgb(31, 68, 104)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "textAlign": "center",
+        "borderRadius": "0px 0px 4px",
+        "padding": "0px 8px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_standard_pricing",
+      "source_ids": [
+        "src_00175"
+      ],
+      "x": 450.98,
+      "y": 708.98,
+      "w": 111.78,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00175",
+        "link_source_id": "src_00175",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "lineHeight": "15px",
+        "padding": "6px 0px 7px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_custom_pricing",
+      "source_ids": [
+        "src_00176"
+      ],
+      "x": 586.77,
+      "y": 708.98,
+      "w": 102.56,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00176",
+        "link_source_id": "src_00176",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "lineHeight": "15px",
+        "padding": "6px 0px 7px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_faqs",
+      "source_ids": [
+        "src_00177"
+      ],
+      "x": 713.33,
+      "y": 708.98,
+      "w": 35.69,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00177",
+        "link_source_id": "src_00177",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "lineHeight": "15px",
+        "padding": "6px 0px 7px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_features_available_out_of_box",
+      "source_ids": [
+        "src_00181"
+      ],
+      "x": 76.0,
+      "y": 828.25,
+      "w": 380.77,
+      "h": 33.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00181",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "lineHeight": "36px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_global_access",
+      "source_ids": [
+        "src_00182"
+      ],
+      "x": 76.0,
+      "y": 985.23,
+      "w": 95.63,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00182",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_195_countries",
+      "source_ids": [
+        "src_00183"
+      ],
+      "x": 100.0,
+      "y": 1019.23,
+      "w": 89.0,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00183",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_135_currencies",
+      "source_ids": [
+        "src_00184"
+      ],
+      "x": 100.0,
+      "y": 1047.23,
+      "w": 105.42,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00184",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_100_payment_methods",
+      "source_ids": [
+        "src_00185"
+      ],
+      "x": 100.0,
+      "y": 1075.23,
+      "w": 158.16,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00185",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_1_integration",
+      "source_ids": [
+        "src_00186"
+      ],
+      "x": 100.0,
+      "y": 1103.23,
+      "w": 81.81,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00186",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_built_in_fraud_prevention",
+      "source_ids": [
+        "src_00187"
+      ],
+      "x": 346.0,
+      "y": 985.23,
+      "w": 166.03,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00187",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_powerful_machine_learning",
+      "source_ids": [
+        "src_00188"
+      ],
+      "x": 370.0,
+      "y": 1019.23,
+      "w": 176.69,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00188",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_adapts_to_new_fraud_patterns",
+      "source_ids": [
+        "src_00189"
+      ],
+      "x": 370.0,
+      "y": 1047.23,
+      "w": 193.17,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00189",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_no_integration_required",
+      "source_ids": [
+        "src_00190"
+      ],
+      "x": 370.0,
+      "y": 1075.23,
+      "w": 155.22,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00190",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_fraud_analytics",
+      "source_ids": [
+        "src_00191"
+      ],
+      "x": 370.0,
+      "y": 1103.23,
+      "w": 101.08,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00191",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_tools_to_optimize_checkout",
+      "source_ids": [
+        "src_00192"
+      ],
+      "x": 616.0,
+      "y": 985.23,
+      "w": 217.75,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00192",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_flexible_ui_components",
+      "source_ids": [
+        "src_00193"
+      ],
+      "x": 640.0,
+      "y": 1019.23,
+      "w": 156.36,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00193",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_prebuilt_payment_forms",
+      "source_ids": [
+        "src_00194"
+      ],
+      "x": 640.0,
+      "y": 1047.23,
+      "w": 162.25,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00194",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_accelerated_checkout",
+      "source_ids": [
+        "src_00195"
+      ],
+      "x": 640.0,
+      "y": 1075.23,
+      "w": 145.84,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00195",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_no_code_payments",
+      "source_ids": [
+        "src_00196"
+      ],
+      "x": 640.0,
+      "y": 1103.23,
+      "w": 128.11,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00196",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_payments_optimizations_to_boost_revenue",
+      "source_ids": [
+        "src_00197"
+      ],
+      "x": 886.0,
+      "y": 985.23,
+      "w": 182.47,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00197",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_real_time_retries",
+      "source_ids": [
+        "src_00198"
+      ],
+      "x": 910.0,
+      "y": 1043.23,
+      "w": 110.88,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00198",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_auto_updated_cards",
+      "source_ids": [
+        "src_00199"
+      ],
+      "x": 910.0,
+      "y": 1071.23,
+      "w": 134.56,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00199",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_customer_authentication",
+      "source_ids": [
+        "src_00200"
+      ],
+      "x": 910.0,
+      "y": 1099.23,
+      "w": 165.55,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00200",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_embedded_payments_for_platforms",
+      "source_ids": [
+        "src_00201"
+      ],
+      "x": 76.0,
+      "y": 1221.23,
+      "w": 177.5,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00201",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_seamless_onboarding",
+      "source_ids": [
+        "src_00202"
+      ],
+      "x": 100.0,
+      "y": 1279.23,
+      "w": 144.81,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00202",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_platform_management",
+      "source_ids": [
+        "src_00203"
+      ],
+      "x": 100.0,
+      "y": 1307.23,
+      "w": 149.33,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00203",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_embedded_components",
+      "source_ids": [
+        "src_00204"
+      ],
+      "x": 100.0,
+      "y": 1335.23,
+      "w": 160.89,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00204",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_risk_tools",
+      "source_ids": [
+        "src_00205"
+      ],
+      "x": 100.0,
+      "y": 1363.23,
+      "w": 64.66,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00205",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_fast_predictable_payouts",
+      "source_ids": [
+        "src_00206"
+      ],
+      "x": 346.0,
+      "y": 1221.23,
+      "w": 189.98,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00206",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_flexible_payout_options",
+      "source_ids": [
+        "src_00207"
+      ],
+      "x": 370.0,
+      "y": 1279.23,
+      "w": 154.23,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00207",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_like_for_like_settlement",
+      "source_ids": [
+        "src_00208"
+      ],
+      "x": 370.0,
+      "y": 1307.23,
+      "w": 155.56,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00208",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_payout_transparency",
+      "source_ids": [
+        "src_00209"
+      ],
+      "x": 370.0,
+      "y": 1335.23,
+      "w": 137.31,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00209",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_phone_chat_email_support",
+      "source_ids": [
+        "src_00210"
+      ],
+      "x": 616.0,
+      "y": 1221.23,
+      "w": 212.05,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00210",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_24x7_support",
+      "source_ids": [
+        "src_00211"
+      ],
+      "x": 640.0,
+      "y": 1255.23,
+      "w": 90.31,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00211",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_industry_leading_documentation",
+      "source_ids": [
+        "src_00212"
+      ],
+      "x": 640.0,
+      "y": 1283.23,
+      "w": 214.0,
+      "h": 48.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00212",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_technical_support_on_discord",
+      "source_ids": [
+        "src_00213"
+      ],
+      "x": 640.0,
+      "y": 1335.23,
+      "w": 194.44,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00213",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_security_reliability_compliance",
+      "source_ids": [
+        "src_00214"
+      ],
+      "x": 886.0,
+      "y": 1221.23,
+      "w": 155.19,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00214",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_99.999_uptime",
+      "source_ids": [
+        "src_00215"
+      ],
+      "x": 910.0,
+      "y": 1279.23,
+      "w": 214.0,
+      "h": 48.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00215",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_pci_compliant",
+      "source_ids": [
+        "src_00216"
+      ],
+      "x": 910.0,
+      "y": 1331.23,
+      "w": 93.13,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00216",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_regulatory_licenses",
+      "source_ids": [
+        "src_00217"
+      ],
+      "x": 910.0,
+      "y": 1359.23,
+      "w": 186.44,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00217",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_standard_pricing_all_products_title",
+      "source_ids": [
+        "src_00219"
+      ],
+      "x": 76.0,
+      "y": 1649.23,
+      "w": 267.72,
+      "h": 23.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00219",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "28px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_explore_pricing_full_stripe_platform",
+      "source_ids": [
+        "src_00220"
+      ],
+      "x": 76.0,
+      "y": 1698.23,
+      "w": 696.0,
+      "h": 49.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00220",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "38px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "letterSpacing": "-0.2px",
+        "lineHeight": "48px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_online_inperson_payments_description",
+      "source_ids": [
+        "src_00221"
+      ],
+      "x": 76.0,
+      "y": 1773.23,
+      "w": 716.06,
+      "h": 23.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00221",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "28px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_global_payments_nav",
+      "source_ids": [
+        "src_00222"
+      ],
+      "x": 76.0,
+      "y": 1894.23,
+      "w": 115.97,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00222",
+        "link_source_id": "src_00222",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_payments_nav",
+      "source_ids": [
+        "src_00223"
+      ],
+      "x": 76.0,
+      "y": 1921.13,
+      "w": 68.05,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00223",
+        "link_source_id": "src_00223",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_payment_links_nav",
+      "source_ids": [
+        "src_00224"
+      ],
+      "x": 76.0,
+      "y": 1948.02,
+      "w": 100.45,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00224",
+        "link_source_id": "src_00224",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_checkout_nav",
+      "source_ids": [
+        "src_00225"
+      ],
+      "x": 76.0,
+      "y": 1974.91,
+      "w": 65.59,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00225",
+        "link_source_id": "src_00225",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_money_management_nav",
+      "source_ids": [
+        "src_00226"
+      ],
+      "x": 76.0,
+      "y": 2013.8,
+      "w": 140.47,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00226",
+        "link_source_id": "src_00226",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_connect_nav",
+      "source_ids": [
+        "src_00227"
+      ],
+      "x": 76.0,
+      "y": 2040.69,
+      "w": 57.69,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00227",
+        "link_source_id": "src_00227",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_revenue_finance_automation_nav",
+      "source_ids": [
+        "src_00228"
+      ],
+      "x": 76.0,
+      "y": 2079.58,
+      "w": 142.36,
+      "h": 38.89,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00228",
+        "link_source_id": "src_00228",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_billing_nav",
+      "source_ids": [
+        "src_00229"
+      ],
+      "x": 76.0,
+      "y": 2125.36,
+      "w": 42.8,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00229",
+        "link_source_id": "src_00229",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_metronome_nav",
+      "source_ids": [
+        "src_00230"
+      ],
+      "x": 76.0,
+      "y": 2152.25,
+      "w": 79.61,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00230",
+        "link_source_id": "src_00230",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_invoicing_nav",
+      "source_ids": [
+        "src_00231"
+      ],
+      "x": 76.0,
+      "y": 2179.14,
+      "w": 62.2,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00231",
+        "link_source_id": "src_00231",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_tax_nav",
+      "source_ids": [
+        "src_00232"
+      ],
+      "x": 76.0,
+      "y": 2206.03,
+      "w": 23.81,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00232",
+        "link_source_id": "src_00232",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_stripe_sigma_nav",
+      "source_ids": [
+        "src_00233"
+      ],
+      "x": 76.0,
+      "y": 2232.92,
+      "w": 87.97,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00233",
+        "link_source_id": "src_00233",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_data_pipeline_nav",
+      "source_ids": [
+        "src_00234"
+      ],
+      "x": 76.0,
+      "y": 2259.81,
+      "w": 90.67,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00234",
+        "link_source_id": "src_00234",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_revenue_recognition_nav",
+      "source_ids": [
+        "src_00235"
+      ],
+      "x": 76.0,
+      "y": 2286.7,
+      "w": 145.55,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00235",
+        "link_source_id": "src_00235",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_more_nav",
+      "source_ids": [
+        "src_00236"
+      ],
+      "x": 76.0,
+      "y": 2325.59,
+      "w": 35.53,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00236",
+        "link_source_id": "src_00236",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_radar_nav",
+      "source_ids": [
+        "src_00237"
+      ],
+      "x": 76.0,
+      "y": 2352.48,
+      "w": 40.83,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00237",
+        "link_source_id": "src_00237",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_atlas_nav",
+      "source_ids": [
+        "src_00238"
+      ],
+      "x": 76.0,
+      "y": 2379.38,
+      "w": 35.09,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00238",
+        "link_source_id": "src_00238",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_workflows_nav",
+      "source_ids": [
+        "src_00239"
+      ],
+      "x": 76.0,
+      "y": 2406.27,
+      "w": 71.56,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00239",
+        "link_source_id": "src_00239",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "18.9px",
+        "padding": "4px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_global_payments_section_title",
+      "source_ids": [
+        "src_00242"
+      ],
+      "x": 346.0,
+      "y": 1886.23,
+      "w": 197.63,
+      "h": 33.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00242",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "lineHeight": "36px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_optimize_checkout_conversion_description",
+      "source_ids": [
+        "src_00243"
+      ],
+      "x": 346.0,
+      "y": 1931.22,
+      "w": 602.05,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00243",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_payments_section_title",
+      "source_ids": [
+        "src_00245"
+      ],
+      "x": 354.0,
+      "y": 2025.22,
+      "w": 81.48,
+      "h": 23.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00245",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_online_payments_platform_description",
+      "source_ids": [
+        "src_00246"
+      ],
+      "x": 354.0,
+      "y": 2051.22,
+      "w": 359.88,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00246",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_start_now_payments",
+      "source_ids": [
+        "src_00248"
+      ],
+      "x": 1022.33,
+      "y": 2030.22,
+      "w": 63.56,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00248",
+        "link_source_id": "src_00248",
+        "backgroundColor": "rgb(99, 91, 255)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 12px 6px 16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_increase_customer_acquisition_feature",
+      "source_ids": [
+        "src_00249"
+      ],
+      "x": 378.0,
+      "y": 2095.22,
+      "w": 406.88,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00249",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_improve_conversion_with_link_feature",
+      "source_ids": [
+        "src_00250"
+      ],
+      "x": 378.0,
+      "y": 2123.22,
+      "w": 411.75,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00250",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_ai_powered_fraud_protection_feature",
+      "source_ids": [
+        "src_00251"
+      ],
+      "x": 378.0,
+      "y": 2151.22,
+      "w": 458.88,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00251",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_save_engineering_time_prebuilt_ui_feature",
+      "source_ids": [
+        "src_00252"
+      ],
+      "x": 378.0,
+      "y": 2179.22,
+      "w": 280.08,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00252",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cards_and_wallets_title",
+      "source_ids": [
+        "src_00255"
+      ],
+      "x": 354.0,
+      "y": 2248.22,
+      "w": 120.88,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00255",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_accept_widely_used_cards_description",
+      "source_ids": [
+        "src_00256"
+      ],
+      "x": 354.0,
+      "y": 2272.22,
+      "w": 390.8,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00256",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_price_2_9_percent_aed_1_00",
+      "source_ids": [
+        "src_00258"
+      ],
+      "x": 799.5,
+      "y": 2245.22,
+      "w": 107.84,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00258",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_per_successful_transaction_domestic",
+      "source_ids": [
+        "src_00259"
+      ],
+      "x": 799.5,
+      "y": 2267.22,
+      "w": 311.64,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00259",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_plus_1_percent",
+      "source_ids": [
+        "src_00260"
+      ],
+      "x": 799.5,
+      "y": 2291.22,
+      "w": 29.22,
+      "h": 17.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00260",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(112, 127, 152)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_for_international_cards",
+      "source_ids": [
+        "src_00261"
+      ],
+      "x": 828.72,
+      "y": 2291.22,
+      "w": 131.41,
+      "h": 17.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00261",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(112, 127, 152)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_plus_1_percent_currency",
+      "source_ids": [
+        "src_00262"
+      ],
+      "x": 799.5,
+      "y": 2312.22,
+      "w": 29.22,
+      "h": 17.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00262",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(112, 127, 152)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_if_currency_conversion_required",
+      "source_ids": [
+        "src_00263"
+      ],
+      "x": 828.72,
+      "y": 2312.22,
+      "w": 198.06,
+      "h": 17.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00263",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(112, 127, 152)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_learn_more_currency_conversion",
+      "source_ids": [
+        "src_00264"
+      ],
+      "x": 799.5,
+      "y": 2336.22,
+      "w": 76.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00264",
+        "link_source_id": "src_00264",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 6px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_disputes_title",
+      "source_ids": [
+        "src_00267"
+      ],
+      "x": 354.0,
+      "y": 2399.22,
+      "w": 61.08,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00267",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_respond_to_card_payment_disputes",
+      "source_ids": [
+        "src_00268"
+      ],
+      "x": 354.0,
+      "y": 2423.22,
+      "w": 340.86,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00268",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_learn_more_disputes",
+      "source_ids": [
+        "src_00269"
+      ],
+      "x": 354.0,
+      "y": 2479.22,
+      "w": 78.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00269",
+        "link_source_id": "src_00269",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_dispute_received_fee_title",
+      "source_ids": [
+        "src_00271"
+      ],
+      "x": 799.5,
+      "y": 2399.22,
+      "w": 122.31,
+      "h": 17.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00271",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(114, 127, 150)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_aed_60",
+      "source_ids": [
+        "src_00272"
+      ],
+      "x": 799.5,
+      "y": 2417.22,
+      "w": 71.03,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00272",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_for_each_dispute_you_receive",
+      "source_ids": [
+        "src_00273"
+      ],
+      "x": 799.5,
+      "y": 2439.22,
+      "w": 195.44,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00273",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_network_fees_apply",
+      "source_ids": [
+        "src_00274"
+      ],
+      "x": 799.5,
+      "y": 2463.22,
+      "w": 222.66,
+      "h": 17.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00274",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(112, 127, 152)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_dispute_countered_fee_title",
+      "source_ids": [
+        "src_00275"
+      ],
+      "x": 799.5,
+      "y": 2508.22,
+      "w": 132.17,
+      "h": 17.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00275",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(114, 127, 150)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_aed_60_countered",
+      "source_ids": [
+        "src_00276"
+      ],
+      "x": 799.5,
+      "y": 2526.22,
+      "w": 71.03,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00276",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_for_each_dispute_you_respond_to_manually",
+      "source_ids": [
+        "src_00277"
+      ],
+      "x": 799.5,
+      "y": 2548.22,
+      "w": 283.92,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00277",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_you_get_this_fee_back",
+      "source_ids": [
+        "src_00278"
+      ],
+      "x": 799.5,
+      "y": 2572.22,
+      "w": 308.66,
+      "h": 38.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00278",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(112, 127, 152)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_learn_more_dispute_countered",
+      "source_ids": [
+        "src_00279"
+      ],
+      "x": 799.5,
+      "y": 2617.22,
+      "w": 76.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00279",
+        "link_source_id": "src_00279",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 6px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_dispute_appealed_fee_title",
+      "source_ids": [
+        "src_00280"
+      ],
+      "x": 799.5,
+      "y": 2671.22,
+      "w": 126.73,
+      "h": 17.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00280",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(114, 127, 150)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_aed_60_appealed",
+      "source_ids": [
+        "src_00281"
+      ],
+      "x": 799.5,
+      "y": 2689.22,
+      "w": 71.03,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00281",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_for_each_dispute_you_appeal",
+      "source_ids": [
+        "src_00282"
+      ],
+      "x": 799.5,
+      "y": 2711.22,
+      "w": 192.34,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00282",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_you_dont_get_fee_back",
+      "source_ids": [
+        "src_00283"
+      ],
+      "x": 799.5,
+      "y": 2735.22,
+      "w": 252.27,
+      "h": 38.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00283",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(112, 127, 152)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_learn_more_dispute_appeal",
+      "source_ids": [
+        "src_00284"
+      ],
+      "x": 799.5,
+      "y": 2780.22,
+      "w": 76.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00284",
+        "link_source_id": "src_00284",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 6px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_smart_disputes_title",
+      "source_ids": [
+        "src_00287"
+      ],
+      "x": 354.0,
+      "y": 2843.22,
+      "w": 106.03,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00287",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_respond_to_disputes_with_ai_evidence",
+      "source_ids": [
+        "src_00288"
+      ],
+      "x": 354.0,
+      "y": 2867.22,
+      "w": 367.89,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00288",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_smart_disputes_fee_title",
+      "source_ids": [
+        "src_00290"
+      ],
+      "x": 799.5,
+      "y": 2843.22,
+      "w": 113.75,
+      "h": 17.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00290",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(114, 127, 150)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_30_percent_fee",
+      "source_ids": [
+        "src_00291"
+      ],
+      "x": 799.5,
+      "y": 2861.22,
+      "w": 30.09,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00291",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_of_the_disputed_amount",
+      "source_ids": [
+        "src_00292"
+      ],
+      "x": 799.5,
+      "y": 2883.22,
+      "w": 169.3,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00292",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_no_smart_dispute_fee_for_lost",
+      "source_ids": [
+        "src_00293"
+      ],
+      "x": 799.5,
+      "y": 2931.22,
+      "w": 299.55,
+      "h": 38.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00293",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(112, 127, 152)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_learn_more_smart_disputes",
+      "source_ids": [
+        "src_00294"
+      ],
+      "x": 799.5,
+      "y": 2976.22,
+      "w": 76.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00294",
+        "link_source_id": "src_00294",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 6px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_dispute_prevention_title",
+      "source_ids": [
+        "src_00297"
+      ],
+      "x": 354.0,
+      "y": 3039.22,
+      "w": 130.66,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00297",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_reduce_dispute_rates_description",
+      "source_ids": [
+        "src_00298"
+      ],
+      "x": 354.0,
+      "y": 3063.22,
+      "w": 388.48,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00298",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_included_dispute_prevention",
+      "source_ids": [
+        "src_00300"
+      ],
+      "x": 799.5,
+      "y": 3036.22,
+      "w": 59.86,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00300",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_dispute_deflection_lookups",
+      "source_ids": [
+        "src_00301"
+      ],
+      "x": 799.5,
+      "y": 3058.22,
+      "w": 183.7,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00301",
+        "link_source_id": "src_00301",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_aed_60_visa_resolution",
+      "source_ids": [
+        "src_00302"
+      ],
+      "x": 799.5,
+      "y": 3103.22,
+      "w": 71.03,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00302",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_per_visa_resolution",
+      "source_ids": [
+        "src_00303",
+        "src_00304"
+      ],
+      "x": 799.5,
+      "y": 3125.22,
+      "w": 128.91,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00303",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_aed_60_visa_evidence",
+      "source_ids": [
+        "src_00305"
+      ],
+      "x": 799.5,
+      "y": 3170.22,
+      "w": 71.03,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00305",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_per_visa_evidence_block",
+      "source_ids": [
+        "src_00306",
+        "src_00307"
+      ],
+      "x": 799.5,
+      "y": 3192.22,
+      "w": 270.55,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00306",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_aed_120_mastercard",
+      "source_ids": [
+        "src_00308"
+      ],
+      "x": 799.5,
+      "y": 3237.22,
+      "w": 76.44,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00308",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_per_mastercard_resolution",
+      "source_ids": [
+        "src_00309",
+        "src_00310"
+      ],
+      "x": 799.5,
+      "y": 3259.22,
+      "w": 177.68,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00309",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_payment_optimizations",
+      "source_ids": [
+        "src_00312"
+      ],
+      "x": 354.0,
+      "y": 3314.22,
+      "w": 419.09,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00312",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_included_with_payments",
+      "source_ids": [
+        "src_00313"
+      ],
+      "x": 799.09,
+      "y": 3316.22,
+      "w": 159.02,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00313",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "info_icon_included_no_charge",
+      "source_ids": [
+        "src_00314"
+      ],
+      "x": 969.48,
+      "y": 3318.22,
+      "w": 16.0,
+      "h": 16.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00314",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_more_features",
+      "source_ids": [
+        "src_00317"
+      ],
+      "x": 354.0,
+      "y": 3371.22,
+      "w": 419.09,
+      "h": 24.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00317",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_payment_links_title",
+      "source_ids": [
+        "src_00320"
+      ],
+      "x": 354.0,
+      "y": 3459.22,
+      "w": 120.27,
+      "h": 23.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00320",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_no_code_links_description",
+      "source_ids": [
+        "src_00321"
+      ],
+      "x": 354.0,
+      "y": 3485.22,
+      "w": 310.7,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00321",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_start_now_payment_links",
+      "source_ids": [
+        "src_00323"
+      ],
+      "x": 1022.33,
+      "y": 3464.22,
+      "w": 63.56,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00323",
+        "link_source_id": "src_00323",
+        "backgroundColor": "rgb(99, 91, 255)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 12px 6px 16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_accept_payments_in_minutes_feature",
+      "source_ids": [
+        "src_00324"
+      ],
+      "x": 378.0,
+      "y": 3529.22,
+      "w": 396.2,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00324",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_sell_products_offer_subscriptions_feature",
+      "source_ids": [
+        "src_00325"
+      ],
+      "x": 378.0,
+      "y": 3557.22,
+      "w": 301.17,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00325",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_create_at_scale_api_feature",
+      "source_ids": [
+        "src_00326"
+      ],
+      "x": 378.0,
+      "y": 3585.22,
+      "w": 564.92,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00326",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_accept_payments_title",
+      "source_ids": [
+        "src_00329"
+      ],
+      "x": 354.0,
+      "y": 3654.22,
+      "w": 120.33,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00329",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_accept_payments_made_using_payment_link",
+      "source_ids": [
+        "src_00330"
+      ],
+      "x": 354.0,
+      "y": 3678.22,
+      "w": 309.86,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00330",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_included_payment_links",
+      "source_ids": [
+        "src_00332"
+      ],
+      "x": 799.5,
+      "y": 3651.22,
+      "w": 59.86,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00332",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_with_payments",
+      "source_ids": [
+        "src_00333"
+      ],
+      "x": 799.5,
+      "y": 3673.22,
+      "w": 100.17,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00333",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "info_icon_included_no_charge_payment_links",
+      "source_ids": [
+        "src_00334"
+      ],
+      "x": 903.03,
+      "y": 3676.3,
+      "w": 20.0,
+      "h": 16.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00334",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px",
+        "padding": "0px 2px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_custom_domain_title",
+      "source_ids": [
+        "src_00337"
+      ],
+      "x": 354.0,
+      "y": 3735.22,
+      "w": 108.45,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00337",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_use_your_own_domain_description",
+      "source_ids": [
+        "src_00338"
+      ],
+      "x": 354.0,
+      "y": 3759.22,
+      "w": 383.88,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00338",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_10_dollars_price",
+      "source_ids": [
+        "src_00340"
+      ],
+      "x": 799.5,
+      "y": 3732.22,
+      "w": 46.44,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00340",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_per_month",
+      "source_ids": [
+        "src_00341"
+      ],
+      "x": 799.5,
+      "y": 3754.22,
+      "w": 71.08,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00341",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_learn_more_custom_domain",
+      "source_ids": [
+        "src_00342"
+      ],
+      "x": 799.5,
+      "y": 3781.22,
+      "w": 76.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00342",
+        "link_source_id": "src_00342",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 6px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_post_payment_invoices_title",
+      "source_ids": [
+        "src_00345"
+      ],
+      "x": 354.0,
+      "y": 3844.22,
+      "w": 156.11,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00345",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_automatically_generate_invoice_description",
+      "source_ids": [
+        "src_00346"
+      ],
+      "x": 354.0,
+      "y": 3868.22,
+      "w": 344.77,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00346",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_0_4_percent_price",
+      "source_ids": [
+        "src_00348"
+      ],
+      "x": 799.5,
+      "y": 3841.22,
+      "w": 33.02,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00348",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_on_transaction_total",
+      "source_ids": [
+        "src_00349"
+      ],
+      "x": 799.5,
+      "y": 3863.22,
+      "w": 132.66,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00349",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_2_dollars_cap",
+      "source_ids": [
+        "src_00350"
+      ],
+      "x": 799.5,
+      "y": 3908.22,
+      "w": 40.31,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00350",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cap_per_invoice",
+      "source_ids": [
+        "src_00351"
+      ],
+      "x": 799.5,
+      "y": 3930.22,
+      "w": 103.86,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00351",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_learn_more_post_payment_invoices",
+      "source_ids": [
+        "src_00352"
+      ],
+      "x": 799.5,
+      "y": 3957.22,
+      "w": 76.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00352",
+        "link_source_id": "src_00352",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 6px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_checkout_title",
+      "source_ids": [
+        "src_00354"
+      ],
+      "x": 354.0,
+      "y": 4049.22,
+      "w": 78.58,
+      "h": 23.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00354",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_prebuilt_payment_form_description",
+      "source_ids": [
+        "src_00355"
+      ],
+      "x": 354.0,
+      "y": 4075.22,
+      "w": 330.27,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00355",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_start_now_checkout",
+      "source_ids": [
+        "src_00357"
+      ],
+      "x": 1022.33,
+      "y": 4054.22,
+      "w": 63.56,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00357",
+        "link_source_id": "src_00357",
+        "backgroundColor": "rgb(99, 91, 255)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 12px 6px 16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_save_engineering_time_feature",
+      "source_ids": [
+        "src_00358"
+      ],
+      "x": 378.0,
+      "y": 4119.22,
+      "w": 315.61,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00358",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_reduce_friction_feature",
+      "source_ids": [
+        "src_00359"
+      ],
+      "x": 378.0,
+      "y": 4147.22,
+      "w": 425.56,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00359",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_customize_with_branding_feature",
+      "source_ids": [
+        "src_00360"
+      ],
+      "x": 378.0,
+      "y": 4175.22,
+      "w": 208.02,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00360",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_accept_payments_checkout_title",
+      "source_ids": [
+        "src_00363"
+      ],
+      "x": 354.0,
+      "y": 4244.22,
+      "w": 120.33,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00363",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_accept_payments_made_on_checkout",
+      "source_ids": [
+        "src_00364"
+      ],
+      "x": 354.0,
+      "y": 4268.22,
+      "w": 300.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00364",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_included_checkout",
+      "source_ids": [
+        "src_00366"
+      ],
+      "x": 799.5,
+      "y": 4241.22,
+      "w": 59.86,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00366",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_with_payments_checkout",
+      "source_ids": [
+        "src_00367"
+      ],
+      "x": 799.5,
+      "y": 4263.22,
+      "w": 100.17,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00367",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "info_icon_included_no_charge_checkout",
+      "source_ids": [
+        "src_00368"
+      ],
+      "x": 903.03,
+      "y": 4266.3,
+      "w": 20.0,
+      "h": 16.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00368",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px",
+        "padding": "0px 2px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_custom_domain_checkout_title",
+      "source_ids": [
+        "src_00371"
+      ],
+      "x": 354.0,
+      "y": 4325.22,
+      "w": 108.45,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00371",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_use_your_own_domain_checkout_description",
+      "source_ids": [
+        "src_00372"
+      ],
+      "x": 354.0,
+      "y": 4349.22,
+      "w": 383.88,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00372",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_10_dollars_price_checkout",
+      "source_ids": [
+        "src_00374"
+      ],
+      "x": 799.5,
+      "y": 4322.22,
+      "w": 46.44,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00374",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_per_month_checkout",
+      "source_ids": [
+        "src_00375"
+      ],
+      "x": 799.5,
+      "y": 4344.22,
+      "w": 71.08,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00375",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_learn_more_custom_domain_checkout",
+      "source_ids": [
+        "src_00376"
+      ],
+      "x": 799.5,
+      "y": 4371.22,
+      "w": 76.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00376",
+        "link_source_id": "src_00376",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 6px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_post_payment_invoices_checkout_title",
+      "source_ids": [
+        "src_00379"
+      ],
+      "x": 354.0,
+      "y": 4434.22,
+      "w": 156.11,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00379",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_automatically_generate_invoice_checkout_description",
+      "source_ids": [
+        "src_00380"
+      ],
+      "x": 354.0,
+      "y": 4458.22,
+      "w": 344.77,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00380",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_0_4_percent_price_checkout",
+      "source_ids": [
+        "src_00382"
+      ],
+      "x": 799.5,
+      "y": 4431.22,
+      "w": 33.02,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00382",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_on_transaction_total_checkout",
+      "source_ids": [
+        "src_00383"
+      ],
+      "x": 799.5,
+      "y": 4453.22,
+      "w": 132.66,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00383",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_2_dollars_cap_checkout",
+      "source_ids": [
+        "src_00384"
+      ],
+      "x": 799.5,
+      "y": 4498.22,
+      "w": 40.31,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00384",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cap_per_invoice_checkout",
+      "source_ids": [
+        "src_00385"
+      ],
+      "x": 799.5,
+      "y": 4520.22,
+      "w": 103.86,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00385",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_learn_more_post_payment_invoices_checkout",
+      "source_ids": [
+        "src_00386"
+      ],
+      "x": 799.5,
+      "y": 4547.22,
+      "w": 76.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00386",
+        "link_source_id": "src_00386",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 6px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_money_management_section_title",
+      "source_ids": [
+        "src_00387"
+      ],
+      "x": 346.0,
+      "y": 4656.22,
+      "w": 240.0,
+      "h": 33.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00387",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "lineHeight": "36px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_enhance_your_platform_description",
+      "source_ids": [
+        "src_00388"
+      ],
+      "x": 346.0,
+      "y": 4701.2,
+      "w": 607.8,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00388",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_connect_title",
+      "source_ids": [
+        "src_00390"
+      ],
+      "x": 354.0,
+      "y": 4795.2,
+      "w": 69.02,
+      "h": 23.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00390",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_embedded_payments_connect_description",
+      "source_ids": [
+        "src_00391"
+      ],
+      "x": 354.0,
+      "y": 4821.2,
+      "w": 367.63,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00391",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_start_now_connect",
+      "source_ids": [
+        "src_00393"
+      ],
+      "x": 1022.33,
+      "y": 4800.2,
+      "w": 63.56,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00393",
+        "link_source_id": "src_00393",
+        "backgroundColor": "rgb(99, 91, 255)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 12px 6px 16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_launch_faster_with_stripe_hosted_feature",
+      "source_ids": [
+        "src_00394"
+      ],
+      "x": 378.0,
+      "y": 4865.2,
+      "w": 469.41,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00394",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_save_time_with_stripe_tooling_feature",
+      "source_ids": [
+        "src_00395"
+      ],
+      "x": 378.0,
+      "y": 4893.2,
+      "w": 540.11,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00395",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_grow_revenue_by_monetizing_payments_feature",
+      "source_ids": [
+        "src_00396"
+      ],
+      "x": 378.0,
+      "y": 4921.2,
+      "w": 269.7,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00396",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_stripe_handles_pricing_title",
+      "source_ids": [
+        "src_00399"
+      ],
+      "x": 354.0,
+      "y": 4990.2,
+      "w": 249.02,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00399",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_stripe_sets_and_collects_fees_description",
+      "source_ids": [
+        "src_00400"
+      ],
+      "x": 354.0,
+      "y": 5014.2,
+      "w": 395.47,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00400",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_revenue_share",
+      "source_ids": [
+        "src_00401"
+      ],
+      "x": 354.0,
+      "y": 5062.2,
+      "w": 96.69,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00401",
+        "link_source_id": "src_00401",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_from_stripe",
+      "source_ids": [
+        "src_00402"
+      ],
+      "x": 450.69,
+      "y": 5062.2,
+      "w": 83.7,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00402",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_included_connect",
+      "source_ids": [
+        "src_00404"
+      ],
+      "x": 799.5,
+      "y": 4987.2,
+      "w": 59.86,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00404",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_with_payments_connect",
+      "source_ids": [
+        "src_00405"
+      ],
+      "x": 799.5,
+      "y": 5009.2,
+      "w": 100.17,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00405",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "info_icon_included_no_charge_connect",
+      "source_ids": [
+        "src_00406"
+      ],
+      "x": 903.03,
+      "y": 5012.28,
+      "w": 20.0,
+      "h": 16.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00406",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px",
+        "padding": "0px 2px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_0_25_percent_fee",
+      "source_ids": [
+        "src_00407",
+        "src_00408"
+      ],
+      "x": 799.5,
+      "y": 5033.2,
+      "w": 315.67,
+      "h": 59.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00407",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(112, 127, 152)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "21px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_see_pricing_details",
+      "source_ids": [
+        "src_00409"
+      ],
+      "x": 799.5,
+      "y": 5099.2,
+      "w": 123.28,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00409",
+        "link_source_id": "src_00409",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 6px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_revenue_and_finance_automation_section_title",
+      "source_ids": [
+        "src_00410"
+      ],
+      "x": 346.0,
+      "y": 5208.2,
+      "w": 381.53,
+      "h": 33.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00410",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "26px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "lineHeight": "36px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_streamline_critical_business_processes_description",
+      "source_ids": [
+        "src_00411"
+      ],
+      "x": 346.0,
+      "y": 5253.19,
+      "w": 624.67,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00411",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_billing_title",
+      "source_ids": [
+        "src_00413"
+      ],
+      "x": 354.0,
+      "y": 5347.19,
+      "w": 51.42,
+      "h": 23.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00413",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_subscription_management_software_description",
+      "source_ids": [
+        "src_00414"
+      ],
+      "x": 354.0,
+      "y": 5373.19,
+      "w": 595.72,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00414",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_start_now_billing",
+      "source_ids": [
+        "src_00416"
+      ],
+      "x": 1022.33,
+      "y": 5352.19,
+      "w": 63.56,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00416",
+        "link_source_id": "src_00416",
+        "backgroundColor": "rgb(99, 91, 255)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 12px 6px 16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_respond_to_user_demand_feature",
+      "source_ids": [
+        "src_00417"
+      ],
+      "x": 378.0,
+      "y": 5417.19,
+      "w": 408.75,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00417",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_increase_revenue_and_reduce_churn_feature",
+      "source_ids": [
+        "src_00418"
+      ],
+      "x": 378.0,
+      "y": 5445.19,
+      "w": 619.2,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00418",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_save_engineering_time_with_no_code_feature",
+      "source_ids": [
+        "src_00419"
+      ],
+      "x": 378.0,
+      "y": 5473.19,
+      "w": 453.67,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00419",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_choose_a_plan",
+      "source_ids": [
+        "src_00421"
+      ],
+      "x": 364.0,
+      "y": 5528.19,
+      "w": 93.94,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00421",
+        "backgroundColor": "rgb(246, 249, 251)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "3px 10px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_pay_monthly_title",
+      "source_ids": [
+        "src_00424"
+      ],
+      "x": 354.0,
+      "y": 5572.19,
+      "w": 84.61,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00424",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_annual_subscription_description",
+      "source_ids": [
+        "src_00425"
+      ],
+      "x": 354.0,
+      "y": 5596.19,
+      "w": 394.73,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00425",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_starting_at_price",
+      "source_ids": [
+        "src_00427"
+      ],
+      "x": 799.5,
+      "y": 5569.19,
+      "w": 75.47,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00427",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_aed_2200_price",
+      "source_ids": [
+        "src_00428"
+      ],
+      "x": 874.97,
+      "y": 5569.19,
+      "w": 93.03,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00428",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_per_month_1_year_contract",
+      "source_ids": [
+        "src_00429"
+      ],
+      "x": 799.5,
+      "y": 5591.19,
+      "w": 179.81,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00429",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "info_icon_subscription_terms",
+      "source_ids": [
+        "src_00430"
+      ],
+      "x": 982.67,
+      "y": 5594.27,
+      "w": 20.0,
+      "h": 16.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00430",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px",
+        "padding": "0px 2px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_pay_as_you_go_title",
+      "source_ids": [
+        "src_00433"
+      ],
+      "x": 354.0,
+      "y": 5677.19,
+      "w": 93.39,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00433",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_pay_for_what_you_use_description",
+      "source_ids": [
+        "src_00434"
+      ],
+      "x": 354.0,
+      "y": 5701.19,
+      "w": 370.23,
+      "h": 44.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00434",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_0_7_percent_price",
+      "source_ids": [
+        "src_00436"
+      ],
+      "x": 799.5,
+      "y": 5674.19,
+      "w": 32.11,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00436",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "19px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_of_billing_volume",
+      "source_ids": [
+        "src_00437"
+      ],
+      "x": 799.5,
+      "y": 5696.19,
+      "w": 113.27,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00437",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "info_icon_billing_transactions",
+      "source_ids": [
+        "src_00438"
+      ],
+      "x": 916.13,
+      "y": 5699.27,
+      "w": 20.0,
+      "h": 16.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00438",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(63, 75, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "lineHeight": "24px",
+        "padding": "0px 2px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_compare_plans",
+      "source_ids": [
+        "src_00440"
+      ],
+      "x": 354.0,
+      "y": 5785.19,
+      "w": 101.17,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00440",
+        "link_source_id": "src_00440",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(99, 91, 255)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "borderRadius": "16.5px",
+        "padding": "3px 0px 6px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_metronome_title",
+      "source_ids": [
+        "src_00442"
+      ],
+      "x": 354.0,
+      "y": 5877.19,
+      "w": 95.2,
+      "h": 23.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00442",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(10, 37, 64)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "425",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_real_time_metering_description",
+      "source_ids": [
+        "src_00443"
+      ],
+      "x": 354.0,
+      "y": 5903.19,
+      "w": 449.3,
+      "h": 20.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00443",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(66, 84, 102)",
+        "fontFamily": "sohne-var, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "textAlign": "start",
+        "letterSpacing": "0.2px",
+        "lineHeight": "24px"
+      }
+    }
+  ],
+  "unsupported_features": []
+}

@@ -1,0 +1,12 @@
+# Purpose: Keep local credentials, environments, caches, and generated runs out of version control.
+
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+outputs/runs/
+
+maml_agent/.adk/
+.adk/
+work_chromedriver.log

@@ -1,0 +1,4808 @@
+{
+  "elements": [
+    {
+      "type": "shape",
+      "id": "shape_navbar_background",
+      "source_ids": [
+        "src_00002"
+      ],
+      "x": 45.0,
+      "y": 282.0,
+      "w": 1110.0,
+      "h": 49.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_dubai_weather",
+      "source_ids": [
+        "src_00007"
+      ],
+      "x": 109.0,
+      "y": 292.0,
+      "w": 69.36,
+      "h": 28.0,
+      "z": 2,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00007",
+        "link_source_id": "src_00007",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_gold_forex",
+      "source_ids": [
+        "src_00010"
+      ],
+      "x": 210.36,
+      "y": 292.0,
+      "w": 82.72,
+      "h": 28.0,
+      "z": 3,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00010",
+        "link_source_id": "src_00010",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_prayer_times",
+      "source_ids": [
+        "src_00013"
+      ],
+      "x": 325.08,
+      "y": 292.0,
+      "w": 90.89,
+      "h": 28.0,
+      "z": 4,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00013",
+        "link_source_id": "src_00013",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_newsletters",
+      "source_ids": [
+        "src_00017",
+        "src_00018"
+      ],
+      "x": 902.95,
+      "y": 289.0,
+      "w": 116.05,
+      "h": 34.0,
+      "z": 5,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00017",
+        "link_source_id": "src_00018",
+        "backgroundColor": "rgb(1, 61, 108)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "textAlign": "center",
+        "borderRadius": "4px",
+        "padding": "8px 12px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_epaper",
+      "source_ids": [
+        "src_00021",
+        "src_00022"
+      ],
+      "x": 1035.0,
+      "y": 289.0,
+      "w": 72.0,
+      "h": 34.0,
+      "z": 6,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00021",
+        "link_source_id": "src_00022",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(48, 61, 67)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "textAlign": "center",
+        "border": "1px solid rgb(48, 61, 67)",
+        "borderRadius": "4px",
+        "padding": "8px 0px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_gulf_news_logo",
+      "source_ids": [
+        "src_00033",
+        "src_00032"
+      ],
+      "x": 425.0,
+      "y": 344.0,
+      "w": 350.0,
+      "h": 51.0,
+      "z": 7,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00033",
+        "link_source_id": "src_00032",
+        "fit": "fill"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_latest",
+      "source_ids": [
+        "src_00117"
+      ],
+      "x": 45.0,
+      "y": 451.5,
+      "w": 52.45,
+      "h": 21.0,
+      "z": 8,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00117",
+        "link_source_id": "src_00117",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_business",
+      "source_ids": [
+        "src_00120"
+      ],
+      "x": 129.45,
+      "y": 451.5,
+      "w": 72.84,
+      "h": 21.0,
+      "z": 9,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00120",
+        "link_source_id": "src_00120",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_best_buys",
+      "source_ids": [
+        "src_00123"
+      ],
+      "x": 234.3,
+      "y": 451.5,
+      "w": 79.59,
+      "h": 21.0,
+      "z": 10,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00123",
+        "link_source_id": "src_00123",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_uae",
+      "source_ids": [
+        "src_00126"
+      ],
+      "x": 345.89,
+      "y": 451.5,
+      "w": 30.5,
+      "h": 21.0,
+      "z": 11,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00126",
+        "link_source_id": "src_00126",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_entertainment",
+      "source_ids": [
+        "src_00129"
+      ],
+      "x": 408.39,
+      "y": 451.5,
+      "w": 124.41,
+      "h": 21.0,
+      "z": 12,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00129",
+        "link_source_id": "src_00129",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_world",
+      "source_ids": [
+        "src_00132"
+      ],
+      "x": 564.8,
+      "y": 451.5,
+      "w": 57.28,
+      "h": 21.0,
+      "z": 13,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00132",
+        "link_source_id": "src_00132",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_sport",
+      "source_ids": [
+        "src_00135"
+      ],
+      "x": 654.08,
+      "y": 451.5,
+      "w": 48.83,
+      "h": 21.0,
+      "z": 14,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00135",
+        "link_source_id": "src_00135",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_living_in_uae",
+      "source_ids": [
+        "src_00138"
+      ],
+      "x": 734.91,
+      "y": 451.5,
+      "w": 102.58,
+      "h": 21.0,
+      "z": 15,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00138",
+        "link_source_id": "src_00138",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_lifestyle",
+      "source_ids": [
+        "src_00141"
+      ],
+      "x": 869.48,
+      "y": 451.5,
+      "w": 74.19,
+      "h": 21.0,
+      "z": 16,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00141",
+        "link_source_id": "src_00141",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_opinion",
+      "source_ids": [
+        "src_00144"
+      ],
+      "x": 975.67,
+      "y": 451.5,
+      "w": 64.91,
+      "h": 21.0,
+      "z": 17,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00144",
+        "link_source_id": "src_00144",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_travel",
+      "source_ids": [
+        "src_00147"
+      ],
+      "x": 45.0,
+      "y": 499.5,
+      "w": 55.59,
+      "h": 21.0,
+      "z": 18,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00147",
+        "link_source_id": "src_00147",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_podcasts",
+      "source_ids": [
+        "src_00150"
+      ],
+      "x": 132.59,
+      "y": 499.5,
+      "w": 78.91,
+      "h": 21.0,
+      "z": 19,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00150",
+        "link_source_id": "src_00150",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_special_reports",
+      "source_ids": [
+        "src_00153"
+      ],
+      "x": 243.5,
+      "y": 499.5,
+      "w": 133.08,
+      "h": 21.0,
+      "z": 20,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00153",
+        "link_source_id": "src_00153",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_things_to_do",
+      "source_ids": [
+        "src_00156"
+      ],
+      "x": 408.58,
+      "y": 499.5,
+      "w": 105.5,
+      "h": 21.0,
+      "z": 21,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00156",
+        "link_source_id": "src_00156",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_friday",
+      "source_ids": [
+        "src_00159"
+      ],
+      "x": 546.08,
+      "y": 499.5,
+      "w": 53.56,
+      "h": 21.0,
+      "z": 22,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00159",
+        "link_source_id": "src_00159",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_the_kurator",
+      "source_ids": [
+        "src_00162"
+      ],
+      "x": 631.64,
+      "y": 499.5,
+      "w": 103.69,
+      "h": 21.0,
+      "z": 23,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00162",
+        "link_source_id": "src_00162",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_uae_success_stories",
+      "source_ids": [
+        "src_00165"
+      ],
+      "x": 767.33,
+      "y": 499.5,
+      "w": 165.58,
+      "h": 21.0,
+      "z": 24,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00165",
+        "link_source_id": "src_00165",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_photos",
+      "source_ids": [
+        "src_00168"
+      ],
+      "x": 964.91,
+      "y": 499.5,
+      "w": 61.5,
+      "h": 21.0,
+      "z": 25,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00168",
+        "link_source_id": "src_00168",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_your_money",
+      "source_ids": [
+        "src_00171"
+      ],
+      "x": 45.0,
+      "y": 547.5,
+      "w": 100.25,
+      "h": 21.0,
+      "z": 26,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00171",
+        "link_source_id": "src_00171",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_abu_dhabi_news",
+      "source_ids": [
+        "src_00178"
+      ],
+      "x": 45.0,
+      "y": 494.0,
+      "w": 153.52,
+      "h": 24.0,
+      "z": 27,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00178",
+        "link_source_id": "src_00178",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_dubai_news",
+      "source_ids": [
+        "src_00182"
+      ],
+      "x": 230.52,
+      "y": 494.0,
+      "w": 122.67,
+      "h": 24.0,
+      "z": 28,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00182",
+        "link_source_id": "src_00182",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_uae_jobs",
+      "source_ids": [
+        "src_00186"
+      ],
+      "x": 385.19,
+      "y": 494.0,
+      "w": 102.14,
+      "h": 24.0,
+      "z": 29,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00186",
+        "link_source_id": "src_00186",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_gratuity_calculator",
+      "source_ids": [
+        "src_00190"
+      ],
+      "x": 519.33,
+      "y": 494.0,
+      "w": 188.02,
+      "h": 24.0,
+      "z": 30,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00190",
+        "link_source_id": "src_00190",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_link_discount_codes",
+      "source_ids": [
+        "src_00194"
+      ],
+      "x": 739.34,
+      "y": 494.0,
+      "w": 153.16,
+      "h": 24.0,
+      "z": 31,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00194",
+        "link_source_id": "src_00194",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_middle_east_crisis",
+      "source_ids": [
+        "src_00200",
+        "src_00199"
+      ],
+      "x": 45.0,
+      "y": 557.0,
+      "w": 1110.0,
+      "h": 19.0,
+      "z": 32,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00200",
+        "link_source_id": "src_00199",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_us_strikes_on_iran",
+      "source_ids": [
+        "src_00202",
+        "src_00201"
+      ],
+      "x": 45.0,
+      "y": 592.0,
+      "w": 255.0,
+      "h": 191.25,
+      "z": 33,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00202",
+        "link_source_id": "src_00201",
+        "alt": "F-16 fighter jets approach a KC-135 Stratotanker to refuel while flying over the Middle East.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_us_strikes_on_iran",
+      "source_ids": [
+        "src_00203",
+        "src_00201"
+      ],
+      "x": 45.0,
+      "y": 791.25,
+      "w": 255.0,
+      "h": 38.0,
+      "z": 34,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00203",
+        "link_source_id": "src_00201",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_time_us_strikes_on_iran",
+      "source_ids": [
+        "src_00204"
+      ],
+      "x": 45.0,
+      "y": 837.25,
+      "w": 46.92,
+      "h": 18.0,
+      "z": 35,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00204",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_us_strikes_on_iran",
+      "source_ids": [
+        "src_00206"
+      ],
+      "x": 91.92,
+      "y": 837.25,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 36,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00206",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_iran_threatens_internet",
+      "source_ids": [
+        "src_00208",
+        "src_00207"
+      ],
+      "x": 330.0,
+      "y": 592.0,
+      "w": 255.0,
+      "h": 191.25,
+      "z": 37,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00208",
+        "link_source_id": "src_00207",
+        "alt": "Cable routes are stylized and do not reflect the actual positions (Source: TeleGeography)\n",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_live_badge",
+      "source_ids": [
+        "src_00210"
+      ],
+      "x": 342.0,
+      "y": 791.25,
+      "w": 27.17,
+      "h": 18.0,
+      "z": 38,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00210",
+        "color": "rgb(169, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_iran_threatens_internet",
+      "source_ids": [
+        "src_00211",
+        "src_00207"
+      ],
+      "x": 330.0,
+      "y": 817.25,
+      "w": 255.0,
+      "h": 38.0,
+      "z": 39,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00211",
+        "link_source_id": "src_00207",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_time_iran_threatens_internet",
+      "source_ids": [
+        "src_00212"
+      ],
+      "x": 330.0,
+      "y": 863.25,
+      "w": 54.41,
+      "h": 18.0,
+      "z": 40,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00212",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_iran_threatens_internet",
+      "source_ids": [
+        "src_00214"
+      ],
+      "x": 384.41,
+      "y": 863.25,
+      "w": 54.55,
+      "h": 18.0,
+      "z": 41,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00214",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_us_strike_weekend",
+      "source_ids": [
+        "src_00216",
+        "src_00215"
+      ],
+      "x": 615.0,
+      "y": 592.0,
+      "w": 255.0,
+      "h": 191.25,
+      "z": 42,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00216",
+        "link_source_id": "src_00215",
+        "alt": "US Ambassador to Turkey and Special Envoy to Syria Tom Barrack ",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_us_strike_weekend",
+      "source_ids": [
+        "src_00217",
+        "src_00215"
+      ],
+      "x": 615.0,
+      "y": 791.25,
+      "w": 255.0,
+      "h": 38.0,
+      "z": 43,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00217",
+        "link_source_id": "src_00215",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_time_us_strike_weekend",
+      "source_ids": [
+        "src_00218"
+      ],
+      "x": 615.0,
+      "y": 837.25,
+      "w": 61.28,
+      "h": 18.0,
+      "z": 44,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00218",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_us_strike_weekend",
+      "source_ids": [
+        "src_00220"
+      ],
+      "x": 676.28,
+      "y": 837.25,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 45,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00220",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_hormuz_yemen_crises",
+      "source_ids": [
+        "src_00222",
+        "src_00221"
+      ],
+      "x": 900.0,
+      "y": 592.0,
+      "w": 255.0,
+      "h": 191.25,
+      "z": 46,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00222",
+        "link_source_id": "src_00221",
+        "alt": "Turkey's Foreign Minister Hakan Fidan (4thL), Pakistan's Foreign Minister Ishaq Dar (3rdL), Saudi Arabia's Foreign Minister Faisal bin Farhan (2ndL) and Egypt's Foreign Minister Badr Abdelatty (L), French Foreign Minister Jean-Noel Barrot (4thR), German Minister of Foreign Affairs Johann Wadephul (3rdR), Britain's Foreign Secretary Ed Miliband (2ndR) and Italian Foreign Minister and Forza Italia leader Antonio Tajani (R) pose for the family photo during the meeting of the top diplomats of the R4 mechanism (Turkey, Egypt, Pakistan, and Saudi Arabia) and the European E3 mechanism (Britain, France and Germany), in Istanbul on October 23, 2026.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_hormuz_yemen_crises",
+      "source_ids": [
+        "src_00223",
+        "src_00221"
+      ],
+      "x": 900.0,
+      "y": 791.25,
+      "w": 255.0,
+      "h": 38.0,
+      "z": 47,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00223",
+        "link_source_id": "src_00221",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_hormuz_yemen_crises",
+      "source_ids": [
+        "src_00224"
+      ],
+      "x": 900.0,
+      "y": 837.25,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 48,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00224",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_latest_news",
+      "source_ids": [
+        "src_00226",
+        "src_00225"
+      ],
+      "x": 45.0,
+      "y": 916.25,
+      "w": 1110.0,
+      "h": 19.0,
+      "z": 49,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00226",
+        "link_source_id": "src_00225",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_uae_warns_firms",
+      "source_ids": [
+        "src_00228",
+        "src_00227"
+      ],
+      "x": 45.0,
+      "y": 950.25,
+      "w": 210.0,
+      "h": 72.0,
+      "z": 50,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00228",
+        "link_source_id": "src_00227",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_subtitle_uae_warns_firms",
+      "source_ids": [
+        "src_00229",
+        "src_00227"
+      ],
+      "x": 45.0,
+      "y": 1030.25,
+      "w": 210.0,
+      "h": 96.0,
+      "z": 51,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00229",
+        "link_source_id": "src_00227",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_uae_warns_firms",
+      "source_ids": [
+        "src_00230"
+      ],
+      "x": 45.0,
+      "y": 1134.25,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 52,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00230",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_update_badge",
+      "source_ids": [
+        "src_00232"
+      ],
+      "x": 45.0,
+      "y": 1187.25,
+      "w": 59.28,
+      "h": 19.0,
+      "z": 53,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00232",
+        "backgroundColor": "rgb(1, 61, 108)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "padding": "2px 4px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_jordan_church_shooting",
+      "source_ids": [
+        "src_00233",
+        "src_00231"
+      ],
+      "x": 45.0,
+      "y": 1214.25,
+      "w": 210.0,
+      "h": 72.0,
+      "z": 54,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00233",
+        "link_source_id": "src_00231",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_subtitle_jordan_church_shooting",
+      "source_ids": [
+        "src_00234",
+        "src_00231"
+      ],
+      "x": 45.0,
+      "y": 1294.25,
+      "w": 210.0,
+      "h": 120.0,
+      "z": 55,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00234",
+        "link_source_id": "src_00231",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_jordan_church_shooting",
+      "source_ids": [
+        "src_00235"
+      ],
+      "x": 45.0,
+      "y": 1422.25,
+      "w": 47.67,
+      "h": 18.0,
+      "z": 56,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00235",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_netanyahu_survival",
+      "source_ids": [
+        "src_00237",
+        "src_00236"
+      ],
+      "x": 286.0,
+      "y": 950.25,
+      "w": 540.0,
+      "h": 66.0,
+      "z": 57,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00237",
+        "link_source_id": "src_00236",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "28px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_subtitle_netanyahu_survival",
+      "source_ids": [
+        "src_00238",
+        "src_00236"
+      ],
+      "x": 286.0,
+      "y": 1024.25,
+      "w": 540.0,
+      "h": 48.0,
+      "z": 58,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00238",
+        "link_source_id": "src_00236",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_netanyahu_survival",
+      "source_ids": [
+        "src_00239"
+      ],
+      "x": 286.0,
+      "y": 1080.25,
+      "w": 51.25,
+      "h": 18.0,
+      "z": 59,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00239",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_netanyahu_survival",
+      "source_ids": [
+        "src_00240",
+        "src_00236"
+      ],
+      "x": 286.0,
+      "y": 1106.25,
+      "w": 540.0,
+      "h": 405.0,
+      "z": 60,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00240",
+        "link_source_id": "src_00236",
+        "alt": "Israel's Prime Minister Benjamin Netanyahu speaks to his supporters during a Likud Party meet-and-greet held as part of the campaign ahead of Israel's legislative election, at King Solomon Hotel in Netanya on October 22, 2026.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_uae_climate_plan",
+      "source_ids": [
+        "src_00242",
+        "src_00241"
+      ],
+      "x": 45.0,
+      "y": 1544.25,
+      "w": 232.0,
+      "h": 63.0,
+      "z": 61,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00242",
+        "link_source_id": "src_00241",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_uae_climate_plan",
+      "source_ids": [
+        "src_00243"
+      ],
+      "x": 45.0,
+      "y": 1615.25,
+      "w": 51.25,
+      "h": 18.0,
+      "z": 62,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00243",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_uae_climate_plan",
+      "source_ids": [
+        "src_00244",
+        "src_00241"
+      ],
+      "x": 285.0,
+      "y": 1544.25,
+      "w": 135.0,
+      "h": 101.25,
+      "z": 63,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00244",
+        "link_source_id": "src_00241",
+        "alt": "During a sand storm in Abu Dhabi.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_partner_content_jetour",
+      "source_ids": [
+        "src_00246"
+      ],
+      "x": 45.0,
+      "y": 1682.5,
+      "w": 122.48,
+      "h": 15.0,
+      "z": 64,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00246",
+        "color": "rgb(1, 61, 108)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_jetour_experience_day",
+      "source_ids": [
+        "src_00247",
+        "src_00245"
+      ],
+      "x": 45.0,
+      "y": 1707.5,
+      "w": 232.0,
+      "h": 63.0,
+      "z": 65,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00247",
+        "link_source_id": "src_00245",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_jetour_experience_day",
+      "source_ids": [
+        "src_00248"
+      ],
+      "x": 45.0,
+      "y": 1778.5,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 66,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00248",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_jetour_experience_day",
+      "source_ids": [
+        "src_00249",
+        "src_00245"
+      ],
+      "x": 285.0,
+      "y": 1678.5,
+      "w": 135.0,
+      "h": 101.25,
+      "z": 67,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00249",
+        "link_source_id": "src_00245",
+        "alt": "2026 JETOUR Experience Day: Future travel starts now",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_pakistan_epassport",
+      "source_ids": [
+        "src_00251",
+        "src_00250"
+      ],
+      "x": 45.0,
+      "y": 1829.5,
+      "w": 375.0,
+      "h": 48.0,
+      "z": 68,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00251",
+        "link_source_id": "src_00250",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_pakistan_epassport",
+      "source_ids": [
+        "src_00252"
+      ],
+      "x": 45.0,
+      "y": 1885.5,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 69,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00252",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_dubai_police_arrest",
+      "source_ids": [
+        "src_00254",
+        "src_00253"
+      ],
+      "x": 45.0,
+      "y": 1936.5,
+      "w": 375.0,
+      "h": 48.0,
+      "z": 70,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00254",
+        "link_source_id": "src_00253",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_dubai_police_arrest",
+      "source_ids": [
+        "src_00255"
+      ],
+      "x": 45.0,
+      "y": 1992.5,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 71,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00255",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_grave_collapse",
+      "source_ids": [
+        "src_00257",
+        "src_00256"
+      ],
+      "x": 45.0,
+      "y": 2043.5,
+      "w": 375.0,
+      "h": 48.0,
+      "z": 72,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00257",
+        "link_source_id": "src_00256",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_grave_collapse",
+      "source_ids": [
+        "src_00258"
+      ],
+      "x": 45.0,
+      "y": 2099.5,
+      "w": 47.67,
+      "h": 18.0,
+      "z": 73,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00258",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_uae_campers_alarm",
+      "source_ids": [
+        "src_00260",
+        "src_00259"
+      ],
+      "x": 451.0,
+      "y": 1544.25,
+      "w": 232.0,
+      "h": 63.0,
+      "z": 74,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00260",
+        "link_source_id": "src_00259",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_uae_campers_alarm",
+      "source_ids": [
+        "src_00261"
+      ],
+      "x": 451.0,
+      "y": 1615.25,
+      "w": 50.63,
+      "h": 18.0,
+      "z": 75,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00261",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_uae_campers_alarm",
+      "source_ids": [
+        "src_00262",
+        "src_00259"
+      ],
+      "x": 691.0,
+      "y": 1544.25,
+      "w": 135.0,
+      "h": 101.25,
+      "z": 76,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00262",
+        "link_source_id": "src_00259",
+        "alt": "As the UAE camping season approaches, hikers urge visitors to keep natural spaces clean and respect wildlife",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_partner_content_vibe",
+      "source_ids": [
+        "src_00264"
+      ],
+      "x": 451.0,
+      "y": 1682.5,
+      "w": 122.48,
+      "h": 15.0,
+      "z": 77,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00264",
+        "color": "rgb(1, 61, 108)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_vibe_by_arsenal_east",
+      "source_ids": [
+        "src_00265",
+        "src_00263"
+      ],
+      "x": 451.0,
+      "y": 1707.5,
+      "w": 232.0,
+      "h": 63.0,
+      "z": 78,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00265",
+        "link_source_id": "src_00263",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_vibe_by_arsenal_east",
+      "source_ids": [
+        "src_00266"
+      ],
+      "x": 451.0,
+      "y": 1778.5,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 79,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00266",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_vibe_by_arsenal_east",
+      "source_ids": [
+        "src_00267",
+        "src_00263"
+      ],
+      "x": 691.0,
+      "y": 1678.5,
+      "w": 135.0,
+      "h": 101.25,
+      "z": 80,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00267",
+        "link_source_id": "src_00263",
+        "alt": "VIBE by Arsenal East brings a new take on urban living",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_uae_rain_alert",
+      "source_ids": [
+        "src_00269",
+        "src_00268"
+      ],
+      "x": 451.0,
+      "y": 1829.5,
+      "w": 375.0,
+      "h": 48.0,
+      "z": 81,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00269",
+        "link_source_id": "src_00268",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_uae_rain_alert",
+      "source_ids": [
+        "src_00270"
+      ],
+      "x": 451.0,
+      "y": 1885.5,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 82,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00270",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_sharjah_beach_closed",
+      "source_ids": [
+        "src_00272",
+        "src_00271"
+      ],
+      "x": 451.0,
+      "y": 1936.5,
+      "w": 375.0,
+      "h": 48.0,
+      "z": 83,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00272",
+        "link_source_id": "src_00271",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_sharjah_beach_closed",
+      "source_ids": [
+        "src_00273"
+      ],
+      "x": 451.0,
+      "y": 1992.5,
+      "w": 47.67,
+      "h": 18.0,
+      "z": 84,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00273",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_resign_without_notice",
+      "source_ids": [
+        "src_00275",
+        "src_00274"
+      ],
+      "x": 451.0,
+      "y": 2043.5,
+      "w": 375.0,
+      "h": 48.0,
+      "z": 85,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00275",
+        "link_source_id": "src_00274",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_resign_without_notice",
+      "source_ids": [
+        "src_00276"
+      ],
+      "x": 451.0,
+      "y": 2099.5,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 86,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00276",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_partner_content_foldables",
+      "source_ids": [
+        "src_00278"
+      ],
+      "x": 857.0,
+      "y": 1266.25,
+      "w": 122.48,
+      "h": 15.0,
+      "z": 87,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00278",
+        "color": "rgb(1, 61, 108)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_foldables",
+      "source_ids": [
+        "src_00279",
+        "src_00277"
+      ],
+      "x": 857.0,
+      "y": 1291.25,
+      "w": 205.0,
+      "h": 72.0,
+      "z": 88,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00279",
+        "link_source_id": "src_00277",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_foldables",
+      "source_ids": [
+        "src_00280"
+      ],
+      "x": 857.0,
+      "y": 1371.25,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 89,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00280",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_foldables",
+      "source_ids": [
+        "src_00281",
+        "src_00277"
+      ],
+      "x": 1070.0,
+      "y": 1262.25,
+      "w": 87.0,
+      "h": 65.25,
+      "z": 90,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00281",
+        "link_source_id": "src_00277",
+        "alt": "Why wide screens are next in the evolution of foldables",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_binance_qafila",
+      "source_ids": [
+        "src_00283",
+        "src_00282"
+      ],
+      "x": 857.0,
+      "y": 1422.25,
+      "w": 205.0,
+      "h": 72.0,
+      "z": 91,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00283",
+        "link_source_id": "src_00282",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_binance_qafila",
+      "source_ids": [
+        "src_00284"
+      ],
+      "x": 857.0,
+      "y": 1502.25,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 92,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00284",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_binance_qafila",
+      "source_ids": [
+        "src_00285",
+        "src_00282"
+      ],
+      "x": 1070.0,
+      "y": 1422.25,
+      "w": 87.0,
+      "h": 65.25,
+      "z": 93,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00285",
+        "link_source_id": "src_00282",
+        "alt": "Binance launches Qafila 2026 as Gen Z drives adoption",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_jacob_co_watch",
+      "source_ids": [
+        "src_00287",
+        "src_00286"
+      ],
+      "x": 857.0,
+      "y": 1553.25,
+      "w": 299.69,
+      "h": 48.0,
+      "z": 94,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00287",
+        "link_source_id": "src_00286",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_jacob_co_watch",
+      "source_ids": [
+        "src_00288"
+      ],
+      "x": 857.0,
+      "y": 1609.25,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 95,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00288",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_partner_content_sweden",
+      "source_ids": [
+        "src_00290"
+      ],
+      "x": 857.0,
+      "y": 1663.25,
+      "w": 122.48,
+      "h": 15.0,
+      "z": 96,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00290",
+        "color": "rgb(1, 61, 108)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_sweden_public_health",
+      "source_ids": [
+        "src_00291",
+        "src_00289"
+      ],
+      "x": 857.0,
+      "y": 1688.25,
+      "w": 205.0,
+      "h": 72.0,
+      "z": 97,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00291",
+        "link_source_id": "src_00289",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_sweden_public_health",
+      "source_ids": [
+        "src_00292"
+      ],
+      "x": 857.0,
+      "y": 1768.25,
+      "w": 51.25,
+      "h": 18.0,
+      "z": 98,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00292",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_sweden_public_health",
+      "source_ids": [
+        "src_00293",
+        "src_00289"
+      ],
+      "x": 1070.0,
+      "y": 1659.25,
+      "w": 87.0,
+      "h": 65.25,
+      "z": 99,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00293",
+        "link_source_id": "src_00289",
+        "alt": "From left: Consultant pulmonologist Dr Mohammad Fawzi Katranji, Dr Rachel Kaminski from Saudi German Hospital, Suely Castro, Founder of Quit Like Sweden, Beatriz Santos, CCO at We Are Innovation and addiction specialist Dr Garrett McGovern at the event, Innovation in Public Health: The Swedish Experience",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_touch_moon",
+      "source_ids": [
+        "src_00295",
+        "src_00294"
+      ],
+      "x": 857.0,
+      "y": 1860.25,
+      "w": 135.0,
+      "h": 96.0,
+      "z": 100,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00295",
+        "link_source_id": "src_00294",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_touch_moon",
+      "source_ids": [
+        "src_00296"
+      ],
+      "x": 857.0,
+      "y": 1964.25,
+      "w": 51.25,
+      "h": 18.0,
+      "z": 101,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00296",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_touch_moon",
+      "source_ids": [
+        "src_00297",
+        "src_00294"
+      ],
+      "x": 1000.0,
+      "y": 1860.25,
+      "w": 157.0,
+      "h": 117.75,
+      "z": 102,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00297",
+        "link_source_id": "src_00294",
+        "alt": "Khaled bin Mohamed bin Zayed and Hamdan bin Mohammed bin Rashid tour Natural History Museum Abu Dhabi, located in the Saadiyat Cultural District.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_iifa_2027",
+      "source_ids": [
+        "src_00299",
+        "src_00298"
+      ],
+      "x": 857.0,
+      "y": 2015.25,
+      "w": 135.0,
+      "h": 96.0,
+      "z": 103,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00299",
+        "link_source_id": "src_00298",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_iifa_2027",
+      "source_ids": [
+        "src_00300"
+      ],
+      "x": 857.0,
+      "y": 2119.25,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 104,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00300",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_iifa_2027",
+      "source_ids": [
+        "src_00301",
+        "src_00298"
+      ],
+      "x": 1000.0,
+      "y": 2015.25,
+      "w": 157.0,
+      "h": 117.75,
+      "z": 105,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00301",
+        "link_source_id": "src_00298",
+        "alt": "Bollywood actors Salman Khan (L), Varun Dhawan (C) and Kareena Kapoor attend the presser for the 27th edition of the International Indian Film Academy Awards (IIFA 2027) in Mumbai.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_business_section",
+      "source_ids": [
+        "src_00303",
+        "src_00302"
+      ],
+      "x": 45.0,
+      "y": 2474.25,
+      "w": 1110.0,
+      "h": 19.0,
+      "z": 106,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00303",
+        "link_source_id": "src_00302",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_update_badge_hsbc",
+      "source_ids": [
+        "src_00305"
+      ],
+      "x": 45.0,
+      "y": 2511.25,
+      "w": 59.28,
+      "h": 19.0,
+      "z": 107,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00305",
+        "backgroundColor": "rgb(1, 61, 108)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start",
+        "padding": "2px 4px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_hsbc_wealth_trends",
+      "source_ids": [
+        "src_00306",
+        "src_00304"
+      ],
+      "x": 45.0,
+      "y": 2538.25,
+      "w": 354.0,
+      "h": 56.0,
+      "z": 108,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00306",
+        "link_source_id": "src_00304",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_subtitle_hsbc_wealth_trends",
+      "source_ids": [
+        "src_00307",
+        "src_00304"
+      ],
+      "x": 45.0,
+      "y": 2602.25,
+      "w": 354.0,
+      "h": 72.0,
+      "z": 109,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00307",
+        "link_source_id": "src_00304",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_hsbc_wealth_trends",
+      "source_ids": [
+        "src_00308"
+      ],
+      "x": 45.0,
+      "y": 2682.25,
+      "w": 55.69,
+      "h": 18.0,
+      "z": 110,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00308",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_hsbc_wealth_trends",
+      "source_ids": [
+        "src_00309",
+        "src_00304"
+      ],
+      "x": 45.0,
+      "y": 2708.25,
+      "w": 354.0,
+      "h": 265.5,
+      "z": 111,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00309",
+        "link_source_id": "src_00304",
+        "alt": "HSBC highlights changing Middle East wealth trends",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_adgm_fines",
+      "source_ids": [
+        "src_00311",
+        "src_00310"
+      ],
+      "x": 430.0,
+      "y": 2509.25,
+      "w": 120.0,
+      "h": 90.0,
+      "z": 112,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00311",
+        "link_source_id": "src_00310",
+        "alt": "ADGM regulator penalizes auditor over weak fraud risk checks",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_adgm_fines",
+      "source_ids": [
+        "src_00312",
+        "src_00310"
+      ],
+      "x": 558.0,
+      "y": 2509.25,
+      "w": 211.0,
+      "h": 72.0,
+      "z": 113,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00312",
+        "link_source_id": "src_00310",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_adgm_fines",
+      "source_ids": [
+        "src_00313"
+      ],
+      "x": 558.0,
+      "y": 2589.25,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 114,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00313",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_flight_delayed",
+      "source_ids": [
+        "src_00315",
+        "src_00314"
+      ],
+      "x": 430.0,
+      "y": 2640.25,
+      "w": 120.0,
+      "h": 90.0,
+      "z": 115,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00315",
+        "link_source_id": "src_00314",
+        "alt": "Airlines are required to handle such cases in accordance with relevant international conventions.\n",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_flight_delayed",
+      "source_ids": [
+        "src_00316",
+        "src_00314"
+      ],
+      "x": 558.0,
+      "y": 2640.25,
+      "w": 211.0,
+      "h": 72.0,
+      "z": 116,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00316",
+        "link_source_id": "src_00314",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_flight_delayed",
+      "source_ids": [
+        "src_00317"
+      ],
+      "x": 558.0,
+      "y": 2720.25,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 117,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00317",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_aegean_flights",
+      "source_ids": [
+        "src_00319",
+        "src_00318"
+      ],
+      "x": 430.0,
+      "y": 2771.25,
+      "w": 120.0,
+      "h": 90.0,
+      "z": 118,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00319",
+        "link_source_id": "src_00318",
+        "alt": "The airline confirmed the resumption in a statement outlining its wider network plans, with daily flights scheduled to begin on October 26. ",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_aegean_flights",
+      "source_ids": [
+        "src_00320",
+        "src_00318"
+      ],
+      "x": 558.0,
+      "y": 2771.25,
+      "w": 211.0,
+      "h": 72.0,
+      "z": 119,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00320",
+        "link_source_id": "src_00318",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_aegean_flights",
+      "source_ids": [
+        "src_00321"
+      ],
+      "x": 558.0,
+      "y": 2851.25,
+      "w": 47.67,
+      "h": 18.0,
+      "z": 120,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00321",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_flydubai_cancels",
+      "source_ids": [
+        "src_00323",
+        "src_00322"
+      ],
+      "x": 800.0,
+      "y": 2509.25,
+      "w": 120.0,
+      "h": 90.0,
+      "z": 121,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00323",
+        "link_source_id": "src_00322",
+        "alt": "A spokesperson for the Dubai-based airline confirmed that some changes to its scheduled services to the kingdom were expected.\n",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_flydubai_cancels",
+      "source_ids": [
+        "src_00324",
+        "src_00322"
+      ],
+      "x": 928.0,
+      "y": 2509.25,
+      "w": 227.0,
+      "h": 72.0,
+      "z": 122,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00324",
+        "link_source_id": "src_00322",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_flydubai_cancels",
+      "source_ids": [
+        "src_00325"
+      ],
+      "x": 928.0,
+      "y": 2589.25,
+      "w": 47.67,
+      "h": 18.0,
+      "z": 123,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00325",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_jacob_co_watch_2",
+      "source_ids": [
+        "src_00327",
+        "src_00326"
+      ],
+      "x": 800.0,
+      "y": 2640.25,
+      "w": 120.0,
+      "h": 90.0,
+      "z": 124,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00327",
+        "link_source_id": "src_00326",
+        "alt": "Jacob & Co.’s Ram-inspired Astronomia Solar watch features intricate mechanical details, a striking blue dial, and miniature figures, including Lord Ram, blending luxury watchmaking with elements inspired by Indian mythology.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_jacob_co_watch_2",
+      "source_ids": [
+        "src_00328",
+        "src_00326"
+      ],
+      "x": 928.0,
+      "y": 2640.25,
+      "w": 227.0,
+      "h": 72.0,
+      "z": 125,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00328",
+        "link_source_id": "src_00326",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_jacob_co_watch_2",
+      "source_ids": [
+        "src_00329"
+      ],
+      "x": 928.0,
+      "y": 2720.25,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 126,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00329",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_moderna_shares",
+      "source_ids": [
+        "src_00331",
+        "src_00330"
+      ],
+      "x": 800.0,
+      "y": 2771.25,
+      "w": 120.0,
+      "h": 90.0,
+      "z": 127,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00331",
+        "link_source_id": "src_00330",
+        "alt": "This combination of pictures created on August 19, 2026 shows the Moderna logo at their headquarters on May 8, 2020 in Cambridge, Massachusetts and the Merck logo at their headquarters on February 5, 2024 in Rahway, New Jersey.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_moderna_shares",
+      "source_ids": [
+        "src_00332",
+        "src_00330"
+      ],
+      "x": 928.0,
+      "y": 2771.25,
+      "w": 227.0,
+      "h": 72.0,
+      "z": 128,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00332",
+        "link_source_id": "src_00330",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_moderna_shares",
+      "source_ids": [
+        "src_00333"
+      ],
+      "x": 928.0,
+      "y": 2851.25,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 129,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00333",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_entertainment_section",
+      "source_ids": [
+        "src_00335",
+        "src_00334"
+      ],
+      "x": 45.0,
+      "y": 3046.75,
+      "w": 729.03,
+      "h": 19.0,
+      "z": 130,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00335",
+        "link_source_id": "src_00334",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_anupam_kher",
+      "source_ids": [
+        "src_00337",
+        "src_00336"
+      ],
+      "x": 45.0,
+      "y": 3081.75,
+      "w": 349.02,
+      "h": 261.75,
+      "z": 131,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00337",
+        "link_source_id": "src_00336",
+        "alt": "Anupam Kher with writer Sunil Munshi and Swedish director Jens Jonsson.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_anupam_kher",
+      "source_ids": [
+        "src_00338",
+        "src_00336"
+      ],
+      "x": 45.0,
+      "y": 3351.5,
+      "w": 349.02,
+      "h": 48.0,
+      "z": 132,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00338",
+        "link_source_id": "src_00336",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_subtitle_anupam_kher",
+      "source_ids": [
+        "src_00339",
+        "src_00336"
+      ],
+      "x": 45.0,
+      "y": 3407.5,
+      "w": 349.02,
+      "h": 48.0,
+      "z": 133,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00339",
+        "link_source_id": "src_00336",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_anupam_kher",
+      "source_ids": [
+        "src_00340"
+      ],
+      "x": 45.0,
+      "y": 3463.5,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 134,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00340",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_bomb_threat",
+      "source_ids": [
+        "src_00342",
+        "src_00341"
+      ],
+      "x": 425.02,
+      "y": 3081.75,
+      "w": 159.0,
+      "h": 119.25,
+      "z": 135,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00342",
+        "link_source_id": "src_00341",
+        "alt": "Amitabh Bachchan and Diljit Dosanjh. Mumbai Police are investigating a threatening email that reportedly mentioned Bachchan’s Mumbai residence, Jalsa, and Dosanjh’s scheduled concert at Mahalaxmi Racecourse on November 27.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_bomb_threat",
+      "source_ids": [
+        "src_00343",
+        "src_00341"
+      ],
+      "x": 425.02,
+      "y": 3209.0,
+      "w": 159.0,
+      "h": 72.0,
+      "z": 136,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00343",
+        "link_source_id": "src_00341",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_bomb_threat",
+      "source_ids": [
+        "src_00344"
+      ],
+      "x": 425.02,
+      "y": 3289.0,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 137,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00344",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_meghan_markle",
+      "source_ids": [
+        "src_00346",
+        "src_00345"
+      ],
+      "x": 615.02,
+      "y": 3081.75,
+      "w": 159.02,
+      "h": 119.25,
+      "z": 138,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00346",
+        "link_source_id": "src_00345",
+        "alt": "Meghan Markle ",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_meghan_markle",
+      "source_ids": [
+        "src_00347",
+        "src_00345"
+      ],
+      "x": 615.02,
+      "y": 3209.0,
+      "w": 159.02,
+      "h": 96.0,
+      "z": 139,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00347",
+        "link_source_id": "src_00345",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_meghan_markle",
+      "source_ids": [
+        "src_00348"
+      ],
+      "x": 615.02,
+      "y": 3313.0,
+      "w": 47.67,
+      "h": 18.0,
+      "z": 140,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00348",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_lifestyle_section",
+      "source_ids": [
+        "src_00350",
+        "src_00349"
+      ],
+      "x": 805.03,
+      "y": 3046.75,
+      "w": 349.97,
+      "h": 19.0,
+      "z": 141,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00350",
+        "link_source_id": "src_00349",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_iphone_duo",
+      "source_ids": [
+        "src_00352",
+        "src_00351"
+      ],
+      "x": 805.03,
+      "y": 3081.75,
+      "w": 349.97,
+      "h": 262.47,
+      "z": 142,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00352",
+        "link_source_id": "src_00351",
+        "alt": "An attendee takes a selfie with the new foldable iPhone Duo, displayed during an Apple event at the Steve Jobs Theater in Apple Park in Cupertino, California, on September 9, 2026.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_iphone_duo",
+      "source_ids": [
+        "src_00353",
+        "src_00351"
+      ],
+      "x": 805.03,
+      "y": 3352.22,
+      "w": 349.97,
+      "h": 48.0,
+      "z": 143,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00353",
+        "link_source_id": "src_00351",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_subtitle_iphone_duo",
+      "source_ids": [
+        "src_00354",
+        "src_00351"
+      ],
+      "x": 805.03,
+      "y": 3408.22,
+      "w": 349.97,
+      "h": 48.0,
+      "z": 144,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00354",
+        "link_source_id": "src_00351",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_iphone_duo",
+      "source_ids": [
+        "src_00355"
+      ],
+      "x": 805.03,
+      "y": 3464.22,
+      "w": 50.63,
+      "h": 18.0,
+      "z": 145,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00355",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_sport_section",
+      "source_ids": [
+        "src_00357",
+        "src_00356"
+      ],
+      "x": 45.0,
+      "y": 3850.22,
+      "w": 1110.0,
+      "h": 19.0,
+      "z": 146,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00357",
+        "link_source_id": "src_00356",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_bayern_coach",
+      "source_ids": [
+        "src_00359",
+        "src_00358"
+      ],
+      "x": 45.0,
+      "y": 3885.22,
+      "w": 540.0,
+      "h": 405.0,
+      "z": 147,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00359",
+        "link_source_id": "src_00358",
+        "alt": "Bayern Munich's Belgian head coach Vincent Kompany leaves the field after winning the FIFA Club World Cup 2025 round of 16 football match in June 29, 2025.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_bayern_coach",
+      "source_ids": [
+        "src_00360",
+        "src_00358"
+      ],
+      "x": 45.0,
+      "y": 4298.22,
+      "w": 540.0,
+      "h": 56.0,
+      "z": 148,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00360",
+        "link_source_id": "src_00358",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_subtitle_bayern_coach",
+      "source_ids": [
+        "src_00361",
+        "src_00358"
+      ],
+      "x": 45.0,
+      "y": 4362.22,
+      "w": 540.0,
+      "h": 24.0,
+      "z": 149,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00361",
+        "link_source_id": "src_00358",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_bayern_coach",
+      "source_ids": [
+        "src_00362"
+      ],
+      "x": 45.0,
+      "y": 4394.22,
+      "w": 47.67,
+      "h": 18.0,
+      "z": 150,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00362",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_uae_f3_drivers",
+      "source_ids": [
+        "src_00364",
+        "src_00363"
+      ],
+      "x": 616.0,
+      "y": 3885.22,
+      "w": 253.5,
+      "h": 190.13,
+      "z": 151,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00364",
+        "link_source_id": "src_00363",
+        "alt": "Rashid Al Dhaheri and Keanu Al Azhari ",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_uae_f3_drivers",
+      "source_ids": [
+        "src_00365",
+        "src_00363"
+      ],
+      "x": 616.0,
+      "y": 4083.34,
+      "w": 253.5,
+      "h": 48.0,
+      "z": 152,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00365",
+        "link_source_id": "src_00363",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_uae_f3_drivers",
+      "source_ids": [
+        "src_00366"
+      ],
+      "x": 616.0,
+      "y": 4139.34,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 153,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00366",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_sanju_samson",
+      "source_ids": [
+        "src_00368",
+        "src_00367"
+      ],
+      "x": 900.5,
+      "y": 3885.22,
+      "w": 253.5,
+      "h": 190.13,
+      "z": 154,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00368",
+        "link_source_id": "src_00367",
+        "alt": "India's Sanju Samson during a training session",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_sanju_samson",
+      "source_ids": [
+        "src_00369",
+        "src_00367"
+      ],
+      "x": 900.5,
+      "y": 4083.34,
+      "w": 253.5,
+      "h": 48.0,
+      "z": 155,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00369",
+        "link_source_id": "src_00367",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_sanju_samson",
+      "source_ids": [
+        "src_00370"
+      ],
+      "x": 900.5,
+      "y": 4139.34,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 156,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00370",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_fia_v8",
+      "source_ids": [
+        "src_00372",
+        "src_00371"
+      ],
+      "x": 616.0,
+      "y": 4190.34,
+      "w": 253.5,
+      "h": 190.13,
+      "z": 157,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00372",
+        "link_source_id": "src_00371",
+        "alt": "FIA President Mohammed Ben Sulayem believes bringing back V8 engines it will usher in a thrilling new era for Formula One",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_fia_v8",
+      "source_ids": [
+        "src_00373",
+        "src_00371"
+      ],
+      "x": 616.0,
+      "y": 4388.47,
+      "w": 253.5,
+      "h": 48.0,
+      "z": 158,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00373",
+        "link_source_id": "src_00371",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_fia_v8",
+      "source_ids": [
+        "src_00374"
+      ],
+      "x": 616.0,
+      "y": 4444.47,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 159,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00374",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_emaar_golf",
+      "source_ids": [
+        "src_00376",
+        "src_00375"
+      ],
+      "x": 900.5,
+      "y": 4190.34,
+      "w": 253.5,
+      "h": 190.13,
+      "z": 160,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00376",
+        "link_source_id": "src_00375",
+        "alt": "EMAAR South Golf Club",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_emaar_golf",
+      "source_ids": [
+        "src_00377",
+        "src_00375"
+      ],
+      "x": 900.5,
+      "y": 4388.47,
+      "w": 253.5,
+      "h": 48.0,
+      "z": 161,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00377",
+        "link_source_id": "src_00375",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_emaar_golf",
+      "source_ids": [
+        "src_00378"
+      ],
+      "x": 900.5,
+      "y": 4444.47,
+      "w": 47.67,
+      "h": 18.0,
+      "z": 162,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00378",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_living_in_uae_section",
+      "source_ids": [
+        "src_00380",
+        "src_00379"
+      ],
+      "x": 45.0,
+      "y": 4784.47,
+      "w": 1110.0,
+      "h": 19.0,
+      "z": 163,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00380",
+        "link_source_id": "src_00379",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_resign_without_notice_2",
+      "source_ids": [
+        "src_00382",
+        "src_00381"
+      ],
+      "x": 45.0,
+      "y": 4835.47,
+      "w": 231.95,
+      "h": 48.0,
+      "z": 164,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00382",
+        "link_source_id": "src_00381",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_resign_without_notice_2",
+      "source_ids": [
+        "src_00383"
+      ],
+      "x": 45.0,
+      "y": 4891.47,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 165,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00383",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_resign_without_notice",
+      "source_ids": [
+        "src_00384",
+        "src_00381"
+      ],
+      "x": 284.95,
+      "y": 4835.47,
+      "w": 98.0,
+      "h": 73.5,
+      "z": 166,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00384",
+        "link_source_id": "src_00381",
+        "alt": "When can you resign without notice in the UAE?",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_dubai_traffic_violations",
+      "source_ids": [
+        "src_00386",
+        "src_00385"
+      ],
+      "x": 414.95,
+      "y": 4835.47,
+      "w": 231.95,
+      "h": 72.0,
+      "z": 167,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00386",
+        "link_source_id": "src_00385",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_dubai_traffic_violations",
+      "source_ids": [
+        "src_00387"
+      ],
+      "x": 414.95,
+      "y": 4915.47,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 168,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00387",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_dubai_traffic_violations",
+      "source_ids": [
+        "src_00388",
+        "src_00385"
+      ],
+      "x": 654.91,
+      "y": 4835.47,
+      "w": 98.0,
+      "h": 73.5,
+      "z": 169,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00388",
+        "link_source_id": "src_00385",
+        "alt": "Picture used for illustrative purposes.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_place_to_think",
+      "source_ids": [
+        "src_00390",
+        "src_00389"
+      ],
+      "x": 784.91,
+      "y": 4835.47,
+      "w": 263.95,
+      "h": 48.0,
+      "z": 170,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00390",
+        "link_source_id": "src_00389",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_place_to_think",
+      "source_ids": [
+        "src_00391"
+      ],
+      "x": 784.91,
+      "y": 4891.47,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 171,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00391",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_place_to_think",
+      "source_ids": [
+        "src_00392",
+        "src_00389"
+      ],
+      "x": 1056.86,
+      "y": 4835.47,
+      "w": 98.0,
+      "h": 73.5,
+      "z": 172,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00392",
+        "link_source_id": "src_00389",
+        "alt": "Everyone has a place they go to think in the UAE",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_moving_home_dubai",
+      "source_ids": [
+        "src_00394",
+        "src_00393"
+      ],
+      "x": 45.0,
+      "y": 4966.47,
+      "w": 231.95,
+      "h": 48.0,
+      "z": 173,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00394",
+        "link_source_id": "src_00393",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_moving_home_dubai",
+      "source_ids": [
+        "src_00395"
+      ],
+      "x": 45.0,
+      "y": 5022.47,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 174,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00395",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_moving_home_dubai",
+      "source_ids": [
+        "src_00396",
+        "src_00393"
+      ],
+      "x": 284.95,
+      "y": 4966.47,
+      "w": 98.0,
+      "h": 73.5,
+      "z": 175,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00396",
+        "link_source_id": "src_00393",
+        "alt": "Security deposits, utility connections and other charges can add thousands to your moving costs.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_dubai_speed_limits",
+      "source_ids": [
+        "src_00398",
+        "src_00397"
+      ],
+      "x": 414.95,
+      "y": 4966.47,
+      "w": 231.95,
+      "h": 48.0,
+      "z": 176,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00398",
+        "link_source_id": "src_00397",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_dubai_speed_limits",
+      "source_ids": [
+        "src_00399"
+      ],
+      "x": 414.95,
+      "y": 5022.47,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 177,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00399",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_dubai_speed_limits",
+      "source_ids": [
+        "src_00400",
+        "src_00397"
+      ],
+      "x": 654.91,
+      "y": 4966.47,
+      "w": 98.0,
+      "h": 73.5,
+      "z": 178,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00400",
+        "link_source_id": "src_00397",
+        "alt": "Picture used for illustrative purposes.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_uae_cafe_culture",
+      "source_ids": [
+        "src_00402",
+        "src_00401"
+      ],
+      "x": 784.91,
+      "y": 4966.47,
+      "w": 263.95,
+      "h": 48.0,
+      "z": 179,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00402",
+        "link_source_id": "src_00401",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_uae_cafe_culture",
+      "source_ids": [
+        "src_00403"
+      ],
+      "x": 784.91,
+      "y": 5022.47,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 180,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00403",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_uae_cafe_culture",
+      "source_ids": [
+        "src_00404",
+        "src_00401"
+      ],
+      "x": 1056.86,
+      "y": 4966.47,
+      "w": 98.0,
+      "h": 73.5,
+      "z": 181,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00404",
+        "link_source_id": "src_00401",
+        "alt": "UAE café culture goes beyond coffee and orders",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_world_section",
+      "source_ids": [
+        "src_00406",
+        "src_00405"
+      ],
+      "x": 45.0,
+      "y": 5129.47,
+      "w": 1110.0,
+      "h": 19.0,
+      "z": 182,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00406",
+        "link_source_id": "src_00405",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_iran_threatens_internet_large",
+      "source_ids": [
+        "src_00408",
+        "src_00407"
+      ],
+      "x": 330.0,
+      "y": 5164.47,
+      "w": 555.0,
+      "h": 416.25,
+      "z": 183,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00408",
+        "link_source_id": "src_00407",
+        "alt": "European and Mideast ministers meet in Istanbul to address regional crises",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_live_badge_iran",
+      "source_ids": [
+        "src_00410"
+      ],
+      "x": 912.0,
+      "y": 5164.47,
+      "w": 27.17,
+      "h": 18.0,
+      "z": 184,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00410",
+        "color": "rgb(169, 0, 0)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_iran_threatens_internet_large",
+      "source_ids": [
+        "src_00411",
+        "src_00407"
+      ],
+      "x": 900.0,
+      "y": 5190.47,
+      "w": 255.0,
+      "h": 152.0,
+      "z": 185,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00411",
+        "link_source_id": "src_00407",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "32px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_subtitle_iran_threatens_internet_large",
+      "source_ids": [
+        "src_00412",
+        "src_00407"
+      ],
+      "x": 900.0,
+      "y": 5350.47,
+      "w": 255.0,
+      "h": 81.0,
+      "z": 186,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00412",
+        "link_source_id": "src_00407",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_time_iran_threatens_internet_large",
+      "source_ids": [
+        "src_00413"
+      ],
+      "x": 900.0,
+      "y": 5439.47,
+      "w": 54.41,
+      "h": 18.0,
+      "z": 187,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00413",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_iran_threatens_internet_large",
+      "source_ids": [
+        "src_00415"
+      ],
+      "x": 954.41,
+      "y": 5439.47,
+      "w": 54.55,
+      "h": 18.0,
+      "z": 188,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00415",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_us_could_strike_iran",
+      "source_ids": [
+        "src_00417",
+        "src_00416"
+      ],
+      "x": 45.0,
+      "y": 5164.47,
+      "w": 254.0,
+      "h": 54.0,
+      "z": 189,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00417",
+        "link_source_id": "src_00416",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_time_us_could_strike_iran",
+      "source_ids": [
+        "src_00418"
+      ],
+      "x": 45.0,
+      "y": 5226.47,
+      "w": 61.28,
+      "h": 18.0,
+      "z": 190,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00418",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_us_could_strike_iran",
+      "source_ids": [
+        "src_00420"
+      ],
+      "x": 106.28,
+      "y": 5226.47,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 191,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00420",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_signs_of_us_strikes",
+      "source_ids": [
+        "src_00422",
+        "src_00421"
+      ],
+      "x": 45.0,
+      "y": 5277.47,
+      "w": 254.0,
+      "h": 54.0,
+      "z": 192,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00422",
+        "link_source_id": "src_00421",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_time_signs_of_us_strikes",
+      "source_ids": [
+        "src_00423"
+      ],
+      "x": 45.0,
+      "y": 5339.47,
+      "w": 46.92,
+      "h": 18.0,
+      "z": 193,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00423",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_signs_of_us_strikes",
+      "source_ids": [
+        "src_00425"
+      ],
+      "x": 91.92,
+      "y": 5339.47,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 194,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00425",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_melania_trump_truce",
+      "source_ids": [
+        "src_00427",
+        "src_00426"
+      ],
+      "x": 45.0,
+      "y": 5390.47,
+      "w": 254.0,
+      "h": 54.0,
+      "z": 195,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00427",
+        "link_source_id": "src_00426",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_time_melania_trump_truce",
+      "source_ids": [
+        "src_00428"
+      ],
+      "x": 45.0,
+      "y": 5452.47,
+      "w": 49.38,
+      "h": 18.0,
+      "z": 196,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00428",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_melania_trump_truce",
+      "source_ids": [
+        "src_00430"
+      ],
+      "x": 94.38,
+      "y": 5452.47,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 197,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00430",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_pakistan_epassport_service",
+      "source_ids": [
+        "src_00432",
+        "src_00431"
+      ],
+      "x": 45.0,
+      "y": 5503.47,
+      "w": 254.0,
+      "h": 81.0,
+      "z": 198,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00432",
+        "link_source_id": "src_00431",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_pakistan_epassport_service",
+      "source_ids": [
+        "src_00433"
+      ],
+      "x": 45.0,
+      "y": 5592.47,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 199,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00433",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_technology_section",
+      "source_ids": [
+        "src_00435",
+        "src_00434"
+      ],
+      "x": 45.0,
+      "y": 5978.47,
+      "w": 1110.0,
+      "h": 19.0,
+      "z": 200,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00435",
+        "link_source_id": "src_00434",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_iphone_duo_apps",
+      "source_ids": [
+        "src_00437",
+        "src_00436"
+      ],
+      "x": 45.0,
+      "y": 6013.47,
+      "w": 254.25,
+      "h": 190.69,
+      "z": 201,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00437",
+        "link_source_id": "src_00436",
+        "alt": "Screengrabs from tech vlogger Marques Brownlee's post shows \"unoptimised\" apps behaving as they would on an older iPhone, with buttons in their usual places and a \"large bar of empty black space\" down the right side. ",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_iphone_duo_apps",
+      "source_ids": [
+        "src_00438",
+        "src_00436"
+      ],
+      "x": 45.0,
+      "y": 6212.16,
+      "w": 254.25,
+      "h": 48.0,
+      "z": 202,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00438",
+        "link_source_id": "src_00436",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_iphone_duo_apps",
+      "source_ids": [
+        "src_00439"
+      ],
+      "x": 45.0,
+      "y": 6268.16,
+      "w": 50.09,
+      "h": 18.0,
+      "z": 203,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00439",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_huawei_watch",
+      "source_ids": [
+        "src_00441",
+        "src_00440"
+      ],
+      "x": 330.25,
+      "y": 6013.47,
+      "w": 254.25,
+      "h": 190.69,
+      "z": 204,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00441",
+        "link_source_id": "src_00440",
+        "alt": "HUAWEI WATCH D3: Medical-grade blood pressure monitor",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_partner_content_huawei",
+      "source_ids": [
+        "src_00442"
+      ],
+      "x": 330.25,
+      "y": 6216.16,
+      "w": 122.48,
+      "h": 15.0,
+      "z": 205,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00442",
+        "color": "rgb(1, 61, 108)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_huawei_watch",
+      "source_ids": [
+        "src_00443",
+        "src_00440"
+      ],
+      "x": 330.25,
+      "y": 6241.16,
+      "w": 254.25,
+      "h": 48.0,
+      "z": 206,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00443",
+        "link_source_id": "src_00440",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_huawei_watch",
+      "source_ids": [
+        "src_00444"
+      ],
+      "x": 330.25,
+      "y": 6297.16,
+      "w": 51.25,
+      "h": 18.0,
+      "z": 207,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00444",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_iphone_duo_camera",
+      "source_ids": [
+        "src_00446",
+        "src_00445"
+      ],
+      "x": 615.5,
+      "y": 6013.47,
+      "w": 254.25,
+      "h": 190.69,
+      "z": 208,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00446",
+        "link_source_id": "src_00445",
+        "alt": "The iPhone Duo is displayed at an Apple store in Beijing on October 23, 2026.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_iphone_duo_camera",
+      "source_ids": [
+        "src_00447",
+        "src_00445"
+      ],
+      "x": 615.5,
+      "y": 6212.16,
+      "w": 254.25,
+      "h": 48.0,
+      "z": 209,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00447",
+        "link_source_id": "src_00445",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_iphone_duo_camera",
+      "source_ids": [
+        "src_00448"
+      ],
+      "x": 615.5,
+      "y": 6268.16,
+      "w": 50.63,
+      "h": 18.0,
+      "z": 210,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00448",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_iphone_duo_cost",
+      "source_ids": [
+        "src_00450",
+        "src_00449"
+      ],
+      "x": 900.75,
+      "y": 6013.47,
+      "w": 254.25,
+      "h": 190.69,
+      "z": 211,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00450",
+        "link_source_id": "src_00449",
+        "alt": "An attendee takes a selfie with the new foldable iPhone Duo, displayed during an Apple event at the Steve Jobs Theater in Apple Park in Cupertino, California, on September 9, 2026.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_iphone_duo_cost",
+      "source_ids": [
+        "src_00451",
+        "src_00449"
+      ],
+      "x": 900.75,
+      "y": 6212.16,
+      "w": 254.25,
+      "h": 48.0,
+      "z": 212,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00451",
+        "link_source_id": "src_00449",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_iphone_duo_cost",
+      "source_ids": [
+        "src_00452"
+      ],
+      "x": 900.75,
+      "y": 6268.16,
+      "w": 50.63,
+      "h": 18.0,
+      "z": 213,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00452",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_heading_best_buys_section",
+      "source_ids": [
+        "src_00454",
+        "src_00453"
+      ],
+      "x": 45.0,
+      "y": 6388.16,
+      "w": 1110.0,
+      "h": 19.0,
+      "z": 214,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00454",
+        "link_source_id": "src_00453",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "Montserrat",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_lego_london",
+      "source_ids": [
+        "src_00456",
+        "src_00455"
+      ],
+      "x": 45.0,
+      "y": 6423.16,
+      "w": 350.0,
+      "h": 262.5,
+      "z": 215,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00456",
+        "link_source_id": "src_00455",
+        "alt": "Explore London's iconic landmarks in miniature with this LEGO set, a creative gift for architecture lovers and travel enthusiasts.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_lego_london",
+      "source_ids": [
+        "src_00457",
+        "src_00455"
+      ],
+      "x": 45.0,
+      "y": 6693.66,
+      "w": 350.0,
+      "h": 42.0,
+      "z": 216,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00457",
+        "link_source_id": "src_00455",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_lego_london",
+      "source_ids": [
+        "src_00458"
+      ],
+      "x": 45.0,
+      "y": 6743.66,
+      "w": 51.25,
+      "h": 18.0,
+      "z": 217,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00458",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_perfumes",
+      "source_ids": [
+        "src_00460",
+        "src_00459"
+      ],
+      "x": 425.0,
+      "y": 6423.16,
+      "w": 350.0,
+      "h": 262.5,
+      "z": 218,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00460",
+        "link_source_id": "src_00459",
+        "alt": "From delicate florals to rich oriental scents, discover why these best-selling women's perfumes are catching attention across the UAE.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_perfumes",
+      "source_ids": [
+        "src_00461",
+        "src_00459"
+      ],
+      "x": 425.0,
+      "y": 6693.66,
+      "w": 350.0,
+      "h": 42.0,
+      "z": 219,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00461",
+        "link_source_id": "src_00459",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_read_time_perfumes",
+      "source_ids": [
+        "src_00462"
+      ],
+      "x": 425.0,
+      "y": 6743.66,
+      "w": 50.11,
+      "h": 18.0,
+      "z": 220,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00462",
+        "color": "rgb(89, 110, 121)",
+        "fontFamily": "Montserrat",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_article_office_chair",
+      "source_ids": [
+        "src_00464",
+        "src_00463"
+      ],
+      "x": 805.0,
+      "y": 6423.16,
+      "w": 350.0,
+      "h": 262.5,
+      "z": 221,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00464",
+        "link_source_id": "src_00463",
+        "alt": "Long hours at your desk can take a toll on your back. Discover how the right ergonomic chair can make your workday more comfortable.",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_title_office_chair",
+      "source_ids": [
+        "src_00465",
+        "src_00463"
+      ],
+      "x": 805.0,
+      "y": 6693.66,
+      "w": 350.0,
+      "h": 42.0,
+      "z": 222,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00465",
+        "link_source_id": "src_00463",
+        "color": "rgb(12, 18, 21)",
+        "fontFamily": "\"Roboto Serif\"",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "textAlign": "start"
+      }
+    }
+  ],
+  "unsupported_features": []
+}

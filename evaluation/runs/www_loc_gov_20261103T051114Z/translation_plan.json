@@ -1,0 +1,3174 @@
+{
+  "elements": [
+    {
+      "type": "shape",
+      "id": "header_background",
+      "source_ids": [
+        "src_00002"
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "w": 1200.0,
+      "h": 135.0,
+      "z": 1,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "type": "text",
+      "id": "page_title_The_Library_of_Congress_Homepage",
+      "source_ids": [
+        "src_00010"
+      ],
+      "x": 19.0,
+      "y": 131.0,
+      "w": 599.7,
+      "h": 48.0,
+      "z": 2,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00010",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Roboto Slab\", Arial, Helvetica, sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "textAlign": "left",
+        "lineHeight": "43.2px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_Pause_autoplay",
+      "source_ids": [
+        "src_00011"
+      ],
+      "x": 1140.0,
+      "y": 139.0,
+      "w": 36.0,
+      "h": 38.0,
+      "z": 3,
+      "display": "block",
+      "properties": {
+        "aria_label_source_id": "src_00011",
+        "backgroundColor": "rgb(0, 118, 173)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "center",
+        "border": "1px solid rgb(0, 118, 173)",
+        "borderRadius": "6px",
+        "padding": "6px 12px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_Go_to_last_slide",
+      "source_ids": [
+        "src_00012"
+      ],
+      "x": 20.0,
+      "y": 369.27,
+      "w": 50.28,
+      "h": 72.78,
+      "z": 4,
+      "display": "block",
+      "properties": {
+        "aria_label_source_id": "src_00012",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "400",
+        "textAlign": "center",
+        "padding": "6.4px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_Next_slide",
+      "source_ids": [
+        "src_00013"
+      ],
+      "x": 1129.72,
+      "y": 369.27,
+      "w": 50.28,
+      "h": 72.78,
+      "z": 5,
+      "display": "block",
+      "properties": {
+        "aria_label_source_id": "src_00013",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "400",
+        "textAlign": "center",
+        "padding": "6.4px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_carousel_slide_1",
+      "source_ids": [
+        "src_00024"
+      ],
+      "x": 20.0,
+      "y": 135.0,
+      "w": 1160.0,
+      "h": 541.33,
+      "z": 6,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00024",
+        "alt": "Letters written by Martha Washington (Sept. 29, 1760) and Mary Todd Lincoln (Feb. 15, 1865)",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "carousel_text_background",
+      "source_ids": [
+        "src_00025"
+      ],
+      "x": 100.0,
+      "y": 441.17,
+      "w": 1000.0,
+      "h": 203.16,
+      "z": 7,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00025",
+        "backgroundColor": "rgba(0, 0, 0, 0.75)",
+        "padding": "9.6px 48px 12px 16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_carousel_title",
+      "source_ids": [
+        "src_00026"
+      ],
+      "x": 116.0,
+      "y": 447.77,
+      "w": 855.83,
+      "h": 134.38,
+      "z": 8,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00026",
+        "link_source_id": "src_00026",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Roboto Slab\", Arial, Helvetica, sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "textAlign": "left",
+        "lineHeight": "43.2px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_carousel_description",
+      "source_ids": [
+        "src_00027"
+      ],
+      "x": 116.0,
+      "y": 585.33,
+      "w": 923.67,
+      "h": 46.0,
+      "z": 9,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00027",
+        "link_source_id": "src_00027",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "lineHeight": "24px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_carousel_pagination_1_5",
+      "source_ids": [
+        "src_00028"
+      ],
+      "x": 1059.13,
+      "y": 609.33,
+      "w": 24.88,
+      "h": 22.0,
+      "z": 10,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00028",
+        "link_source_id": "src_00028",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "navigation_bar_container",
+      "source_ids": [
+        "src_00059"
+      ],
+      "x": 20.0,
+      "y": 676.33,
+      "w": 1160.0,
+      "h": 64.0,
+      "z": 11,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "border": "1px solid rgb(84, 84, 84)",
+        "padding": "16px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Library_Catalog",
+      "source_ids": [
+        "src_00060"
+      ],
+      "x": 159.42,
+      "y": 694.33,
+      "w": 140.45,
+      "h": 27.0,
+      "z": 12,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00060",
+        "link_source_id": "src_00060",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Digital_Collections",
+      "source_ids": [
+        "src_00061"
+      ],
+      "x": 331.88,
+      "y": 694.33,
+      "w": 165.67,
+      "h": 27.0,
+      "z": 13,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00061",
+        "link_source_id": "src_00061",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Researchers",
+      "source_ids": [
+        "src_00062"
+      ],
+      "x": 529.55,
+      "y": 694.33,
+      "w": 114.36,
+      "h": 27.0,
+      "z": 14,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00062",
+        "link_source_id": "src_00062",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Visitors",
+      "source_ids": [
+        "src_00063"
+      ],
+      "x": 675.91,
+      "y": 694.33,
+      "w": 68.42,
+      "h": 27.0,
+      "z": 15,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00063",
+        "link_source_id": "src_00063",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Teachers",
+      "source_ids": [
+        "src_00064"
+      ],
+      "x": 776.33,
+      "y": 694.33,
+      "w": 84.14,
+      "h": 27.0,
+      "z": 16,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00064",
+        "link_source_id": "src_00064",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Blogs",
+      "source_ids": [
+        "src_00065"
+      ],
+      "x": 892.47,
+      "y": 694.33,
+      "w": 50.61,
+      "h": 27.0,
+      "z": 17,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00065",
+        "link_source_id": "src_00065",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_More",
+      "source_ids": [
+        "src_00066"
+      ],
+      "x": 975.08,
+      "y": 694.33,
+      "w": 65.5,
+      "h": 27.0,
+      "z": 18,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00066",
+        "link_source_id": "src_00066",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "trending_section_background",
+      "source_ids": [
+        "src_00067"
+      ],
+      "x": 20.0,
+      "y": 740.33,
+      "w": 1160.0,
+      "h": 1026.63,
+      "z": 19,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(27, 27, 27)",
+        "padding": "32px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "heading_Trending",
+      "source_ids": [
+        "src_00068"
+      ],
+      "x": 530.72,
+      "y": 769.33,
+      "w": 138.56,
+      "h": 43.0,
+      "z": 20,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00068",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Roboto Slab\", Arial, Helvetica, sans-serif",
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Top_Searches",
+      "source_ids": [
+        "src_00069"
+      ],
+      "x": 199.98,
+      "y": 827.13,
+      "w": 103.97,
+      "h": 22.0,
+      "z": 21,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00069",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_World_War_II",
+      "source_ids": [
+        "src_00070"
+      ],
+      "x": 319.95,
+      "y": 827.72,
+      "w": 92.34,
+      "h": 22.0,
+      "z": 22,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00070",
+        "link_source_id": "src_00070",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Newspapers",
+      "source_ids": [
+        "src_00071"
+      ],
+      "x": 445.36,
+      "y": 827.72,
+      "w": 92.77,
+      "h": 22.0,
+      "z": 23,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00071",
+        "link_source_id": "src_00071",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Veterans",
+      "source_ids": [
+        "src_00072"
+      ],
+      "x": 571.19,
+      "y": 827.72,
+      "w": 66.02,
+      "h": 22.0,
+      "z": 24,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00072",
+        "link_source_id": "src_00072",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Civil_War",
+      "source_ids": [
+        "src_00073"
+      ],
+      "x": 670.27,
+      "y": 827.72,
+      "w": 64.66,
+      "h": 22.0,
+      "z": 25,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00073",
+        "link_source_id": "src_00073",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Constitution",
+      "source_ids": [
+        "src_00074"
+      ],
+      "x": 767.98,
+      "y": 827.72,
+      "w": 91.56,
+      "h": 22.0,
+      "z": 26,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00074",
+        "link_source_id": "src_00074",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Civil_Rights",
+      "source_ids": [
+        "src_00075"
+      ],
+      "x": 892.61,
+      "y": 827.72,
+      "w": 80.22,
+      "h": 22.0,
+      "z": 27,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00075",
+        "link_source_id": "src_00075",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "video_player_container",
+      "source_ids": [
+        "src_00076"
+      ],
+      "x": 52.0,
+      "y": 866.72,
+      "w": 814.0,
+      "h": 549.89,
+      "z": 28,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Video_Player_label",
+      "source_ids": [
+        "src_00077"
+      ],
+      "x": 51.0,
+      "y": 866.72,
+      "w": 46.16,
+      "h": 46.0,
+      "z": 29,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00077",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "video_screen",
+      "source_ids": [
+        "src_00078"
+      ],
+      "x": 52.0,
+      "y": 866.72,
+      "w": 814.0,
+      "h": 457.88,
+      "z": 30,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_Play_overlay",
+      "source_ids": [
+        "src_00079"
+      ],
+      "x": 419.0,
+      "y": 1055.66,
+      "w": 80.0,
+      "h": 80.0,
+      "z": 31,
+      "display": "block",
+      "properties": {
+        "aria_label_source_id": "src_00079",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, Arial, serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "center",
+        "padding": "1px 6px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_Play",
+      "source_ids": [
+        "src_00080"
+      ],
+      "x": 68.0,
+      "y": 1294.59,
+      "w": 18.0,
+      "h": 18.0,
+      "z": 32,
+      "display": "block",
+      "properties": {
+        "aria_label_source_id": "src_00080",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, Arial, serif"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Current_time",
+      "source_ids": [
+        "src_00081"
+      ],
+      "x": 99.0,
+      "y": 1297.59,
+      "w": 39.73,
+      "h": 23.0,
+      "z": 33,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00081",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, Arial, serif",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_current_time_value",
+      "source_ids": [
+        "src_00082"
+      ],
+      "x": 100.0,
+      "y": 1298.59,
+      "w": 28.14,
+      "h": 13.0,
+      "z": 34,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00082",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, Arial, serif",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "time_slider",
+      "source_ids": [
+        "src_00083"
+      ],
+      "x": 144.14,
+      "y": 1299.59,
+      "w": 565.72,
+      "h": 10.0,
+      "z": 35,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgba(255, 255, 255, 0.3)",
+        "borderRadius": "2px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Total_duration",
+      "source_ids": [
+        "src_00084"
+      ],
+      "x": 724.86,
+      "y": 1297.59,
+      "w": 44.0,
+      "h": 23.0,
+      "z": 36,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00084",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, Arial, serif",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_total_duration_value",
+      "source_ids": [
+        "src_00085"
+      ],
+      "x": 725.86,
+      "y": 1298.59,
+      "w": 28.14,
+      "h": 13.0,
+      "z": 37,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00085",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, Arial, serif",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_Captions",
+      "source_ids": [
+        "src_00086"
+      ],
+      "x": 766.0,
+      "y": 1294.59,
+      "w": 18.0,
+      "h": 18.0,
+      "z": 38,
+      "display": "block",
+      "properties": {
+        "aria_label_source_id": "src_00086",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, Arial, serif"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "caption_menu_background",
+      "source_ids": [
+        "src_00087"
+      ],
+      "x": 733.0,
+      "y": 1283.59,
+      "w": 86.0,
+      "h": 2.0,
+      "z": 39,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgba(50, 50, 50, 0.7)",
+        "border": "1px solid rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_Mute",
+      "source_ids": [
+        "src_00092"
+      ],
+      "x": 798.0,
+      "y": 1294.59,
+      "w": 18.0,
+      "h": 18.0,
+      "z": 40,
+      "display": "block",
+      "properties": {
+        "aria_label_source_id": "src_00092",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, Arial, serif"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_Fullscreen",
+      "source_ids": [
+        "src_00093"
+      ],
+      "x": 830.0,
+      "y": 1294.59,
+      "w": 18.0,
+      "h": 18.0,
+      "z": 41,
+      "display": "block",
+      "properties": {
+        "aria_label_source_id": "src_00093",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Helvetica, Arial, serif"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Watch",
+      "source_ids": [
+        "src_00094"
+      ],
+      "x": 64.0,
+      "y": 1334.59,
+      "w": 40.03,
+      "h": 15.0,
+      "z": 42,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00094",
+        "link_source_id": "src_00094",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "type": "text",
+      "id": "video_title",
+      "source_ids": [
+        "src_00095"
+      ],
+      "x": 64.0,
+      "y": 1350.09,
+      "w": 727.45,
+      "h": 22.0,
+      "z": 43,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00095",
+        "link_source_id": "src_00095",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "card_Gorey_Halloween",
+      "source_ids": [
+        "src_00096"
+      ],
+      "x": 898.0,
+      "y": 866.72,
+      "w": 250.0,
+      "h": 248.55,
+      "z": 44,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_Gorey_Halloween",
+      "source_ids": [
+        "src_00097"
+      ],
+      "x": 898.0,
+      "y": 866.72,
+      "w": 250.0,
+      "h": 166.66,
+      "z": 45,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00097",
+        "link_source_id": "src_00097",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Blog_Gorey",
+      "source_ids": [
+        "src_00098"
+      ],
+      "x": 910.0,
+      "y": 1044.38,
+      "w": 30.33,
+      "h": 15.0,
+      "z": 46,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00098",
+        "link_source_id": "src_00098",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Gorey_Halloween_title",
+      "source_ids": [
+        "src_00099"
+      ],
+      "x": 910.0,
+      "y": 1060.67,
+      "w": 191.81,
+      "h": 42.8,
+      "z": 47,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00099",
+        "link_source_id": "src_00099",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "12px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "card_Folklife_Center",
+      "source_ids": [
+        "src_00100"
+      ],
+      "x": 898.0,
+      "y": 1147.27,
+      "w": 250.0,
+      "h": 269.34,
+      "z": 48,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_Folklife_Center",
+      "source_ids": [
+        "src_00101"
+      ],
+      "x": 898.0,
+      "y": 1147.27,
+      "w": 250.0,
+      "h": 166.66,
+      "z": 49,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00101",
+        "link_source_id": "src_00101",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Magazine",
+      "source_ids": [
+        "src_00102"
+      ],
+      "x": 910.0,
+      "y": 1324.92,
+      "w": 58.64,
+      "h": 15.0,
+      "z": 50,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00102",
+        "link_source_id": "src_00102",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Folklife_Center_title",
+      "source_ids": [
+        "src_00103"
+      ],
+      "x": 910.0,
+      "y": 1341.22,
+      "w": 215.78,
+      "h": 63.59,
+      "z": 51,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00103",
+        "link_source_id": "src_00103",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "12px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "card_News",
+      "source_ids": [
+        "src_00104"
+      ],
+      "x": 52.0,
+      "y": 1448.61,
+      "w": 250.0,
+      "h": 269.34,
+      "z": 52,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_News",
+      "source_ids": [
+        "src_00105"
+      ],
+      "x": 52.0,
+      "y": 1448.61,
+      "w": 250.0,
+      "h": 166.66,
+      "z": 53,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00105",
+        "link_source_id": "src_00105",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_News_label",
+      "source_ids": [
+        "src_00106"
+      ],
+      "x": 64.0,
+      "y": 1626.27,
+      "w": 31.8,
+      "h": 15.0,
+      "z": 54,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00106",
+        "link_source_id": "src_00106",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_News_title",
+      "source_ids": [
+        "src_00107"
+      ],
+      "x": 64.0,
+      "y": 1642.56,
+      "w": 218.67,
+      "h": 42.8,
+      "z": 55,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00107",
+        "link_source_id": "src_00107",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "12px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "card_Events",
+      "source_ids": [
+        "src_00108"
+      ],
+      "x": 334.0,
+      "y": 1448.61,
+      "w": 250.0,
+      "h": 269.34,
+      "z": 56,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_Events",
+      "source_ids": [
+        "src_00109"
+      ],
+      "x": 334.0,
+      "y": 1448.61,
+      "w": 250.0,
+      "h": 166.66,
+      "z": 57,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00109",
+        "link_source_id": "src_00109",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Events_label",
+      "source_ids": [
+        "src_00110"
+      ],
+      "x": 346.0,
+      "y": 1626.27,
+      "w": 40.84,
+      "h": 15.0,
+      "z": 58,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00110",
+        "link_source_id": "src_00110",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Events_title",
+      "source_ids": [
+        "src_00111"
+      ],
+      "x": 346.0,
+      "y": 1642.56,
+      "w": 199.69,
+      "h": 42.8,
+      "z": 59,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00111",
+        "link_source_id": "src_00111",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "12px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "card_Exhibitions",
+      "source_ids": [
+        "src_00112"
+      ],
+      "x": 616.0,
+      "y": 1448.61,
+      "w": 250.0,
+      "h": 269.34,
+      "z": 60,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_Exhibitions",
+      "source_ids": [
+        "src_00113"
+      ],
+      "x": 616.0,
+      "y": 1448.61,
+      "w": 250.0,
+      "h": 166.66,
+      "z": 61,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00113",
+        "link_source_id": "src_00113",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Exhibitions_label",
+      "source_ids": [
+        "src_00114"
+      ],
+      "x": 628.0,
+      "y": 1626.27,
+      "w": 70.36,
+      "h": 15.0,
+      "z": 62,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00114",
+        "link_source_id": "src_00114",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Exhibitions_title",
+      "source_ids": [
+        "src_00115"
+      ],
+      "x": 628.0,
+      "y": 1642.56,
+      "w": 216.64,
+      "h": 42.8,
+      "z": 63,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00115",
+        "link_source_id": "src_00115",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "12px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "card_Founding_Mothers",
+      "source_ids": [
+        "src_00116"
+      ],
+      "x": 898.0,
+      "y": 1448.61,
+      "w": 250.0,
+      "h": 269.34,
+      "z": 64,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_Founding_Mothers",
+      "source_ids": [
+        "src_00117"
+      ],
+      "x": 898.0,
+      "y": 1448.61,
+      "w": 250.0,
+      "h": 166.66,
+      "z": 65,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00117",
+        "link_source_id": "src_00117",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Blog_Founding_Mothers",
+      "source_ids": [
+        "src_00118"
+      ],
+      "x": 910.0,
+      "y": 1626.27,
+      "w": 30.33,
+      "h": 15.0,
+      "z": 66,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00118",
+        "link_source_id": "src_00118",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Founding_Mothers_title",
+      "source_ids": [
+        "src_00119"
+      ],
+      "x": 910.0,
+      "y": 1642.56,
+      "w": 184.72,
+      "h": 63.59,
+      "z": 67,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00119",
+        "link_source_id": "src_00119",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start",
+        "padding": "12px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "your_library_section_background",
+      "source_ids": [
+        "src_00120"
+      ],
+      "x": 20.0,
+      "y": 1766.95,
+      "w": 1160.0,
+      "h": 455.88,
+      "z": 68,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(27, 27, 27)",
+        "padding": "32px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "heading_Your_Library",
+      "source_ids": [
+        "src_00121"
+      ],
+      "x": 504.5,
+      "y": 1795.95,
+      "w": 190.98,
+      "h": 43.0,
+      "z": 69,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00121",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Roboto Slab\", Arial, Helvetica, sans-serif",
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "your_library_dek",
+      "source_ids": [
+        "src_00122",
+        "src_00124"
+      ],
+      "x": 306.19,
+      "y": 1846.34,
+      "w": 587.51,
+      "h": 22.0,
+      "z": 70,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00122",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_More_about_the_Library",
+      "source_ids": [
+        "src_00123"
+      ],
+      "x": 716.98,
+      "y": 1846.34,
+      "w": 172.55,
+      "h": 22.0,
+      "z": 71,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00123",
+        "link_source_id": "src_00123",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "promo_cards_container",
+      "source_ids": [
+        "src_00125"
+      ],
+      "x": 20.0,
+      "y": 1893.34,
+      "w": 1160.0,
+      "h": 297.48,
+      "z": 72,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(27, 27, 27)",
+        "padding": "32px 48px"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_Plan_Your_Visit",
+      "source_ids": [
+        "src_00126"
+      ],
+      "x": 68.0,
+      "y": 1925.34,
+      "w": 338.66,
+      "h": 190.48,
+      "z": 73,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00126",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Plan_Your_Visit",
+      "source_ids": [
+        "src_00127"
+      ],
+      "x": 171.98,
+      "y": 2132.83,
+      "w": 130.69,
+      "h": 24.0,
+      "z": 74,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00127",
+        "link_source_id": "src_00127",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "700",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_Research_Center",
+      "source_ids": [
+        "src_00128"
+      ],
+      "x": 430.66,
+      "y": 1925.34,
+      "w": 338.66,
+      "h": 190.48,
+      "z": 75,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00128",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Research_Centers",
+      "source_ids": [
+        "src_00129"
+      ],
+      "x": 521.77,
+      "y": 2132.83,
+      "w": 156.42,
+      "h": 24.0,
+      "z": 76,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00129",
+        "link_source_id": "src_00129",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "700",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_Ask_Librarian",
+      "source_ids": [
+        "src_00130"
+      ],
+      "x": 793.31,
+      "y": 1925.34,
+      "w": 338.66,
+      "h": 190.48,
+      "z": 77,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00130",
+        "fit": "cover"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Ask_a_Librarian",
+      "source_ids": [
+        "src_00131"
+      ],
+      "x": 895.02,
+      "y": 2132.83,
+      "w": 135.23,
+      "h": 24.0,
+      "z": 78,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00131",
+        "link_source_id": "src_00131",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "700",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "free_to_use_section_background",
+      "source_ids": [
+        "src_00132"
+      ],
+      "x": 20.0,
+      "y": 2222.83,
+      "w": 1160.0,
+      "h": 1172.39,
+      "z": 79,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)",
+        "padding": "32px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "heading_Free_to_Use",
+      "source_ids": [
+        "src_00133"
+      ],
+      "x": 392.64,
+      "y": 2251.83,
+      "w": 414.72,
+      "h": 43.0,
+      "z": 80,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00133",
+        "color": "rgb(239, 239, 239)",
+        "fontFamily": "\"Roboto Slab\", Arial, Helvetica, sans-serif",
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "free_to_use_dek",
+      "source_ids": [
+        "src_00134"
+      ],
+      "x": 95.47,
+      "y": 2310.22,
+      "w": 1009.05,
+      "h": 46.0,
+      "z": 81,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00134",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_Browse_more",
+      "source_ids": [
+        "src_00135",
+        "src_00136"
+      ],
+      "x": 402.88,
+      "y": 2374.22,
+      "w": 378.23,
+      "h": 22.0,
+      "z": 82,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00135",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_free_to_use_and_reuse",
+      "source_ids": [
+        "src_00136"
+      ],
+      "x": 506.86,
+      "y": 2374.22,
+      "w": 274.25,
+      "h": 22.0,
+      "z": 83,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00136",
+        "link_source_id": "src_00136",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "center"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_1",
+      "source_ids": [
+        "src_00137"
+      ],
+      "x": 52.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 260.0,
+      "z": 84,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_cat_bookplate",
+      "source_ids": [
+        "src_00138"
+      ],
+      "x": 52.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 256.0,
+      "z": 85,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00138",
+        "link_source_id": "src_00138",
+        "alt": "Black-and-yellow artwork of a cat looking at an open book.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_1",
+      "source_ids": [
+        "src_00139"
+      ],
+      "x": 52.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 256.0,
+      "z": 86,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00139",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cat_bookplate",
+      "source_ids": [
+        "src_00140"
+      ],
+      "x": 68.0,
+      "y": 2615.84,
+      "w": 172.2,
+      "h": 37.19,
+      "z": 87,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00140",
+        "link_source_id": "src_00140",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_2",
+      "source_ids": [
+        "src_00141"
+      ],
+      "x": 332.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 207.67,
+      "z": 88,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_cat_anatomy",
+      "source_ids": [
+        "src_00142"
+      ],
+      "x": 332.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 203.67,
+      "z": 89,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00142",
+        "link_source_id": "src_00142",
+        "alt": "Color artwork of a domestic tabby cat laying down with a ball of yarn under its paw. Smaller drawings with text labels surrounding the cat illustrate its different body parts, including its eyes, skull, tongue, and claws.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_2",
+      "source_ids": [
+        "src_00143"
+      ],
+      "x": 332.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 203.67,
+      "z": 90,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00143",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cat_anatomy",
+      "source_ids": [
+        "src_00144"
+      ],
+      "x": 348.0,
+      "y": 2545.33,
+      "w": 211.66,
+      "h": 55.38,
+      "z": 91,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00144",
+        "link_source_id": "src_00144",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_3",
+      "source_ids": [
+        "src_00145"
+      ],
+      "x": 612.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 133.33,
+      "z": 92,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_cat_running",
+      "source_ids": [
+        "src_00146"
+      ],
+      "x": 612.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 129.33,
+      "z": 93,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00146",
+        "link_source_id": "src_00146",
+        "alt": "Black-and-white photo of a cat shown in profile through 24 stages of running as its body lengthens and contracts.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_3",
+      "source_ids": [
+        "src_00147"
+      ],
+      "x": 612.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 129.33,
+      "z": 94,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00147",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cat_running",
+      "source_ids": [
+        "src_00148"
+      ],
+      "x": 628.0,
+      "y": 2452.8,
+      "w": 209.28,
+      "h": 73.56,
+      "z": 95,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00148",
+        "link_source_id": "src_00148",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_4",
+      "source_ids": [
+        "src_00149"
+      ],
+      "x": 892.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 175.55,
+      "z": 96,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_cat_nursing",
+      "source_ids": [
+        "src_00150"
+      ],
+      "x": 892.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 171.55,
+      "z": 97,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00150",
+        "link_source_id": "src_00150",
+        "alt": "Black-and-white artwork of a mother cat nursing a kitten with another cat in the background.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_4",
+      "source_ids": [
+        "src_00151"
+      ],
+      "x": 892.0,
+      "y": 2413.22,
+      "w": 256.0,
+      "h": 171.55,
+      "z": 98,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00151",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cat_nursing",
+      "source_ids": [
+        "src_00152"
+      ],
+      "x": 908.0,
+      "y": 2513.2,
+      "w": 188.69,
+      "h": 55.38,
+      "z": 99,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00152",
+        "link_source_id": "src_00152",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_5",
+      "source_ids": [
+        "src_00153"
+      ],
+      "x": 612.0,
+      "y": 2570.22,
+      "w": 256.0,
+      "h": 361.88,
+      "z": 100,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_cat_cleaning",
+      "source_ids": [
+        "src_00154"
+      ],
+      "x": 612.0,
+      "y": 2570.22,
+      "w": 256.0,
+      "h": 357.88,
+      "z": 101,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00154",
+        "link_source_id": "src_00154",
+        "alt": "Black-and-white artwork of a kitten cleaning its paw.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_5",
+      "source_ids": [
+        "src_00155"
+      ],
+      "x": 612.0,
+      "y": 2570.22,
+      "w": 256.0,
+      "h": 357.88,
+      "z": 102,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00155",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cat_cleaning",
+      "source_ids": [
+        "src_00156"
+      ],
+      "x": 628.0,
+      "y": 2856.53,
+      "w": 209.83,
+      "h": 55.38,
+      "z": 103,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00156",
+        "link_source_id": "src_00156",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_6",
+      "source_ids": [
+        "src_00157"
+      ],
+      "x": 892.0,
+      "y": 2613.22,
+      "w": 256.0,
+      "h": 216.84,
+      "z": 104,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_cat_drinking",
+      "source_ids": [
+        "src_00158"
+      ],
+      "x": 892.0,
+      "y": 2613.22,
+      "w": 256.0,
+      "h": 212.84,
+      "z": 105,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00158",
+        "link_source_id": "src_00158",
+        "alt": "Black-and-white artwork of a cat and a kitten drinking milk out of a saucer. The kitten is reaching its paw into the saucer.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_6",
+      "source_ids": [
+        "src_00159"
+      ],
+      "x": 892.0,
+      "y": 2613.22,
+      "w": 256.0,
+      "h": 212.84,
+      "z": 106,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00159",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cat_drinking",
+      "source_ids": [
+        "src_00160"
+      ],
+      "x": 908.0,
+      "y": 2754.5,
+      "w": 185.55,
+      "h": 55.38,
+      "z": 107,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00160",
+        "link_source_id": "src_00160",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_7",
+      "source_ids": [
+        "src_00161"
+      ],
+      "x": 332.0,
+      "y": 2645.22,
+      "w": 256.0,
+      "h": 208.59,
+      "z": 108,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_cat_with_bow",
+      "source_ids": [
+        "src_00162"
+      ],
+      "x": 332.0,
+      "y": 2645.22,
+      "w": 256.0,
+      "h": 204.59,
+      "z": 109,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00162",
+        "link_source_id": "src_00162",
+        "alt": "Color artwork of a black-and-white cat with a red bow around its neck. The cat is playing with a red string that extends to the edge of the drawing.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_7",
+      "source_ids": [
+        "src_00163"
+      ],
+      "x": 332.0,
+      "y": 2645.22,
+      "w": 256.0,
+      "h": 204.59,
+      "z": 110,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00163",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cat_with_bow",
+      "source_ids": [
+        "src_00164"
+      ],
+      "x": 348.0,
+      "y": 2796.44,
+      "w": 191.69,
+      "h": 37.19,
+      "z": 111,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00164",
+        "link_source_id": "src_00164",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_8",
+      "source_ids": [
+        "src_00165"
+      ],
+      "x": 52.0,
+      "y": 2697.22,
+      "w": 256.0,
+      "h": 201.25,
+      "z": 112,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_three_white_kittens",
+      "source_ids": [
+        "src_00166"
+      ],
+      "x": 52.0,
+      "y": 2697.22,
+      "w": 256.0,
+      "h": 197.25,
+      "z": 113,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00166",
+        "link_source_id": "src_00166",
+        "alt": "Color artwork of three kittens sitting on a book and a leafy olive branch. One cat wearing a red collar with a golden cross is licking the head of the frowning cat next to it.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_8",
+      "source_ids": [
+        "src_00167"
+      ],
+      "x": 52.0,
+      "y": 2697.22,
+      "w": 256.0,
+      "h": 197.25,
+      "z": 114,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00167",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_three_white_kittens",
+      "source_ids": [
+        "src_00168"
+      ],
+      "x": 68.0,
+      "y": 2822.91,
+      "w": 217.97,
+      "h": 55.38,
+      "z": 115,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00168",
+        "link_source_id": "src_00168",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_9",
+      "source_ids": [
+        "src_00169"
+      ],
+      "x": 892.0,
+      "y": 2854.22,
+      "w": 256.0,
+      "h": 163.61,
+      "z": 116,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_two_cats",
+      "source_ids": [
+        "src_00170"
+      ],
+      "x": 892.0,
+      "y": 2854.22,
+      "w": 256.0,
+      "h": 159.61,
+      "z": 117,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00170",
+        "link_source_id": "src_00170",
+        "alt": "Black-and-white artwork of two tabby cats with eyes closed and paws hanging over edge of a chair.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_9",
+      "source_ids": [
+        "src_00171"
+      ],
+      "x": 892.0,
+      "y": 2854.22,
+      "w": 256.0,
+      "h": 159.61,
+      "z": 118,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00171",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_two_cats",
+      "source_ids": [
+        "src_00172"
+      ],
+      "x": 908.0,
+      "y": 2960.45,
+      "w": 188.22,
+      "h": 37.19,
+      "z": 119,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00172",
+        "link_source_id": "src_00172",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_10",
+      "source_ids": [
+        "src_00173"
+      ],
+      "x": 332.0,
+      "y": 2878.22,
+      "w": 256.0,
+      "h": 144.33,
+      "z": 120,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_boy_with_cat",
+      "source_ids": [
+        "src_00174"
+      ],
+      "x": 332.0,
+      "y": 2878.22,
+      "w": 256.0,
+      "h": 140.33,
+      "z": 121,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00174",
+        "link_source_id": "src_00174",
+        "alt": "Black-and-white artwork of a room in which a young boy sitting on a stool is facing a cat sitting on a chair.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_10",
+      "source_ids": [
+        "src_00175"
+      ],
+      "x": 332.0,
+      "y": 2878.22,
+      "w": 256.0,
+      "h": 140.33,
+      "z": 122,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00175",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_boy_with_cat",
+      "source_ids": [
+        "src_00176"
+      ],
+      "x": 348.0,
+      "y": 2946.98,
+      "w": 223.98,
+      "h": 55.38,
+      "z": 123,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00176",
+        "link_source_id": "src_00176",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_11",
+      "source_ids": [
+        "src_00177"
+      ],
+      "x": 52.0,
+      "y": 2922.22,
+      "w": 256.0,
+      "h": 125.06,
+      "z": 124,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_cat_catcher_evolution",
+      "source_ids": [
+        "src_00178"
+      ],
+      "x": 52.0,
+      "y": 2922.22,
+      "w": 256.0,
+      "h": 121.06,
+      "z": 125,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00178",
+        "link_source_id": "src_00178",
+        "alt": "Black-and-white artwork with five side-by-side panels. The left panel shows a cat standing upright on its back legs playing with a ball of string. The panels to the right show the cat evolving into a human baseball catcher with a mitt and a face mask.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_11",
+      "source_ids": [
+        "src_00179"
+      ],
+      "x": 52.0,
+      "y": 2922.22,
+      "w": 256.0,
+      "h": 121.06,
+      "z": 126,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00179",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_cat_catcher_evolution",
+      "source_ids": [
+        "src_00180"
+      ],
+      "x": 68.0,
+      "y": 2971.72,
+      "w": 222.61,
+      "h": 55.38,
+      "z": 127,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00180",
+        "link_source_id": "src_00180",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_container_12",
+      "source_ids": [
+        "src_00181"
+      ],
+      "x": 612.0,
+      "y": 2956.22,
+      "w": 256.0,
+      "h": 328.83,
+      "z": 128,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(18, 18, 18)"
+      }
+    },
+    {
+      "type": "image",
+      "id": "image_black_cat_magazine",
+      "source_ids": [
+        "src_00182"
+      ],
+      "x": 612.0,
+      "y": 2956.22,
+      "w": 256.0,
+      "h": 324.83,
+      "z": 129,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00182",
+        "link_source_id": "src_00182",
+        "alt": "Red-and-black  artwork of a black cat wearing a collar with a tag that says 5 cents sits upright looking at the viewer.\n",
+        "border": "5px solid rgb(255, 255, 255)"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "cat_image_overlay_12",
+      "source_ids": [
+        "src_00183"
+      ],
+      "x": 612.0,
+      "y": 2956.22,
+      "w": 256.0,
+      "h": 324.83,
+      "z": 130,
+      "display": "block",
+      "properties": {
+        "link_source_id": "src_00183",
+        "backgroundColor": "rgba(18, 18, 18, 0.75)",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "text_black_cat_magazine",
+      "source_ids": [
+        "src_00184"
+      ],
+      "x": 628.0,
+      "y": 3227.67,
+      "w": 166.28,
+      "h": 37.19,
+      "z": 131,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00184",
+        "link_source_id": "src_00184",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "textAlign": "left",
+        "padding": "16px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_Show_More_Images",
+      "source_ids": [
+        "src_00185"
+      ],
+      "x": 511.95,
+      "y": 3325.22,
+      "w": 176.08,
+      "h": 38.0,
+      "z": 132,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00185",
+        "backgroundColor": "rgb(0, 118, 173)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "textAlign": "center",
+        "border": "1px solid rgb(0, 118, 173)",
+        "borderRadius": "6px",
+        "padding": "6px 12px"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "footer_background",
+      "source_ids": [
+        "src_00186"
+      ],
+      "x": 0.0,
+      "y": 3395.22,
+      "w": 1200.0,
+      "h": 233.0,
+      "z": 133,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgb(27, 27, 27)",
+        "padding": "32px 0px"
+      }
+    },
+    {
+      "type": "button",
+      "id": "button_Back_to_top",
+      "source_ids": [
+        "src_00187"
+      ],
+      "x": 1072.48,
+      "y": 3558.0,
+      "w": 111.52,
+      "h": 31.0,
+      "z": 134,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00187",
+        "backgroundColor": "rgb(0, 118, 173)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "700",
+        "textAlign": "center",
+        "border": "1px solid rgb(0, 118, 173)",
+        "borderRadius": "4px",
+        "padding": "4px 8px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Follow_Us",
+      "source_ids": [
+        "src_00188"
+      ],
+      "x": 286.02,
+      "y": 3429.22,
+      "w": 89.45,
+      "h": 27.0,
+      "z": 135,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00188",
+        "link_source_id": "src_00188",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "icon_Facebook",
+      "source_ids": [
+        "src_00189"
+      ],
+      "x": 395.47,
+      "y": 3427.22,
+      "w": 32.0,
+      "h": 32.0,
+      "z": 136,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00189",
+        "link_source_id": "src_00189",
+        "aria_label_source_id": "src_00189",
+        "alt": "Library of Congress Facebook"
+      }
+    },
+    {
+      "type": "image",
+      "id": "icon_X",
+      "source_ids": [
+        "src_00190"
+      ],
+      "x": 435.47,
+      "y": 3427.22,
+      "w": 32.0,
+      "h": 32.0,
+      "z": 137,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00190",
+        "link_source_id": "src_00190",
+        "aria_label_source_id": "src_00190",
+        "alt": "Library of Congress X"
+      }
+    },
+    {
+      "type": "image",
+      "id": "icon_YouTube",
+      "source_ids": [
+        "src_00191"
+      ],
+      "x": 475.47,
+      "y": 3427.22,
+      "w": 32.0,
+      "h": 32.0,
+      "z": 138,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00191",
+        "link_source_id": "src_00191",
+        "aria_label_source_id": "src_00191",
+        "alt": "Library of Congress YouTube"
+      }
+    },
+    {
+      "type": "image",
+      "id": "icon_Pinterest",
+      "source_ids": [
+        "src_00192"
+      ],
+      "x": 515.47,
+      "y": 3427.22,
+      "w": 32.0,
+      "h": 32.0,
+      "z": 139,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00192",
+        "link_source_id": "src_00192",
+        "aria_label_source_id": "src_00192",
+        "alt": "Library of Congress Pinterest"
+      }
+    },
+    {
+      "type": "image",
+      "id": "icon_Flickr",
+      "source_ids": [
+        "src_00193"
+      ],
+      "x": 555.47,
+      "y": 3427.22,
+      "w": 32.0,
+      "h": 32.0,
+      "z": 140,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00193",
+        "link_source_id": "src_00193",
+        "aria_label_source_id": "src_00193",
+        "alt": "Library of Congress Flickr"
+      }
+    },
+    {
+      "type": "image",
+      "id": "icon_Instagram",
+      "source_ids": [
+        "src_00194"
+      ],
+      "x": 595.47,
+      "y": 3427.22,
+      "w": 32.0,
+      "h": 32.0,
+      "z": 141,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00194",
+        "link_source_id": "src_00194",
+        "aria_label_source_id": "src_00194",
+        "alt": "Library of Congress Instagram"
+      }
+    },
+    {
+      "type": "image",
+      "id": "icon_iTunesU",
+      "source_ids": [
+        "src_00195"
+      ],
+      "x": 635.47,
+      "y": 3427.22,
+      "w": 32.0,
+      "h": 32.0,
+      "z": 142,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00195",
+        "link_source_id": "src_00195",
+        "aria_label_source_id": "src_00195",
+        "alt": "Library of Congress iTunesU"
+      }
+    },
+    {
+      "type": "image",
+      "id": "icon_LinkedIn",
+      "source_ids": [
+        "src_00196"
+      ],
+      "x": 675.47,
+      "y": 3427.22,
+      "w": 32.0,
+      "h": 32.0,
+      "z": 143,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00196",
+        "link_source_id": "src_00196",
+        "aria_label_source_id": "src_00196",
+        "alt": "Library of Congress LinkedIn"
+      }
+    },
+    {
+      "type": "image",
+      "id": "icon_Email",
+      "source_ids": [
+        "src_00197"
+      ],
+      "x": 715.47,
+      "y": 3427.22,
+      "w": 32.0,
+      "h": 32.0,
+      "z": 144,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00197",
+        "link_source_id": "src_00197",
+        "aria_label_source_id": "src_00197",
+        "alt": "Email"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Take_our_survey",
+      "source_ids": [
+        "src_00198"
+      ],
+      "x": 771.47,
+      "y": 3432.22,
+      "w": 118.5,
+      "h": 22.0,
+      "z": 145,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00198",
+        "link_source_id": "src_00198",
+        "color": "rgb(102, 173, 206)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "shape",
+      "id": "footer_links_container",
+      "source_ids": [
+        "src_00199"
+      ],
+      "x": 20.0,
+      "y": 3483.22,
+      "w": 1160.0,
+      "h": 113.0,
+      "z": 146,
+      "display": "block",
+      "properties": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "24px 0px 0px"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Accessibility",
+      "source_ids": [
+        "src_00200"
+      ],
+      "x": 20.0,
+      "y": 3509.22,
+      "w": 89.31,
+      "h": 22.0,
+      "z": 147,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00200",
+        "link_source_id": "src_00200",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Legal",
+      "source_ids": [
+        "src_00201"
+      ],
+      "x": 20.0,
+      "y": 3533.22,
+      "w": 39.0,
+      "h": 22.0,
+      "z": 148,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00201",
+        "link_source_id": "src_00201",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Inspector_General",
+      "source_ids": [
+        "src_00202"
+      ],
+      "x": 20.0,
+      "y": 3557.22,
+      "w": 133.22,
+      "h": 22.0,
+      "z": 149,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00202",
+        "link_source_id": "src_00202",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_External_Link_Disclaimer",
+      "source_ids": [
+        "src_00203"
+      ],
+      "x": 297.0,
+      "y": 3509.22,
+      "w": 178.44,
+      "h": 22.0,
+      "z": 150,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00203",
+        "link_source_id": "src_00203",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_USA_gov",
+      "source_ids": [
+        "src_00204"
+      ],
+      "x": 297.0,
+      "y": 3533.22,
+      "w": 61.27,
+      "h": 22.0,
+      "z": 151,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00204",
+        "link_source_id": "src_00204",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Contact",
+      "source_ids": [
+        "src_00205"
+      ],
+      "x": 297.0,
+      "y": 3557.22,
+      "w": 57.39,
+      "h": 22.0,
+      "z": 152,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00205",
+        "link_source_id": "src_00205",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Media",
+      "source_ids": [
+        "src_00206"
+      ],
+      "x": 574.0,
+      "y": 3509.22,
+      "w": 46.17,
+      "h": 22.0,
+      "z": 153,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00206",
+        "link_source_id": "src_00206",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Donate",
+      "source_ids": [
+        "src_00207"
+      ],
+      "x": 574.0,
+      "y": 3533.22,
+      "w": 54.67,
+      "h": 22.0,
+      "z": 154,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00207",
+        "link_source_id": "src_00207",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "text",
+      "id": "link_Shop",
+      "source_ids": [
+        "src_00208"
+      ],
+      "x": 574.0,
+      "y": 3557.22,
+      "w": 38.08,
+      "h": 22.0,
+      "z": 155,
+      "display": "block",
+      "properties": {
+        "text_source_id": "src_00208",
+        "link_source_id": "src_00208",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Open Sans\", Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "textAlign": "start"
+      }
+    },
+    {
+      "type": "image",
+      "id": "logo_Congress_gov",
+      "source_ids": [
+        "src_00209"
+      ],
+      "x": 851.0,
+      "y": 3533.08,
+      "w": 121.0,
+      "h": 24.0,
+      "z": 156,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00209",
+        "link_source_id": "src_00209",
+        "aria_label_source_id": "src_00209",
+        "alt": "Congress.gov"
+      }
+    },
+    {
+      "type": "image",
+      "id": "logo_Copyright_gov",
+      "source_ids": [
+        "src_00210"
+      ],
+      "x": 1004.0,
+      "y": 3533.08,
+      "w": 176.0,
+      "h": 24.0,
+      "z": 157,
+      "display": "block",
+      "properties": {
+        "src_source_id": "src_00210",
+        "link_source_id": "src_00210",
+        "aria_label_source_id": "src_00210",
+        "alt": "United States Copyright Office"
+      }
+    }
+  ],
+  "unsupported_features": [
+    {
+      "feature": "Carousel autoplay control",
+      "source_ids": [
+        "src_00011"
+      ]
+    },
+    {
+      "feature": "Carousel navigation",
+      "source_ids": [
+        "src_00012",
+        "src_00013"
+      ]
+    },
+    {
+      "feature": "Video player",
+      "source_ids": [
+        "src_00078",
+        "src_00079",
+        "src_00080",
+        "src_00081",
+        "src_00082",
+        "src_00084",
+        "src_00085",
+        "src_00092",
+        "src_00093"
+      ]
+    },
+    {
+      "feature": "Slider control for video time",
+      "source_ids": [
+        "src_00083"
+      ]
+    },
+    {
+      "feature": "Dropdown menu for video captions",
+      "source_ids": [
+        "src_00086"
+      ]
+    }
+  ]
+}

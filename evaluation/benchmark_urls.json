@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Wikipedia Main Page",
+    "category": "portal with navigation, inputs, and dense sections",
+    "url": "https://en.wikipedia.org/wiki/Main_Page"
+  },
+  {
+    "name": "MDN HTML lesson",
+    "category": "long technical article with code and side navigation",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content"
+  },
+  {
+    "name": "NASA Science Stories",
+    "category": "image-heavy editorial cards and news listing",
+    "url": "https://science.nasa.gov/stories/"
+  },
+  {
+    "name": "Library of Congress",
+    "category": "institutional homepage with search and content sections",
+    "url": "https://www.loc.gov/"
+  },
+  {
+    "name": "National Weather Service",
+    "category": "data-oriented page with navigation and location search",
+    "url": "https://www.weather.gov/"
+  },
+  {
+    "name": "Yellowstone National Park",
+    "category": "image-led destination page with menus and calls to action",
+    "url": "https://www.nps.gov/yell/index.htm"
+  },
+  {
+    "name": "The Met collection object",
+    "category": "museum object detail with large image and metadata",
+    "url": "https://www.metmuseum.org/art/collection/search/436535"
+  },
+  {
+    "name": "GOV.UK homepage",
+    "category": "text-heavy government service index",
+    "url": "https://www.gov.uk/"
+  },
+  {
+    "name": "Shopify homepage",
+    "category": "commercial landing page with rich navigation and cards",
+    "url": "https://www.shopify.com/"
+  },
+  {
+    "name": "Stripe homepage",
+    "category": "commercial landing page with prominent graphics and calls to action",
+    "url": "https://stripe.com/"
+  }
+]

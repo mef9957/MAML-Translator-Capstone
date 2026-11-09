@@ -1,0 +1,95 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 137,
+      "element_id": "icon_Facebook",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 138,
+      "element_id": "icon_X",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 139,
+      "element_id": "icon_YouTube",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 140,
+      "element_id": "icon_Pinterest",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 141,
+      "element_id": "icon_Flickr",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 142,
+      "element_id": "icon_Instagram",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 143,
+      "element_id": "icon_iTunesU",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 144,
+      "element_id": "icon_LinkedIn",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 145,
+      "element_id": "icon_Email",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 157,
+      "element_id": "logo_Congress_gov",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['ariaLabel']",
+      "line_number": 158,
+      "element_id": "logo_Copyright_gov",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    }
+  ],
+  "deterministic_repairs": []
+}

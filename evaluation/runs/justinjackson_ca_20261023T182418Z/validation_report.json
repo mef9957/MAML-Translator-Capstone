@@ -1,0 +1,903 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 2,
+      "element_id": "heading_this_is_a_web_page",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 3,
+      "element_id": "text_theres_not_much_here",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 4,
+      "element_id": "text_just_words",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 5,
+      "element_id": "text_weve_become_obsessed",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 6,
+      "element_id": "text_i_wrote_these_words",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 7,
+      "element_id": "text_im_in_a_little_city",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 8,
+      "element_id": "text_you_and_i_have_been_able",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 9,
+      "element_id": "text_i_wrote_this_in_a_text_editor",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 10,
+      "element_id": "text_i_remember_teaching",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 11,
+      "element_id": "link_a_story_about_a_squirrel",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 12,
+      "element_id": "text_think_about_all_the_things",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 13,
+      "element_id": "text_if_youre_a_web_designer",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 14,
+      "element_id": "text_what_do_you_have_to_say",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 15,
+      "element_id": "text_words_dont_come_after",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 16,
+      "element_id": "text_start_with_words",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 17,
+      "element_id": "text_cheers_justin_jackson",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 18,
+      "element_id": "link_mijustin",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 19,
+      "element_id": "text_do_you_like_to_make_stuff",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 20,
+      "element_id": "link_subscribe_to_my_newsletter",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 21,
+      "element_id": "link_creating_podcasts",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 22,
+      "element_id": "heading_translations",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 23,
+      "element_id": "list_item_text_thanks_to_0",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 24,
+      "element_id": "link_arabic",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 25,
+      "element_id": "link_muayyad_jesry",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 26,
+      "element_id": "list_item_text_thanks_to_1",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 27,
+      "element_id": "link_slovenian",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 28,
+      "element_id": "link_leon_skrilec",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 29,
+      "element_id": "list_item_text_thanks_to_2",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 30,
+      "element_id": "link_catalan",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 31,
+      "element_id": "link_jordi_nebot",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 32,
+      "element_id": "list_item_text_thanks_to_3",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 33,
+      "element_id": "link_afrikaans",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 34,
+      "element_id": "link_leo_gopal",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 35,
+      "element_id": "list_item_text_thanks_to_4",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 36,
+      "element_id": "link_brazilian_portuguese",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 37,
+      "element_id": "link_heitor_belloni",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 38,
+      "element_id": "list_item_text_thanks_to_5",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 39,
+      "element_id": "link_chinese",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 40,
+      "element_id": "link_zhuangda_zhu",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 41,
+      "element_id": "list_item_text_thanks_to_6",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 42,
+      "element_id": "link_czech",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 43,
+      "element_id": "link_jan_hajek",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 44,
+      "element_id": "list_item_text_thanks_to_7",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 45,
+      "element_id": "link_danish",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 46,
+      "element_id": "link_anders_gerlev_hansen",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 47,
+      "element_id": "list_item_text_thanks_to_8",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 48,
+      "element_id": "link_dutch",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 49,
+      "element_id": "link_frank_schaap",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 50,
+      "element_id": "list_item_text_thanks_to_9",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 51,
+      "element_id": "link_filipino",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 52,
+      "element_id": "link_nearamos",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 53,
+      "element_id": "list_item_text_thanks_to_and",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 54,
+      "element_id": "link_french",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 55,
+      "element_id": "link_plmd",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 56,
+      "element_id": "link_alexis_kauffmann",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 57,
+      "element_id": "list_item_text_thanks_to_and_1",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 58,
+      "element_id": "link_german",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 59,
+      "element_id": "link_yannick_ihmels",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 60,
+      "element_id": "link_david_lucas",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 61,
+      "element_id": "list_item_text_thanks_to_10",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 62,
+      "element_id": "link_greek",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 63,
+      "element_id": "link_yiannis_konstantakopoulos",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 64,
+      "element_id": "list_item_text_thanks_to_11",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 65,
+      "element_id": "link_hebrew",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 66,
+      "element_id": "link_shachaf_rodberg",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 67,
+      "element_id": "list_item_text_thanks_to_huperion",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 68,
+      "element_id": "link_hungarian",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 69,
+      "element_id": "list_item_text_thanks_to_12",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 70,
+      "element_id": "link_indonesian",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 71,
+      "element_id": "link_darmawan",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 72,
+      "element_id": "list_item_text_thanks_to_13",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 73,
+      "element_id": "link_italian",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 74,
+      "element_id": "link_pixline",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 75,
+      "element_id": "list_item_text_thanks_to_14",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 76,
+      "element_id": "link_japanese",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 77,
+      "element_id": "text_elle_kasai",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 78,
+      "element_id": "list_item_text_thanks_to_15",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 79,
+      "element_id": "link_korean",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 80,
+      "element_id": "link_hong_minhee",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 81,
+      "element_id": "list_item_text_thanks_to_16",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 82,
+      "element_id": "link_maltese",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 83,
+      "element_id": "link_vanessa_galea",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 84,
+      "element_id": "list_item_text_thanks_to_17",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 85,
+      "element_id": "link_mongolian",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 86,
+      "element_id": "link_ocho",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 87,
+      "element_id": "list_item_text_thanks_to_18",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 88,
+      "element_id": "link_norwegian",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 89,
+      "element_id": "link_dan_simon_myrland",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 90,
+      "element_id": "list_item_text_thanks_to_19",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 91,
+      "element_id": "link_persian",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 92,
+      "element_id": "link_kamyar",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 93,
+      "element_id": "list_item_text_thanks_to_20",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 94,
+      "element_id": "link_polish",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 95,
+      "element_id": "link_gregory_wolanski",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 96,
+      "element_id": "list_item_text_thanks_to_21",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 97,
+      "element_id": "link_romanian",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 98,
+      "element_id": "link_lucian_pricop",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 99,
+      "element_id": "list_item_text_thanks_to_22",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 100,
+      "element_id": "link_russian",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 101,
+      "element_id": "link_yaroslav_webkom",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 102,
+      "element_id": "list_item_text_thanks_to_23",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 103,
+      "element_id": "link_spanish",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 104,
+      "element_id": "link_ramon_garcia_perez",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 105,
+      "element_id": "list_item_text_thanks_to_24",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 106,
+      "element_id": "link_swedish",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 107,
+      "element_id": "link_erik_stattin",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 108,
+      "element_id": "list_item_text_thanks_to_25",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 109,
+      "element_id": "link_turkish",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 110,
+      "element_id": "link_opereysin",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 111,
+      "element_id": "list_item_text_thanks_to_26",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 112,
+      "element_id": "link_vietnamese",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    },
+    {
+      "code": "unknown_properties",
+      "message": "Renderer will ignore unknown properties: ['backgroundColor', 'border', 'borderRadius', 'padding']",
+      "line_number": 113,
+      "element_id": "link_nam_quach",
+      "source_ids": [],
+      "deterministic_fix_available": false
+    }
+  ],
+  "deterministic_repairs": []
+}
