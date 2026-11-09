@@ -7,9 +7,28 @@ from typing import Any
 from maml_pipeline.models import SourceInventory, ValidationIssue
 
 
+def required_source_ids(inventory: SourceInventory) -> set[str]:
+    """Source elements a translation must represent: visible in the capture, not a container, with content."""
+    return {
+        element.source_id
+        for element in inventory.elements
+        if element.visible_in_capture
+        and element.kind != "container"
+        and (
+            element.text
+            or element.accessible_name
+            or element.href
+            or element.src
+            or element.placeholder
+            or element.options
+        )
+    }
+
+
 def validate_preservation(
     objects: list[dict[str, Any]], inventory: SourceInventory
 ) -> tuple[list[ValidationIssue], list[ValidationIssue]]:
+    """Changed or invented content is an error. Missing elements are a warning so the run is still rendered and scored."""
     errors: list[ValidationIssue] = []
     warnings: list[ValidationIssue] = []
     by_id = inventory.by_id()
@@ -75,23 +94,9 @@ def validate_preservation(
                     )
                 )
 
-    required_ids = {
-        element.source_id
-        for element in inventory.elements
-        if element.visible_in_capture
-        and element.kind != "container"
-        and (
-            element.text
-            or element.accessible_name
-            or element.href
-            or element.src
-            or element.placeholder
-            or element.options
-        )
-    }
-    missing = required_ids - represented
+    missing = required_source_ids(inventory) - represented
     if missing:
-        errors.append(
+        warnings.append(
             ValidationIssue(
                 "unrepresented_source_elements",
                 f"{len(missing)} meaningful source elements are not represented in MAML.",

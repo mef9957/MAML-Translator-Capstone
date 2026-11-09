@@ -1,5 +1,1 @@
-# Purpose: Expose the canonical MAML-to-HTML renderer.
-
-from maml_pipeline.rendering.renderer import render_maml
-
-__all__ = ["render_maml"]
+# Purpose: Mark the MAML-to-HTML renderer modules as a package. Import from the modules directly.

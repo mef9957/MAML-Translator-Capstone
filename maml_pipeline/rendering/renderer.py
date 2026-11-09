@@ -10,6 +10,9 @@ from maml_pipeline.models import RenderResult
 from maml_pipeline.rendering.mamlscript import convert_mamlscript
 
 
+# The screenshot stage checks this title to confirm Chrome loaded the rendered page.
+RENDERED_PAGE_TITLE = "Rendered MAML"
+
 _CSS_FIELDS = {
     "backgroundColor": "background-color",
     "borderRadius": "border-radius",
@@ -108,7 +111,7 @@ def render_maml(objects: list[dict[str, Any]], output_path: Path) -> RenderResul
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rendered MAML</title>
+  <title>{RENDERED_PAGE_TITLE}</title>
   <style>
     html, body {{ margin: 0; padding: 0; }}
     body {{ position: relative; width: {viewport}px; min-height: 100vh; overflow-x: hidden; }}
@@ -123,4 +126,4 @@ def render_maml(objects: list[dict[str, Any]], output_path: Path) -> RenderResul
 """
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(document, encoding="utf-8")
-    return RenderResult(True, str(output_path), warnings=warnings)
+    return RenderResult(str(output_path), warnings=warnings)

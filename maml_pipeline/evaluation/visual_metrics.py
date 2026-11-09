@@ -2,13 +2,22 @@
 
 from __future__ import annotations
 
+import functools
+import threading
 import time
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from typing import Any
 
-from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.chrome.options import Options
+
+from maml_pipeline.extraction.browser_capture import ELEMENT_SCRIPT, build_chrome_driver
+from maml_pipeline.rendering.renderer import RENDERED_PAGE_TITLE
+
+
+class _QuietRequestHandler(SimpleHTTPRequestHandler):
+    def log_message(self, format: str, *args: Any) -> None:
+        """Keep per-request server logs out of the pipeline's terminal output."""
 
 
 def capture_rendered_page(
@@ -18,25 +27,29 @@ def capture_rendered_page(
     viewport_width: int,
     viewport_height: int,
     max_capture_height: int = 16000,
-) -> dict[str, int]:
-    """Open generated HTML in Chrome and save a full-page screenshot."""
-    options = Options()
-    options.add_argument("--headless=new")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-notifications")
-    options.add_argument(f"--window-size={viewport_width},{viewport_height}")
-
-    driver = webdriver.Chrome(options=options)
+) -> tuple[dict[str, int], list[dict[str, Any]]]:
+    """Serve generated HTML on localhost, save a full-page screenshot, and extract its visible elements."""
+    # Chrome loads the page over HTTP rather than file:// because file:// reads of the run
+    # folder were refused (ERR_ACCESS_DENIED). Python reads the file and Chrome only makes
+    # a local network request, so the result does not depend on file-access permissions.
+    handler = functools.partial(_QuietRequestHandler, directory=str(html_path.resolve().parent))
+    server = ThreadingHTTPServer(("127.0.0.1", 0), handler)
+    threading.Thread(target=server.serve_forever, daemon=True).start()
+    driver = None
     try:
+        driver = build_chrome_driver(viewport_width, viewport_height, headless=True)
         driver.set_page_load_timeout(30)
         try:
-            driver.get(html_path.resolve().as_uri())
+            driver.get(f"http://127.0.0.1:{server.server_port}/{html_path.name}")
         except TimeoutException:
             # Remote image URLs may outlive the local document load. Capture the
             # content that Chrome has available rather than discarding the run.
             pass
+
+        if driver.title != RENDERED_PAGE_TITLE:
+            raise RuntimeError(
+                f"Chrome did not load the rendered MAML page (page title: {driver.title!r})."
+            )
 
         driver.execute_async_script(
             """
@@ -65,13 +78,19 @@ def capture_rendered_page(
         time.sleep(0.25)
         screenshot_path.parent.mkdir(parents=True, exist_ok=True)
         driver.save_screenshot(str(screenshot_path))
-        return {
+        # Extracted after the full-height resize, matching how the source page is extracted.
+        rendered_elements: list[dict[str, Any]] = driver.execute_script(ELEMENT_SCRIPT)
+        capture_details = {
             "page_width": page_width,
             "page_height": page_height,
             "captured_height": capture_height,
         }
+        return capture_details, rendered_elements
     finally:
-        driver.quit()
+        if driver is not None:
+            driver.quit()
+        server.shutdown()
+        server.server_close()
 
 
 def compare_screenshots(

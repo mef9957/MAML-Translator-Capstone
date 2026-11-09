@@ -1,0 +1,162 @@
+{
+  "run": "www_weather_gov_20261103T044617Z",
+  "model": "openai/@vertexai/gemini-2.5-pro",
+  "estimated_input_tokens": {
+    "current": 17849,
+    "reduced": 9358,
+    "full_dom": 31440,
+    "relevant_html_only": 12372
+  },
+  "summary": {
+    "current": {
+      "input_tokens": 26243,
+      "output_tokens": 24930.5,
+      "reasoning_tokens": 4435.5,
+      "seconds_to_first_token": 40.065,
+      "seconds_writing": 146.516,
+      "seconds_total": 186.581,
+      "successful_calls": 2
+    },
+    "reduced_input": {
+      "input_tokens": 14668,
+      "output_tokens": 22380,
+      "reasoning_tokens": 3105,
+      "seconds_to_first_token": 26.732,
+      "seconds_writing": 131.311,
+      "seconds_total": 158.042,
+      "successful_calls": 2
+    },
+    "decisions_output": {
+      "input_tokens": 25828,
+      "output_tokens": 6933,
+      "reasoning_tokens": 4798.5,
+      "seconds_to_first_token": 40.615,
+      "seconds_writing": 14.879,
+      "seconds_total": 55.495,
+      "successful_calls": 2
+    },
+    "reduced_input_decisions_output": {
+      "input_tokens": 14253,
+      "output_tokens": 8675.5,
+      "reasoning_tokens": 6595.5,
+      "seconds_to_first_token": 51.139,
+      "seconds_writing": 14.357,
+      "seconds_total": 65.497,
+      "successful_calls": 2
+    }
+  },
+  "calls": [
+    {
+      "variant": "current",
+      "repeat": 1,
+      "input_tokens": 26243,
+      "output_tokens": 25806,
+      "reasoning_tokens": 5558,
+      "seconds_to_first_token": 52.057,
+      "seconds_writing": 145.127,
+      "seconds_total": 197.184,
+      "output_characters": 46009,
+      "output_whitespace_share": 0.365,
+      "json_valid": true,
+      "elements_returned": 99
+    },
+    {
+      "variant": "reduced_input",
+      "repeat": 1,
+      "input_tokens": 14668,
+      "output_tokens": 22745,
+      "reasoning_tokens": 3693,
+      "seconds_to_first_token": 32.634,
+      "seconds_writing": 131.959,
+      "seconds_total": 164.593,
+      "output_characters": 44643,
+      "output_whitespace_share": 0.368,
+      "json_valid": true,
+      "elements_returned": 99
+    },
+    {
+      "variant": "decisions_output",
+      "repeat": 1,
+      "input_tokens": 25828,
+      "output_tokens": 8252,
+      "reasoning_tokens": 6117,
+      "seconds_to_first_token": 52.025,
+      "seconds_writing": 15.099,
+      "seconds_total": 67.124,
+      "output_characters": 5315,
+      "output_whitespace_share": 0.001,
+      "json_valid": true,
+      "elements_returned": 105
+    },
+    {
+      "variant": "reduced_input_decisions_output",
+      "repeat": 1,
+      "input_tokens": 14253,
+      "output_tokens": 10458,
+      "reasoning_tokens": 8425,
+      "seconds_to_first_token": 65.979,
+      "seconds_writing": 14.388,
+      "seconds_total": 80.367,
+      "output_characters": 5030,
+      "output_whitespace_share": 0.002,
+      "json_valid": true,
+      "elements_returned": 99
+    },
+    {
+      "variant": "current",
+      "repeat": 2,
+      "input_tokens": 26243,
+      "output_tokens": 24055,
+      "reasoning_tokens": 3313,
+      "seconds_to_first_token": 28.073,
+      "seconds_writing": 147.904,
+      "seconds_total": 175.978,
+      "output_characters": 47930,
+      "output_whitespace_share": 0.36,
+      "json_valid": true,
+      "elements_returned": 99
+    },
+    {
+      "variant": "reduced_input",
+      "repeat": 2,
+      "input_tokens": 14668,
+      "output_tokens": 22015,
+      "reasoning_tokens": 2517,
+      "seconds_to_first_token": 20.829,
+      "seconds_writing": 130.664,
+      "seconds_total": 151.492,
+      "output_characters": 45502,
+      "output_whitespace_share": 0.374,
+      "json_valid": true,
+      "elements_returned": 105
+    },
+    {
+      "variant": "decisions_output",
+      "repeat": 2,
+      "input_tokens": 25828,
+      "output_tokens": 5614,
+      "reasoning_tokens": 3480,
+      "seconds_to_first_token": 29.206,
+      "seconds_writing": 14.659,
+      "seconds_total": 43.865,
+      "output_characters": 5317,
+      "output_whitespace_share": 0.001,
+      "json_valid": true,
+      "elements_returned": 105
+    },
+    {
+      "variant": "reduced_input_decisions_output",
+      "repeat": 2,
+      "input_tokens": 14253,
+      "output_tokens": 6893,
+      "reasoning_tokens": 4766,
+      "seconds_to_first_token": 36.3,
+      "seconds_writing": 14.327,
+      "seconds_total": 50.627,
+      "output_characters": 5293,
+      "output_whitespace_share": 0.002,
+      "json_valid": true,
+      "elements_returned": 105
+    }
+  ]
+}

@@ -41,7 +41,6 @@ class SourceElement:
     y: float
     width: float
     height: float
-    visible: bool
     visible_in_capture: bool
     interactive: bool
     styles: dict[str, str]
@@ -93,9 +92,7 @@ class ValidationReport:
 
 @dataclass
 class RenderResult:
-    success: bool
-    html_path: str | None
-    errors: list[str] = field(default_factory=list)
+    html_path: str
     warnings: list[str] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
@@ -109,6 +106,7 @@ class PipelineResult:
     html_path: str
     rendered_screenshot_path: str
     validation_report_path: str
+    evaluation_report_path: str
     metadata_path: str
     model_calls: int
     ssim: float

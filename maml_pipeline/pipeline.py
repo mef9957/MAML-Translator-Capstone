@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -9,17 +10,27 @@ from time import perf_counter
 from typing import Any
 from urllib.parse import urlparse
 
+from maml_pipeline import __version__
 from maml_pipeline.config import Settings
-from maml_pipeline.evaluation import capture_rendered_page, compare_screenshots
-from maml_pipeline.extraction import build_source_inventory, capture_page
+from maml_pipeline.evaluation.translation_metrics import evaluate_translation, headline_scores, maml_validity
+from maml_pipeline.evaluation.visual_metrics import capture_rendered_page, compare_screenshots
+from maml_pipeline.extraction.browser_capture import capture_page
+from maml_pipeline.extraction.source_inventory import build_source_inventory
 from maml_pipeline.generation.prompt_builder import build_translation_prompt, load_system_prompt
-from maml_pipeline.generation.serializer import to_jsonl
-from maml_pipeline.generation.translator import translate_inventory
-from maml_pipeline.io_utils import write_json, write_text
+from maml_pipeline.generation.serializer import serialize_plan, to_jsonl
+from maml_pipeline.generation.translator import parse_translation_response, request_translation
 from maml_pipeline.models import PipelineResult
-from maml_pipeline.rendering import render_maml
+from maml_pipeline.rendering.renderer import render_maml
 from maml_pipeline.validation.deterministic_repair import repair_maml
 from maml_pipeline.validation.validator import validate_maml
+
+
+def _write_json(path: Path, value: Any) -> None:
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _write_text(path: Path, value: str) -> None:
+    path.write_text(value, encoding="utf-8")
 
 
 def _run_name(url: str) -> str:
@@ -37,7 +48,7 @@ def run_pipeline(
     headless: bool = True,
     prompt_path: Path | None = None,
 ) -> PipelineResult:
-    """Execute capture, inventory, one model call, validation, repair, and rendering."""
+    """Execute capture, inventory, one model call, validation, repair, rendering, and evaluation."""
     run_dir = output_root / _run_name(url)
     run_dir.mkdir(parents=True, exist_ok=False)
     total_started = perf_counter()
@@ -46,6 +57,7 @@ def run_pipeline(
     metadata: dict[str, Any] = {
         "status": "running",
         "url": url,
+        "pipeline_version": __version__,
         "started_at_utc": datetime.now(timezone.utc).isoformat(),
         "model": settings.model,
         "model_calls": 0,
@@ -65,6 +77,7 @@ def run_pipeline(
         "error": None,
         "timings_seconds": {},
         "ssim": None,
+        "evaluation": None,
     }
 
     def begin(name: str) -> None:
@@ -78,8 +91,8 @@ def run_pipeline(
     try:
         system_prompt, prompt_version, selected_prompt_path = load_system_prompt(prompt_path)
         metadata["prompt_version"] = prompt_version
-        metadata["prompt_file"] = str(selected_prompt_path) if selected_prompt_path else None
-        write_text(run_dir / "system_prompt.txt", system_prompt + "\n")
+        metadata["prompt_file"] = str(selected_prompt_path)
+        _write_text(run_dir / "system_prompt.txt", system_prompt + "\n")
 
         begin("extraction")
         capture = capture_page(
@@ -89,26 +102,29 @@ def run_pipeline(
             viewport_height=settings.viewport_height,
             headless=headless,
         )
-        write_text(run_dir / "rendered_source.html", capture.rendered_html)
+        _write_text(run_dir / "rendered_source.html", capture.rendered_html)
+        # Every extracted element before the inventory cap. Evaluation compares against this
+        # list, so elements the cap removes are counted as missing.
+        _write_json(run_dir / "source_elements.json", capture.raw_elements)
         inventory = build_source_inventory(capture, settings.max_inventory_elements)
-        write_json(run_dir / "source_inventory.json", inventory.to_dict())
+        _write_json(run_dir / "source_inventory.json", inventory.to_dict())
         page_prompt = build_translation_prompt(inventory)
-        write_text(run_dir / "page_prompt.txt", page_prompt + "\n")
+        _write_text(run_dir / "page_prompt.txt", page_prompt + "\n")
         metadata["inventory_element_count"] = len(inventory.elements)
         metadata["inventory_warnings"] = inventory.warnings
         finish()
 
         begin("llm_generation")
+        # Counts attempted calls, so a failed or rejected call is still recorded.
         metadata["model_calls"] = 1
-        plan, maml_objects, raw_response = translate_inventory(
-            inventory,
-            settings,
-            system_prompt=system_prompt,
-            page_prompt=page_prompt,
-        )
-        write_text(run_dir / "raw_model_response.txt", raw_response)
-        write_json(run_dir / "translation_plan.json", plan)
-        write_text(run_dir / "generated.maml", to_jsonl(maml_objects))
+        raw_response = request_translation(page_prompt, settings, system_prompt)
+        # Saved before parsing so an invalid response can still be inspected.
+        _write_text(run_dir / "raw_model_response.txt", raw_response)
+        plan = parse_translation_response(raw_response)
+        _write_json(run_dir / "translation_plan.json", plan)
+        maml_objects = serialize_plan(plan, inventory)
+        generated_objects = maml_objects
+        _write_text(run_dir / "generated.maml", to_jsonl(maml_objects))
         metadata["maml_element_count"] = max(len(maml_objects) - 1, 0)
         metadata["unsupported_feature_count"] = len(plan.get("unsupported_features") or [])
         finish()
@@ -118,7 +134,7 @@ def run_pipeline(
         repair_log: list[str] = []
         if not report.valid:
             maml_objects, repair_log = repair_maml(maml_objects)
-            write_text(run_dir / "repaired.maml", to_jsonl(maml_objects))
+            _write_text(run_dir / "repaired.maml", to_jsonl(maml_objects))
             report = validate_maml(maml_objects, inventory)
 
         missing_ids = sorted(
@@ -133,7 +149,7 @@ def run_pipeline(
         metadata["missing_source_element_count"] = len(missing_ids)
         metadata["validation_error_count"] = len(report.errors)
         metadata["validation_warning_count"] = len(report.warnings)
-        write_json(
+        _write_json(
             run_dir / "validation_report.json",
             {**report.to_dict(), "deterministic_repairs": repair_log},
         )
@@ -147,33 +163,43 @@ def run_pipeline(
 
         begin("rendering")
         final_maml_path = run_dir / "final.maml"
-        write_text(final_maml_path, to_jsonl(maml_objects))
-        rendered_html_path = run_dir / "rendered.html"
-        render_result = render_maml(maml_objects, rendered_html_path)
-        write_json(run_dir / "render_report.json", render_result.to_dict())
-        if not render_result.success or not render_result.html_path:
-            raise RuntimeError("MAML validation passed, but rendering failed.")
+        _write_text(final_maml_path, to_jsonl(maml_objects))
+        render_result = render_maml(maml_objects, run_dir / "rendered.html")
+        _write_json(run_dir / "render_report.json", render_result.to_dict())
         finish()
 
         begin("rendered_screenshot")
         rendered_screenshot_path = run_dir / "rendered.png"
-        screenshot_details = capture_rendered_page(
-            rendered_html_path,
+        metadata["rendered_capture"], rendered_elements = capture_rendered_page(
+            Path(render_result.html_path),
             rendered_screenshot_path,
             viewport_width=settings.viewport_width,
             viewport_height=settings.viewport_height,
         )
-        metadata["rendered_capture"] = screenshot_details
+        _write_json(run_dir / "rendered_elements.json", rendered_elements)
         finish()
 
-        begin("visual_comparison")
+        begin("evaluation")
         comparison = compare_screenshots(
             Path(capture.screenshot_path),
             rendered_screenshot_path,
             run_dir / "visual_diff.png",
         )
-        write_json(run_dir / "ssim_report.json", comparison)
+        _write_json(run_dir / "ssim_report.json", comparison)
+        evaluation = evaluate_translation(
+            source_elements=capture.raw_elements,
+            rendered_elements=rendered_elements,
+            source_page_width=capture.page_width,
+            source_page_height=capture.page_height,
+            original_screenshot=Path(capture.screenshot_path),
+            rendered_screenshot=rendered_screenshot_path,
+            ssim=comparison["ssim"],
+            validity=maml_validity(generated_objects, maml_objects, inventory, len(repair_log)),
+        )
+        evaluation_report_path = run_dir / "evaluation_report.json"
+        _write_json(evaluation_report_path, evaluation)
         metadata["ssim"] = comparison["ssim"]
+        metadata["evaluation"] = headline_scores(evaluation)
         finish()
 
         metadata["status"] = "completed"
@@ -183,6 +209,7 @@ def run_pipeline(
             html_path=render_result.html_path,
             rendered_screenshot_path=str(rendered_screenshot_path),
             validation_report_path=str(run_dir / "validation_report.json"),
+            evaluation_report_path=str(evaluation_report_path),
             metadata_path=str(run_dir / "run_metadata.json"),
             model_calls=int(metadata["model_calls"]),
             ssim=float(comparison["ssim"]),
@@ -197,4 +224,4 @@ def run_pipeline(
     finally:
         metadata["finished_at_utc"] = datetime.now(timezone.utc).isoformat()
         metadata["timings_seconds"]["total"] = round(perf_counter() - total_started, 6)
-        write_json(run_dir / "run_metadata.json", metadata)
+        _write_json(run_dir / "run_metadata.json", metadata)

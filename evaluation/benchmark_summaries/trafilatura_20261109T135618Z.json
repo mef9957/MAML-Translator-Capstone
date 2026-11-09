@@ -1,0 +1,160 @@
+{
+  "results": [
+    {
+      "run": "example_com_20261023T180508Z",
+      "source_main_content_words": 140,
+      "maml_main_content_words": 140,
+      "maml_all_text_words": 140,
+      "main_vs_main": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0
+      },
+      "source_main_content_kept_in_maml": 1.0,
+      "order_sensitive_similarity": 1.0
+    },
+    {
+      "run": "gulfnews_com_20261023T200629Z",
+      "source_main_content_words": 21,
+      "maml_main_content_words": 861,
+      "maml_all_text_words": 863,
+      "main_vs_main": {
+        "recall": 1.0,
+        "precision": 0.024390243902439025,
+        "f1": 0.047619047619047616
+      },
+      "source_main_content_kept_in_maml": 1.0,
+      "order_sensitive_similarity": 0.024943310657596373
+    },
+    {
+      "run": "info_cern_ch_20261023T200030Z",
+      "source_main_content_words": 162,
+      "maml_main_content_words": 45,
+      "maml_all_text_words": 45,
+      "main_vs_main": {
+        "recall": 0.2777777777777778,
+        "precision": 1.0,
+        "f1": 0.4347826086956522
+      },
+      "source_main_content_kept_in_maml": 0.2777777777777778,
+      "order_sensitive_similarity": 0.43478260869565216
+    },
+    {
+      "run": "info_cern_ch_20261023T202343Z",
+      "source_main_content_words": 162,
+      "maml_main_content_words": 157,
+      "maml_all_text_words": 157,
+      "main_vs_main": {
+        "recall": 0.9691358024691358,
+        "precision": 1.0,
+        "f1": 0.9843260188087775
+      },
+      "source_main_content_kept_in_maml": 0.9691358024691358,
+      "order_sensitive_similarity": 0.9843260188087775
+    },
+    {
+      "run": "justinjackson_ca_20261023T182418Z",
+      "source_main_content_words": 472,
+      "maml_main_content_words": 557,
+      "maml_all_text_words": 557,
+      "main_vs_main": {
+        "recall": 0.8559322033898306,
+        "precision": 0.725314183123878,
+        "f1": 0.7852283770651118
+      },
+      "source_main_content_kept_in_maml": 0.8559322033898306,
+      "order_sensitive_similarity": 0.7560738581146744
+    },
+    {
+      "run": "medium_com_20261103T052035Z",
+      "source_main_content_words": 29,
+      "maml_main_content_words": 38,
+      "maml_all_text_words": 38,
+      "main_vs_main": {
+        "recall": 1.0,
+        "precision": 0.7631578947368421,
+        "f1": 0.8656716417910448
+      },
+      "source_main_content_kept_in_maml": 1.0,
+      "order_sensitive_similarity": 0.8656716417910447
+    },
+    {
+      "run": "science_nasa_gov_20261103T043659Z",
+      "source_main_content_words": 17,
+      "maml_main_content_words": 119,
+      "maml_all_text_words": 119,
+      "main_vs_main": {
+        "recall": 0.9411764705882353,
+        "precision": 0.13445378151260504,
+        "f1": 0.23529411764705882
+      },
+      "source_main_content_kept_in_maml": 0.9411764705882353,
+      "order_sensitive_similarity": 0.23529411764705882
+    },
+    {
+      "run": "stripe_com_20261103T053415Z",
+      "source_main_content_words": 951,
+      "maml_main_content_words": 855,
+      "maml_all_text_words": 1341,
+      "main_vs_main": {
+        "recall": 0.6267087276550999,
+        "precision": 0.6970760233918128,
+        "f1": 0.6600221483942414
+      },
+      "source_main_content_kept_in_maml": 0.7213459516298633,
+      "order_sensitive_similarity": 0.42414174972314506
+    },
+    {
+      "run": "thepminterview_com_20261102T200020Z",
+      "source_main_content_words": 101,
+      "maml_main_content_words": 34,
+      "maml_all_text_words": 34,
+      "main_vs_main": {
+        "recall": 0.26732673267326734,
+        "precision": 0.7941176470588235,
+        "f1": 0.39999999999999997
+      },
+      "source_main_content_kept_in_maml": 0.26732673267326734,
+      "order_sensitive_similarity": 0.2814814814814815
+    },
+    {
+      "run": "www_gutenberg_org_20261023T180642Z",
+      "source_main_content_words": 275,
+      "maml_main_content_words": 488,
+      "maml_all_text_words": 502,
+      "main_vs_main": {
+        "recall": 0.96,
+        "precision": 0.5409836065573771,
+        "f1": 0.6920052424639582
+      },
+      "source_main_content_kept_in_maml": 0.96,
+      "order_sensitive_similarity": 0.5950196592398427
+    },
+    {
+      "run": "www_loc_gov_20261103T051114Z",
+      "source_main_content_words": 48,
+      "maml_main_content_words": 375,
+      "maml_all_text_words": 383,
+      "main_vs_main": {
+        "recall": 1.0,
+        "precision": 0.128,
+        "f1": 0.22695035460992907
+      },
+      "source_main_content_kept_in_maml": 1.0,
+      "order_sensitive_similarity": 0.22695035460992907
+    },
+    {
+      "run": "www_weather_gov_20261103T044617Z",
+      "source_main_content_words": 151,
+      "maml_main_content_words": 219,
+      "maml_all_text_words": 225,
+      "main_vs_main": {
+        "recall": 0.5099337748344371,
+        "precision": 0.3515981735159817,
+        "f1": 0.4162162162162162
+      },
+      "source_main_content_kept_in_maml": 0.5099337748344371,
+      "order_sensitive_similarity": 0.3837837837837838
+    }
+  ]
+}

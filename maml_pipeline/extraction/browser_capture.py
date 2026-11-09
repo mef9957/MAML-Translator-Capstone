@@ -14,7 +14,8 @@ from selenium.webdriver.chrome.options import Options
 from maml_pipeline.models import PageCapture
 
 
-_ELEMENT_SCRIPT = r"""
+# Shared with the rendered-page capture so source and rendered MAML are measured the same way.
+ELEMENT_SCRIPT = r"""
 const results = [];
 const CONTROL_SELECTOR = [
   'button',
@@ -154,14 +155,14 @@ function addTextNode(node) {
     href: link ? link.href : null,
     interactive: Boolean(link),
     styles: stylesFor(parent),
-    visible: true,
     visible_in_capture: visibleInCapture(parent, rect),
     ...geometry(rect)
   });
 }
 
 function addControl(element) {
-  if (element.closest(CONTROL_SELECTOR) !== element) return;
+  // Record only the outermost control so nested controls are not captured twice.
+  if (element.parentElement && element.parentElement.closest(CONTROL_SELECTOR)) return;
   const rect = element.getBoundingClientRect();
   if (!visible(element, rect)) return;
 
@@ -186,7 +187,6 @@ function addControl(element) {
       : [],
     interactive: true,
     styles: stylesFor(element),
-    visible: true,
     visible_in_capture: visibleInCapture(element, rect),
     ...geometry(rect)
   });
@@ -206,7 +206,6 @@ function addImage(element) {
     alt: element.getAttribute('alt'),
     interactive: Boolean(link),
     styles: stylesFor(element),
-    visible: true,
     visible_in_capture: visibleInCapture(element, rect),
     ...geometry(rect)
   });
@@ -233,7 +232,6 @@ function addVisualContainer(element) {
     href: element.closest('a[href]')?.href || null,
     interactive: Boolean(element.closest('a[href]')),
     styles: stylesFor(element),
-    visible: true,
     visible_in_capture: visibleInCapture(element, rect),
     ...geometry(rect)
   });
@@ -269,7 +267,8 @@ class BrowserCaptureError(RuntimeError):
     """Raised when a webpage cannot be captured."""
 
 
-def _build_driver(viewport_width: int, viewport_height: int, headless: bool) -> webdriver.Chrome:
+def build_chrome_driver(viewport_width: int, viewport_height: int, headless: bool) -> webdriver.Chrome:
+    """Start Chrome with the options shared by source capture and rendered-page capture."""
     options = Options()
     if headless:
         options.add_argument("--headless=new")
@@ -326,7 +325,7 @@ def capture_page(
     errors: list[str] = []
 
     try:
-        driver = _build_driver(viewport_width, viewport_height, headless)
+        driver = build_chrome_driver(viewport_width, viewport_height, headless)
         driver.set_page_load_timeout(page_load_timeout)
         try:
             driver.get(url)
@@ -349,7 +348,7 @@ def capture_page(
         driver.set_window_size(viewport_width, max(viewport_height, capture_height))
         driver.save_screenshot(str(screenshot_path))
 
-        raw_elements: list[dict[str, Any]] = driver.execute_script(_ELEMENT_SCRIPT)
+        raw_elements: list[dict[str, Any]] = driver.execute_script(ELEMENT_SCRIPT)
         return PageCapture(
             url=url,
             title=driver.title or "",

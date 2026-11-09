@@ -1,12 +1,12 @@
 {
-  "ssim": 0.2666260526695619,
+  "ssim": 0.36568637944085675,
   "original_dimensions": [
     1200,
     3485
   ],
   "rendered_dimensions": [
     1200,
-    757
+    3485
   ],
   "comparison_dimensions": [
     1200,

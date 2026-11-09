@@ -17,7 +17,6 @@ class Settings:
     viewport_width: int
     viewport_height: int
     max_inventory_elements: int
-    max_repair_attempts: int
 
 
 def load_settings(project_root: Path | None = None) -> Settings:
@@ -32,5 +31,4 @@ def load_settings(project_root: Path | None = None) -> Settings:
         viewport_width=int(os.getenv("MAML_VIEWPORT_WIDTH", "1200")),
         viewport_height=int(os.getenv("MAML_VIEWPORT_HEIGHT", "900")),
         max_inventory_elements=int(os.getenv("MAML_MAX_INVENTORY_ELEMENTS", "350")),
-        max_repair_attempts=int(os.getenv("MAML_MAX_REPAIR_ATTEMPTS", "1")),
     )

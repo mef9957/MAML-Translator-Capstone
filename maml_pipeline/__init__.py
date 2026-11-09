@@ -1,3 +1,3 @@
-# Purpose: Expose the package version for the Fall 2026 HTML-to-MAML pipeline.
+# Purpose: Record the pipeline version, which every run saves in run_metadata.json.
 
-__version__ = "0.1.0"
+__version__ = "0.3.0"

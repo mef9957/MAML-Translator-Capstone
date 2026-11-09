@@ -10,3 +10,4 @@ outputs/runs/
 maml_agent/.adk/
 .adk/
 work_chromedriver.log
+_backup_*

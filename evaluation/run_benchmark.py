@@ -60,6 +60,7 @@ def main() -> int:
             "failure_stage": metadata.get("failure_stage"),
             "error": metadata.get("error"),
             "ssim": metadata.get("ssim"),
+            "evaluation": metadata.get("evaluation"),
             "inventory_element_count": metadata.get("inventory_element_count"),
             "maml_element_count": metadata.get("maml_element_count"),
             "missing_source_element_count": metadata.get("missing_source_element_count"),
@@ -69,6 +70,7 @@ def main() -> int:
         if result["status"] == "completed":
             print(
                 f"  completed | SSIM={result['ssim']} | "
+                f"Design2Code={result['evaluation']['design2code_overall']} | "
                 f"inventory={result['inventory_element_count']} | "
                 f"missing={result['missing_source_element_count']}",
                 flush=True,

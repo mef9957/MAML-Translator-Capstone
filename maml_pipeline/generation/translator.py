@@ -1,23 +1,43 @@
-# Purpose: Coordinate the single translation call, parse its response, and resolve exact source evidence.
+# Purpose: Make the single translation model call and parse its JSON response.
 
 from __future__ import annotations
 
+import json
+from typing import Any
+
+from maml_agent.agent import run_translation_agent
 from maml_pipeline.config import Settings
-from maml_pipeline.generation.model_client import call_translation_agent
-from maml_pipeline.generation.prompt_builder import build_translation_prompt
-from maml_pipeline.generation.response_parser import parse_translation_response
-from maml_pipeline.generation.serializer import serialize_plan
-from maml_pipeline.models import SourceInventory
 
 
-def translate_inventory(
-    inventory: SourceInventory,
-    settings: Settings,
-    *,
-    system_prompt: str,
-    page_prompt: str | None = None,
-) -> tuple[dict, list[dict], str]:
-    prompt = page_prompt or build_translation_prompt(inventory)
-    response = call_translation_agent(prompt, settings, system_prompt)
-    plan = parse_translation_response(response)
-    return plan, serialize_plan(plan, inventory), response
+class ModelConfigurationError(RuntimeError):
+    """Raised when the model cannot be called because no API key is configured."""
+
+
+class TranslationResponseError(ValueError):
+    """Raised when the model response is not the requested JSON structure."""
+
+
+def request_translation(page_prompt: str, settings: Settings, system_prompt: str) -> str:
+    """Call the translation agent once and return its raw text response."""
+    if not settings.api_key:
+        raise ModelConfigurationError(
+            "No model API key was found. Set PORTKEY_API_KEY, OPENAI_API_KEY, or GOOGLE_API_KEY in .env."
+        )
+    return run_translation_agent(page_prompt, settings, system_prompt)
+
+
+def parse_translation_response(content: str) -> dict[str, Any]:
+    """Strip an optional Markdown code fence and require an object with an elements array."""
+    cleaned = content.strip()
+    if cleaned.startswith("```"):
+        lines = cleaned.splitlines()
+        cleaned = "\n".join(lines[1:-1]).strip()
+
+    try:
+        payload = json.loads(cleaned)
+    except json.JSONDecodeError as exc:
+        raise TranslationResponseError(f"Model output was not valid JSON: {exc}") from exc
+
+    if not isinstance(payload, dict) or not isinstance(payload.get("elements"), list):
+        raise TranslationResponseError("Model output must be an object containing an elements array.")
+    return payload

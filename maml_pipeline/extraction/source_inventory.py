@@ -18,14 +18,14 @@ def _has_meaningful_content(item: dict) -> bool:
 
 
 def build_source_inventory(capture: PageCapture, max_elements: int = 350) -> SourceInventory:
-    """Filter invisible/noise elements and retain exact page evidence in document order."""
+    """Drop empty elements, apply the element cap, and retain exact page evidence in document order."""
     elements: list[SourceElement] = []
     warnings = list(capture.errors)
 
     meaningful = [
         item
         for item in capture.raw_elements
-        if item.get("visible") and _has_meaningful_content(item)
+        if _has_meaningful_content(item)
     ]
     content = [item for item in meaningful if item.get("kind") != "container"]
     containers = [item for item in meaningful if item.get("kind") == "container"]
@@ -44,7 +44,6 @@ def build_source_inventory(capture: PageCapture, max_elements: int = 350) -> Sou
         )
 
     for item in selected:
-
         elements.append(
             SourceElement(
                 source_id=str(item["source_id"]),
@@ -63,8 +62,7 @@ def build_source_inventory(capture: PageCapture, max_elements: int = 350) -> Sou
                 y=float(item.get("y") or 0),
                 width=float(item.get("width") or 0),
                 height=float(item.get("height") or 0),
-                visible=bool(item.get("visible")),
-                visible_in_capture=bool(item.get("visible_in_capture", item.get("visible"))),
+                visible_in_capture=bool(item.get("visible_in_capture")),
                 interactive=bool(item.get("interactive")),
                 styles=dict(item.get("styles") or {}),
             )
