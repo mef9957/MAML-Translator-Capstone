@@ -31,7 +31,6 @@ Only the translation step uses an LLM. Every other step is deterministic Python.
    ```
 4. Install the dependencies:
    ```bash
-   python -m pip install --upgrade pip
    python -m pip install -r requirements.txt
    ```
 5. Create a `.env` file in the project root. Shell environment variables override `.env` values.
@@ -118,95 +117,5 @@ Only the translation step uses an LLM. Every other step is deterministic Python.
 
 **Canonical MAML format:** the first line is `{"viewport_width": 1200}`. Each following line is one flat element with `type`, `id`, `source_ids`, `x`, `y`, `z`, `w`, `h`, `display` and its type-specific fields. Supported types are `text`, `shape`, `text-field`, `button`, `dropdown`, `image`, `carousel` and `script`. This schema is defined by this repository's validator and renderer and is not the MAML2023 format.
 
-## 4. Important files and functions
 
-**Page fetcher:** `maml_pipeline/extraction/browser_capture.py`, `capture_page()`
-- Loads the page in Chrome, scrolls until the page height stops growing (up to 20 steps), then screenshots the full page (capped at 16,000 px).
-- Runs JavaScript in the page that walks every element and text node and records visible text, images, controls and boxes with a background, border or shadow.
-- **Input:** URL, run folder, viewport size, headless flag. **Output:** `PageCapture`.
-
-**Source inventory builder:** `maml_pipeline/extraction/source_inventory.py`, `build_source_inventory()`
-- Keeps content elements first and fills any remaining budget with containers, then restores page order.
-- Adds a warning when the 350-element cap cuts elements.
-- **Input:** `PageCapture`, element cap. **Output:** `SourceInventory`.
-
-**Prompt builder:** `maml_pipeline/generation/prompt_builder.py`, `load_system_prompt()` and `build_translation_prompt()`
-- Loads the prompt file and returns its text and version name (the file name).
-- Converts the inventory to compact JSON with empty fields removed.
-- **Input:** prompt path, `SourceInventory`. **Output:** system prompt text and page prompt text.
-
-**Translation agent:** `maml_agent/agent.py`, `build_translation_agent()`, and `maml_agent/runner.py`, `run_translation_agent()`
-- Builds a tool-free ADK `LlmAgent` using LiteLLM with the configured model, key and gateway.
-- Runs it once in a new in-memory session and returns the final text. Raises an error if the reply is empty.
-- **Input:** page prompt, settings, system prompt. **Output:** raw response text.
-
-**Translation coordinator:** `maml_pipeline/generation/translator.py`, `translate_inventory()`
-- Calls the agent, parses the response and serializes the plan.
-- **Input:** `SourceInventory`, settings, prompts. **Output:** plan, MAML objects, raw response.
-
-**Serializer:** `maml_pipeline/generation/serializer.py`, `serialize_plan()` and `to_jsonl()`
-- Resolves `text_source_id`, `link_source_id`, `aria_label_source_id`, `placeholder_source_id`, `options_source_id` and `src_source_id` to exact inventory values.
-- Collects every referenced ID into the element's `source_ids` so the validator can check it.
-- **Input:** plan, `SourceInventory`. **Output:** list of MAML objects (JSON-lines text from `to_jsonl()`).
-
-**Validator:** `maml_pipeline/validation/validator.py`, `validate_maml()`
-- Combines the schema checks (`validate_schema()`) and the source-preservation checks (`validate_preservation()`).
-- The run is valid only when there are no errors. Warnings do not stop it.
-- **Input:** MAML objects, `SourceInventory`. **Output:** `ValidationReport`.
-
-**Repair:** `maml_pipeline/validation/deterministic_repair.py`, `repair_maml()`
-- Normalizes `display`, converts geometry strings like `"12px"` to numbers, and renames duplicate IDs.
-- **Input:** MAML objects. **Output:** repaired objects and a list of changes.
-
-**Renderer:** `maml_pipeline/rendering/renderer.py`, `render_maml()`
-- Writes one absolutely positioned HTML element per MAML element, sorted by `z`, and wraps linked elements in `<a>`.
-- Converts `script` elements to JavaScript with `convert_mamlscript()` in `mamlscript.py`.
-- **Input:** MAML objects, output path. **Output:** `RenderResult` and `rendered.html`.
-
-**Visual comparison:** `maml_pipeline/evaluation/visual_metrics.py`, `capture_rendered_page()` and `compare_screenshots()`
-- Screenshots the rendered HTML in Chrome.
-- Calculates grayscale SSIM between the two screenshots and saves a difference image.
-- **Input:** HTML path, screenshot paths. **Output:** capture dimensions, SSIM report.
-
-**Orchestrator:** `maml_pipeline/pipeline.py`, `run_pipeline()`
-- Runs every stage, saves every artifact and times each stage.
-- Always writes `run_metadata.json`, including the failure stage and error when a run fails.
-- **Input:** URL, output folder, settings, headless flag, prompt path. **Output:** `PipelineResult`.
-
-**Benchmark:** `evaluation/run_benchmark.py`, `main()`
-- Runs the pipeline once per benchmark URL, each in its own subprocess.
-- Reads each run's metadata and writes one summary file.
-- **Input:** `evaluation/benchmark_urls.json`. **Output:** run folders and a benchmark summary.
-
-## 5. Current known issues
-
-**Evaluation**
-- **SSIM scores in the saved runs are not valid.** In all six completed runs (Nov 2–3), `rendered.png` is a Chrome "Access to the file was denied" page instead of the rendered MAML. The `rendered.html` files themselves are fine. The likely cause is that Chrome cannot read files under `~/Desktop`, but this is not confirmed. The pipeline does not check that it loaded the right page before taking the screenshot.
-- **SSIM alone hides missing content.** Screenshots are padded with white, so content missing at the bottom of a white page barely lowers the score.
-- **Completed runs always report 0 missing elements.** Missing elements are a validation error, so any run with one stops. Coverage also counts IDs listed in `source_ids`, even if their content is never rendered (4 text sources on the Stripe run).
-- **No comparison with MAML2023 yet.** This repository uses its own renderer and MAML schema, not MAML2023's.
-
-**Extraction**
-- **The page background is never captured.** `<body>` and `<html>` are skipped, so dark pages render as white text on a white page (seen on PM Interview and Medium).
-- **Screenshots are clipped at the bottom.** Chrome's window size includes the browser frame, so about 143 px is cut from each original screenshot.
-- **Long pages are cut.** The 350-element cap drops elements from the bottom of long pages with only a warning (the Stripe render is about 6,000 px tall against a 16,000 px original). Scrolling covers about 12,000 px, so lazy content further down never loads.
-- **Some content is not extracted:** CSS background images, inline SVG icons, video, canvas and iframes.
-- **Nested controls can be recorded twice.** The nested-control check in `addControl` never triggers.
-- **Bot-protection pages are translated as normal pages.** The Medium run translated a Cloudflare "Just a moment..." page and was marked completed. The final URL after redirects is not saved.
-
-**LLM generation**
-- **Generation is slow.** It takes 40–315 seconds per page in the saved runs, most of the total run time. Time grows with output size because the model writes back positions and styles it was given.
-- **Token usage is not logged**, and no output-token limit, JSON mode, temperature or retry is set.
-- **One invalid source ID stops the whole run** before validation or repair can run.
-
-**Validation, repair and rendering**
-- **Repair is limited and runs once.** `MAML_MAX_REPAIR_ATTEMPTS` is loaded but not used, and there is no LLM repair.
-- **Accessible names are dropped.** `ariaLabel` is only allowed on buttons and text fields, so the renderer ignores it on text, images and shapes.
-- **Pages are not responsive.** Every element is positioned for one fixed viewport width.
-- **Rendered text can wrap and overlap.** Web fonts from the original page are not loaded.
-- **Interactions are not generated.** The prompt never asks for `script` elements, so MAMLScript conversion is never used, and carousels render as empty boxes.
-
-**Reliability**
-- **No full benchmark has completed.** Both saved benchmark summaries show 0/10, the second because Chrome exited at startup.
-- **Two runs on the same site in the same second collide.** Run folder names use one-second timestamps, and the second run fails before any metadata is written.
 - **The project has no tests and no lock file**, and `.gitignore` does not exclude `evaluation/runs/`.
